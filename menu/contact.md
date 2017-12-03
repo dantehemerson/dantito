@@ -10,7 +10,7 @@ scripts:
     {% include navbar.html %}
 
     
-	<div class="container mt">
+	<div class="container mtb">
 		<div class="row">
 					<div class="col-lg-8">
 			 			<h4>Just Get In Touch!</h4>
@@ -19,7 +19,7 @@ scripts:
 				 			<form role="form">
 							  <div class="form-group">
 							    <label for="InputName1">Your Name</label>
-							    <input type="email" class="form-control" id="exampleInputEmail1">
+							    <input type="text" class="form-control" id="exampleInputEmail1">
 							  </div>
 							  <div class="form-group">
 							    <label for="InputEmail1">Email address</label>
@@ -27,11 +27,11 @@ scripts:
 							  </div>
 							  <div class="form-group">
 							    <label for="InputSubject1">Subject</label>
-							    <input type="email" class="form-control" id="exampleInputEmail1">
+							    <input type="text" class="form-control" id="exampleInputEmail1">
 							  </div>
 							  <div class="form-group">
 							  	<label for="message1">Message</label>
-							  	<textarea class="form-control" id="message1" rows="3"></textarea>
+							  	<textarea class="form-control" id="message1" rows="4"></textarea>
 							  </div>
 							  <button type="submit" class="btn btn-primary">Submit</button>
 							</form>
