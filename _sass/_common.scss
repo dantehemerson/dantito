@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,900');
 
+@import "variables";
 
 * { 
   margin: 0;
@@ -84,10 +85,15 @@ button {
   cursor: pointer;
 }
 
+.btn-primary {
+  // background: $primary;
+
+}
+
 .navbar {
   box-shadow: 0px 1px 0px white;
-  padding-top: .3rem;
-  padding-bottom: .3rem;
+  padding-top: $padding-navbar;
+  padding-bottom: $padding-navbar;
 }
 
 .navbar-collapse {
@@ -101,7 +107,7 @@ button {
 
 .navbar-nav > li > a {
   font-weight: 700;
-  font-size: 12px;
+  font-size: $fs-menu;
 }
 
 .navbar-toggler {
@@ -214,8 +220,7 @@ button {
 /* Footer */
 .footerwrap {
   padding-top: 60px;
-  padding-bottom: 60px;
-  background: #384452;
+  padding-bottom: 60px;  
 }
 
 .footerwrap p {
