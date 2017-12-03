@@ -43,7 +43,7 @@ scripts:
     <span>Repellendus ipsa eaque, sit similique impedit. Perferendis qui laudantium, ipsa ipsum consequatur dolorem minima nesciunt! Magni at libero voluptate earum voluptatum. Illum alias modi ullam sint nesciunt numquam impedit eum.</span>
     <span>Cumque dolorum tempore sed consectetur ipsa ipsum earum, delectus, ratione accusantium vero distinctio reprehenderit hic nam rerum officiis. Quas provident qui quaerat, quidem quis illum possimus rem cum eius facilis.</span></p>
 
-
+  {% include footer.html %}
     
   
       

@@ -1,5 +1,42 @@
 ---
-
+layout: index
+title: "Andreas Veithen's blog"
+scripts:
+ - index
 ---
+
+
+<body itemscope="" itemtype="http://schema.org/Blog">
+    {% include navbar.html %}
+
+	<div class="container">
+		<div class="col-lg-8">
+ 			<h4>Just Get In Touch!</h4>
+ 			<div class="hline"></div>
+	 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+	 			<form role="form">
+				  <div class="form-group">
+				    <label for="InputName1">Your Name</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1">
+				  </div>
+				  <div class="form-group">
+				    <label for="InputEmail1">Email address</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1">
+				  </div>
+				  <div class="form-group">
+				    <label for="InputSubject1">Subject</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1">
+				  </div>
+				  <div class="form-group">
+				  	<label for="message1">Message</label>
+				  	<textarea class="form-control" id="message1" rows="3"></textarea>
+				  </div>
+				  <button type="submit" class="btn btn-theme">Submit</button>
+				</form>
+		</div>
+	</div>    
+    
+</body>
+
 
 

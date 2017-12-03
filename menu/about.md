@@ -1,3 +1,4 @@
 ---
-layout: indextitle: "About | Dante Calderón"
+layout: index
+title: "About | Dante Calderón"
 ---
