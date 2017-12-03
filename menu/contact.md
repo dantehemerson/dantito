@@ -33,7 +33,7 @@ scripts:
 							  	<label for="message1">Message</label>
 							  	<textarea class="form-control" id="message1" rows="3"></textarea>
 							  </div>
-							  <button type="submit" class="btn btn-theme">Submit</button>
+							  <button type="submit" class="btn btn-primary">Submit</button>
 							</form>
 					</div>
 					<div class="col-lg-4">
