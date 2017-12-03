@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+h4, .h4, h5, .h5, h6, .h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 h4, .h4 {
   font-size: 18px;
 }
@@ -30,7 +34,7 @@ p {
   margin-bottom: 12px; 
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 14px; 
+  
   line-height: 24px;
   color: #384452; 
   margin-top: 10px; 
@@ -53,6 +57,7 @@ a {
 }
 
 label {
+    font-size: .9rem;
     font-weight: bold;
   
 }
