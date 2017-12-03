@@ -1,0 +1,27 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+
+  <title>{{ page.title }}</title>
+
+
+
+  {% if layout.style.embedded %}
+  <style type="text/css">
+  {% comment %} See http://www.kevinsweet.com/inline-scss-jekyll-github-pages/ for explanation {% endcomment %}
+  {% capture include_to_scssify %}{% include {{ layout.style.name}}.scss %}{% endcapture %}
+  {{ include_to_scssify | scssify }}
+  </style>
+  {% else %}
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style/{{ layout.style.name }}.css" />
+  {% endif %}
+
+
+ 
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
+
+
+  <link rel="alternate" type="application/atom+xml" title="Andreas Veithen's blog - Atom feed" href="{{ site.baseurl }}/feed.xml" />
+</head>

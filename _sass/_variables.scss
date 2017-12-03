@@ -1,0 +1,10 @@
+//$body-bg: #E42E38;
+//$body-color: #532;
+
+$theme-colors: (
+  "primary": #384452,
+  "danger": #ff4136
+);
+
+// Bootstrap and its default variables
+@import "bootstrap";
