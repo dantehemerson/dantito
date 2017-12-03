@@ -15,16 +15,15 @@
 # in the templates via {{ site.myvariable }}.
 
 
-  # title: Your awesome title
-  # email: your-email@example.com
+title: Dante Calderón
+email: dantehemerson@gmail.com
   # description: >- # this means to ignore newlines until "baseurl:"
   #   Write an awesome description for your new site here. You can edit this
   #   line in _config.yml. It will appear in your document head meta (for
   #   Google search results) and in your feed.xml site description.
-  # baseurl: "" # the subpath of your site, e.g. /blog
-  # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-  # twitter_username: jekyllrb
-  # github_username:  jekyll
+#baseurl: "https://dantehemerson.github.io/blog" # the subpath of your site, e.g. /blog
+twitter_username: dantehemerson
+github_username:  dantehemerson
 
   # # Build settings
   # markdown: kramdown
@@ -52,10 +51,10 @@ sass:
 
 permalink: /:year/:month/:day/:title.html
 
-url: http://veithen.github.io
+url: https://dantehemerson.github.io
 
 debug: false
 
-disqus_categories:
-  tech: 3550508
-  opinion: 3550509
+# disqus_categories:
+#   tech: 3550508
+#   opinion: 3550509

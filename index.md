@@ -1,6 +1,6 @@
 ---
 layout: index
-title: "Andreas Veithen's blog"
+title: "Dante Calderón"
 scripts:
  - index
 ---
