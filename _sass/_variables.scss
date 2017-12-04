@@ -6,8 +6,13 @@ $theme-colors: (
   "danger": #ff4136
 );
 
+
+// Ubicación de las fuentes
+$fa-font-path: "assets/fonts";
+
 // Bootstrap and its default variables
 @import "bootstrap";
+@import "font-awesome/font-awesome";
 
 
 $padding-navbar: 0.3rem;
