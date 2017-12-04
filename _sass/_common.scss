@@ -91,9 +91,9 @@ button {
 }
 
 .navbar {
-  box-shadow: 0px 1px 0px white;
+  //box-shadow: 0px 1px 0px white;
   padding-top: $padding-navbar;
-  padding-bottom: $padding-navbar;
+  padding-bottom: $padding-navbar;  
 }
 
 .navbar-collapse {
@@ -114,6 +114,9 @@ button {
   font-size: 1.1rem;
 }
 
+.navbar-custom {
+  background: #252525d6;
+}
 .navbar-custom .navbar-nav .nav-link {
     color: white;
 }
@@ -163,7 +166,7 @@ button {
 }
 
 .avatar-main {
-  width: 180px;
+  width: 140px;
   border-radius: 50%;  
   margin-top: 100px;
 }
@@ -172,15 +175,15 @@ button {
   // background-image: url("assets/images/background_1.jpg");
   // background-image: url("https://duffy.fedorapeople.org/art/f15/sky-background.svg");
    //background-image: url("https://cdn.dribbble.com/users/3457/screenshots/2006659/animated-svg.gif");
-  // background-image: url("https://www.bypeople.com/wp-content/uploads/2014/05/svg-image-as-background.jpg");
+  background-image: url("assets/images/underwater.png");
 
-  background: -moz-linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(79,135,68,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
-  background: -webkit-linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* opera 11.10+ */
-  background: -ms-linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* ie10+ */
-  background: linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#4F8744',GradientType=1 ); /* ie6-9 */
+  // background: -moz-linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
+  // background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(79,135,68,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
+  // background: -webkit-linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
+  // background: -o-linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* opera 11.10+ */
+  // background: -ms-linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* ie10+ */
+  // background: linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
+  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#4F8744',GradientType=1 ); /* ie6-9 */
 
   background-color: #309EF3;
   background-repeat: no-repeat;
