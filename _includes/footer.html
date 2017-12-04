@@ -10,11 +10,9 @@
 				<h4>Social Links</h4>
 				<div class="hline-w"></div>
 				<p>
-					<a href="#"><i class="fa fa-dribbble"></i></a>
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-instagram"></i></a>
-					<a href="#"><i class="fa fa-tumblr"></i></a>
+					{% for item in site.data.settings.social %}
+						<a href="{{ item.link }}"><i class="fa fa-{{ item.icon }}"></i></a>
+					{% endfor %}					
 				</p>
 			</div>
 			<div class="col-lg-4">
@@ -27,5 +25,18 @@
 				</p>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<p class="footer-love">
+		          <a href="https://twitter.com/dantehemerson">
+		          	<i class="fa fa-code" aria-hidden="true"></i>		          			
+		          	with 
+		          	<i class="fa fa-heart" aria-hidden="true"></i>
+		          	by 
+		          	<span class="author">@dantehemerson</span>
+		          </a>					
+				</p>
+			</div>			
+		</div>	
 	</div>
 </footer>

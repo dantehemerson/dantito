@@ -223,8 +223,7 @@ button {
 
 /* Footer */
 .footerwrap {
-  padding-top: 60px;
-  padding-bottom: 60px;  
+  padding-top: $footer-paddint-tb;
 }
 
 .footerwrap p {
@@ -245,3 +244,34 @@ button {
   color: #00b3fe
 }
 
+
+// Code with love by dantehemerson
+
+.footer-love {
+  font-size: $fs-footer-love;
+  text-align: center;  
+  margin-top: $footer-paddint-tb; 
+
+}
+.footer-love a:hover {
+  color: #00b3fe
+}
+.footer-love a:hover  i {
+  color: #00b3fe
+}
+
+.footer-love a {
+  color: #bfc9d3; 
+}
+
+.footer-love a .fa-code {
+  font-weight: bold;
+}
+
+.footer-love a .author {
+  font-weight: bold;
+}
+.footer-love a i {
+  font-size: $fs-footer-love;
+  padding-right: 0;
+}
