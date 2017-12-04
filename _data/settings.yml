@@ -1,0 +1,18 @@
+title: Dante Calderón
+tagline: Vasquez
+
+
+# Elementos en el navbar
+menu:
+  - {name: 'Home',    path: '', url: ''}
+  - {name: 'Blog',    path: 'menu', url: 'blog.html'}
+  - {name: 'Contact', path: 'menu', url: 'contact.html'}
+  - {name: 'About',   path: 'menu', url: 'about.html'}
+
+
+social:
+  - {icon: 'github',    link: 'https://www.github.com/dantehemerson'}
+  - {icon: 'twitter',   link: 'https://twitter.com/dantehemerson'}
+  - {icon: 'linkedin',  link: 'https://www.linkedin.com/in/dantehemerson/'}
+  - {icon: 'instagram', link: 'https://www.instagram.com/dantehemerson/'}
+  - {icon: 'facebook',  link: 'https://www.facebook.com/dantehemerson'}

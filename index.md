@@ -8,9 +8,9 @@ scripts:
   <body itemscope="" itemtype="http://schema.org/Blog">
     {% include navbar.html %}
     
-    <header class="headerwrap">
+    <header class="headerwrap background-avatar-main">
       <!-- div para crear un efecto de transparencia en el fondo. -->
-      <div class="background-avatar-main"></div>
+      <!-- <div class="background-avatar-main"></div> -->
       <div class="container">
         <div class="row">
           <div class="col-12">
