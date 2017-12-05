@@ -274,3 +274,44 @@ button {
   border-color: $primary-color * 3;
   box-shadow: 0 0 0 0.2rem transparentize($primary-color, 0.80);
 }
+
+
+
+
+// BLOG
+
+// BLOG ITEM (POST) 
+.post-item {  
+  padding: 8px;
+}
+
+.post-item .box-body {
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  box-shadow: 0 1px 4px rgba(255, 13, 13, 0.04);
+  border: 1px solid rgba(0,0,0,.09);
+  border-radius: 1px;
+  height: 100%;
+
+}
+
+.post-item .box-body .box-info {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.post-item .box-body .box-info .post-title {
+  font-size: 1.17rem;
+  color: rgba(0,0,0,.84);
+}
+
+.post-item .box-body .box-info .description {
+  font-size: .93rem;
+  color: rgba(0,0,0,.54);
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1024px; /* or 950px */
+}
