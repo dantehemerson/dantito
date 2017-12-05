@@ -282,7 +282,7 @@ button {
 
 // BLOG ITEM (POST) 
 .post-item {  
-  padding: 8px;
+  padding: 10px;
 }
 
 .post-item .box-body {
@@ -295,9 +295,7 @@ button {
 }
 
 .post-item .box-body .box-info {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
+  padding: 16px;
 }
 
 .post-item .box-body .box-info .post-title {
@@ -314,4 +312,6 @@ button {
   margin-right: auto;
   margin-left: auto;
   max-width: 1024px; /* or 950px */
+  padding-left: 25px;
+  padding-right: 25px;
 }
