@@ -228,8 +228,8 @@ button {
 
 .footer-love {
   font-size: $fs-footer-love;
-  text-align: center;  
-  margin-top: $footer-paddint-tb; 
+  text-align: right;  
+  margin-top: $footer-paddint-tb - 20px; 
 
 }
 .footer-love a:hover {
@@ -256,10 +256,7 @@ button {
 }
 
 
-
-
 /** Customizando los colores de Boostrap **/
-
 .bg-primary {
   background-color: $primary-color !important;
 }
