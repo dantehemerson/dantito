@@ -7,18 +7,16 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">				
 				{% for item in site.data.settings.menu %}
-					<li class="nav-item">
+					<li class="nav-item {% if item.name == page.title %}active{% endif %}">
 						{% if item.path == "" %}
-							<a class="nav-link" href="{{ site.baseurl }}/{{ item.url}}">{{ item.name }}</a>
+							<a class="nav-link" href="{{ site.baseurl }}/{{ item.url}}">{{ item.name }} 
+								{% if item.name == page.title %}<span class="sr-only">(current)</span>{% endif %}
+							</a>
 						{% else %}
-							<a class="nav-link" href="{{ site.baseurl }}/{{ item.path }}/{{ item.url}}">{{ item.name }}</a>							
+							<a class="nav-link" href="{{ site.baseurl }}/{{ item.path }}/{{ item.url}}">{{ item.name }}</a>
 						{% endif %}
 					</li>	
-				{% endfor %}
-
-				<!-- <li class="nav-item active">
-					<a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
-				</li>		 -->	 
+				{% endfor %}				
 			</ul>		
 		</div>
 	</div>

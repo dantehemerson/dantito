@@ -1,6 +1,6 @@
 ---
 layout: index
-title: "Contact | Dante Calderón"
+title: "Contact"
 scripts:
  - index
 ---

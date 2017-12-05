@@ -34,8 +34,7 @@ p {
   padding: 0; 
   margin-bottom: 12px; 
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  
+  font-weight: 400;  
   line-height: 24px;
   color: #384452; 
   margin-top: 10px; 
@@ -148,9 +147,6 @@ button {
   font-size: 12px;
 }
 
-
-
-
 /** Mi logo en indehtml*/
 .headerwrap {
   //background-color: #00b3fe;
@@ -173,28 +169,10 @@ button {
 }
 
 .background-avatar-main {
-  // background-image: url("assets/images/background_1.jpg");
-  // background-image: url("https://duffy.fedorapeople.org/art/f15/sky-background.svg");
-   //background-image: url("https://cdn.dribbble.com/users/3457/screenshots/2006659/animated-svg.gif");
   background-image: url("assets/images/underwater.png");
-
-  // background: -moz-linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
-  // background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(79,135,68,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
-  // background: -webkit-linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
-  // background: -o-linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* opera 11.10+ */
-  // background: -ms-linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* ie10+ */
-  // background: linear-gradient(45deg, rgba(79,135,68,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
-  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#4F8744',GradientType=1 ); /* ie6-9 */
-
-  //background-color: #309EF3;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  //width: 100%;
-  //height: 100%;
-  //position: absolute;
-  //filter: blur(3px);
-  //-webkit-filter: blur(0px);
 }
 
 
@@ -223,7 +201,7 @@ button {
 
 /* Footer */
 .footerwrap {
-  padding-top: $footer-paddint-tb;
+  padding-top: $footer-paddint-tb;  
 }
 
 .footerwrap p {
@@ -237,6 +215,7 @@ button {
 .footerwrap i {
   font-size: 30px;
   color: #bfc9d3;
+
   padding-right: 25px;
 }
 
@@ -276,6 +255,25 @@ button {
   padding-right: 0;
 }
 
+
+
+
+/** Customizando los colores de Boostrap **/
+
 .bg-primary {
-  background-color: #565c63;
+  background-color: $primary-color !important;
+}
+
+.btn-primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+}
+.btn-primary:hover {
+    background-color: $hover-default-color;
+    border-color: $hover-default-color;
+}
+
+.form-control:focus {
+  border-color: $primary-color * 3;
+  box-shadow: 0 0 0 0.2rem transparentize($primary-color, 0.80);
 }

@@ -1,6 +1,6 @@
 ---
 layout: index
-title: "Dante Calderón"
+title: "Home"
 scripts:
  - index
 ---

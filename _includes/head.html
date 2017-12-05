@@ -1,24 +1,39 @@
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-
-  <title>{{ page.title }}</title>
-
-  {% if layout.style.embedded %}
-  <style type="text/css">
-  {% comment %} See http://www.kevinsweet.com/inline-scss-jekyll-github-pages/ for explanation {% endcomment %}
-  {% capture include_to_scssify %}{% include {{ layout.style.name}}.scss %}{% endcapture %}
-  {{ include_to_scssify | scssify }}
-  </style>
-  {% else %}
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style/{{ layout.style.name }}.css" />
-  {% endif %}
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
 
- 
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
+   <title>
+    {% if page.title == "Home" %}
+      {{ site.data.settings.title }} | {{ site.data.settings.tagline }}
+    {% else %}
+      {{ page.title }} | {{ site.data.settings.title }}
+    {% endif %}
+  </title>
+      
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css">
 
 
-  <link rel="alternate" type="application/atom+xml" title="Andreas Veithen's blog - Atom feed" href="{{ site.baseurl }}/feed.xml" />
-</head>
+    {% if layout.style.embedded %}
+    <style type="text/css">
+    {% comment %} See http://www.kevinsweet.com/inline-scss-jekyll-github-pages/ for explanation {% endcomment %}
+    {% capture include_to_scssify %}{% include {{ layout.style.name}}.scss %}{% endcapture %}
+    {{ include_to_scssify | scssify }}
+    </style>
+    {% else %}
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style/{{ layout.style.name }}.css" />
+    {% endif %}
+
+  
+   
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
+
+    
+    <!-- Redifución Web -->
+    <link rel="alternate" type="application/atom+xml" title=" Dante Calderón - Atom feed" href="{{ site.baseurl }}/feed.xml" />
+    
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font-awesome.min.css">
+  </head>
