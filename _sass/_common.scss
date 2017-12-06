@@ -296,6 +296,7 @@ button {
 
 .post-item .box-body .box-info {
   padding: 16px;
+  padding-top: 9px;
 }
 
 .post-item .box-body .box-info .post-title {
@@ -305,8 +306,28 @@ button {
 
 .post-item .box-body .box-info .description {
   font-size: .93rem;
-  color: rgba(0,0,0,.54);
+  color: rgba(0,0,0,0.54);
 }
+
+.post-item .box-body .box-info .post-date {
+    width: 100%;
+    display: block;
+    font-size: .8rem;
+    text-align: right;
+    color: rgba(0,0,0,0.54);
+    margin-bottom: 5px;
+}
+
+.middotDivider {
+  
+}
+
+.middotDivider:after {
+    content: '\00B7';
+    font-weight: bold;
+    padding: 0 2px;
+}
+
 
 .container-fluid {
   margin-right: auto;

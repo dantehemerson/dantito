@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Este es mi blog!"
-date:   2017-11-28 17:47:30 -0500
+date:   2017-11-2 17:47:30 -0500
 categories: jekyll update
 ---
 
