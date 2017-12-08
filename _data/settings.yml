@@ -17,3 +17,11 @@ social:
   - {icon: 'linkedin',  link: 'https://www.linkedin.com/in/dantehemerson/'}
   - {icon: 'instagram', link: 'https://www.instagram.com/dantehemerson/'}
   - {icon: 'facebook',  link: 'https://www.facebook.com/dantehemerson'}
+
+
+social-share:
+  - {icon: 'twitter',   link: 'https://twitter.com/dantehemerson'} 
+  - {icon: 'facebook',  link: 'https://www.facebook.com/dantehemerson'}
+  
+
+ 

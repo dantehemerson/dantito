@@ -3,6 +3,8 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-11-27 17:47:30 -0500
 categories: jekyll update
+image:
+  feature: post02.jpg
 ---
 
 # Hola Mundo

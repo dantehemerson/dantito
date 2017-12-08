@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+//@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+//@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
 
 @import "variables";
 
@@ -345,4 +345,15 @@ button {
   font-size: 19px;
   line-height: 1.58;
   letter-spacing: -.004em;
+}
+
+.post-share .share-icons {
+  text-align: center;
+} 
+
+.post-share .share-icons a i {
+  font-size: 25px;
+  padding: 10px;
+  //border: 1px solid #D8D8D8;
+  border-radius: 50%;
 }

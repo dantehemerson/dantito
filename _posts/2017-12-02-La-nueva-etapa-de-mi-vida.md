@@ -3,6 +3,8 @@ layout: post
 title:  "La nueva etapa de mi vida!"
 date:   2017-11-28 17:47:30 -0500
 categories: jekyll update
+image:
+   feature: portfolio_06.jpg
 ---
 
 # Hola Mundo

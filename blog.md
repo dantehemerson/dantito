@@ -17,7 +17,12 @@ scripts:
 		     			<!-- <span class="category">TECH</span> -->
 		     			<div class="cover">
 		     				<a href="{{ post.url }}">
-		     					<img src="https://cdn-images-1.medium.com/max/1000/1*JrKM-d_eVe5LqC8mRAmeuw.jpeg" alt="">
+
+		     					{% if post.image.feature %}
+		     						<img src="{{ site.baseurl }}/assets/images/{{ post.image.feature }}" alt="">
+		     					{% else %}
+		     						<img src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
+		     					{% endif %}		     					
 		     				</a>
 		     			</div>
 			     		<div class="box-info">
@@ -46,5 +51,6 @@ scripts:
 		</div>	
 	</div>
 
+	
   	{% include footer.html %}         
 </body>

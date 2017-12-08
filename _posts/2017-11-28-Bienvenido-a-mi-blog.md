@@ -3,6 +3,8 @@ layout: post
 title:  "Este es mi blog!"
 date:   2017-11-2 17:47:30 -0500
 categories: jekyll update
+image:
+   feature: post03.jpg
 ---
 
 # Hola Mundo
