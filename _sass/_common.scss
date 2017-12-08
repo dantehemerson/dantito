@@ -1,5 +1,5 @@
-//@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
-//@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
 
 @import "variables";
 
@@ -342,7 +342,7 @@ button {
 ///// BLOG
 .blog-container {
   max-width: 740px;
-  font-size: 19px;
+  font-size: $fs-blog;
   line-height: 1.58;
   letter-spacing: -.004em;
 }
