@@ -9,10 +9,9 @@ scripts:
     {% include navbar.html %}
 
 	<div class="container-fluid mtb">
-		<div class="row">		
-
+		<div class="card-columns">		
 		     {% for post in site.posts limit:6 %}
-		     	<article class="post-item col-md-6 col-lg-4">
+		     	<article class="card post-item" >
 		     		<div class="box-body">
 		     			<!-- <span class="category">TECH</span> -->
 		     			<div class="cover">

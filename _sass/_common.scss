@@ -282,21 +282,23 @@ button {
 
 // BLOG ITEM (POST) 
 .post-item {  
-  padding: 10px;
+  //padding: 10px;
 }
 
 .post-item .box-body {
-  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.04);
-  box-shadow: 0 1px 4px rgba(255, 13, 13, 0.04);
-  border: 1px solid rgba(0,0,0,.09);
-  border-radius: 1px;
-  height: 100%;
+  // -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  // box-shadow: 0 1px 4px rgba(255, 13, 13, 0.04);  
+  // //border-radius: 1px;
+  // height: 100%;
 
 }
 
 .post-item .box-body .box-info {
   padding: 16px;
   padding-top: 9px;
+}
+.post-item .box-body .cover a img {
+  width: 100%;
 }
 
 .post-item .box-body .box-info .post-title {
@@ -332,7 +334,7 @@ button {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1024px; /* or 950px */
+  max-width: 1160px; /* or 950px */
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -356,4 +358,43 @@ button {
   padding: 10px;
   //border: 1px solid #D8D8D8;
   border-radius: 50%;
+}
+
+
+
+
+// Solo funciona en bootstrap4 alpha 6
+// .card-columns {
+//   @include media-breakpoint-only(xl) {
+//     column-count: 5;
+//   }
+//   @include media-breakpoint-only(lg) {
+//     column-count: 4;
+//   }
+//   @include media-breakpoint-only(md) {
+//     column-count: 3;
+//   }
+//   @include media-breakpoint-only(sm) {
+//     column-count: 2;
+//   }
+// }
+
+
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
 }
