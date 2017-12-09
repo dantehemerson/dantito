@@ -29,8 +29,3 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 
 ![alt text](https://static.leica-camera.com/var/leica/storage/images/media/media-asset-management-mam/global-international/photography/m-system/leica-m-typ-262/features/group_2400x1350/1613263-1-eng-MA/Group_2400x1350_teaser-1200x675.jpg "Logo Title Text 1")
-
-**Miren este video**
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-
