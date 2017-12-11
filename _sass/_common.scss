@@ -116,6 +116,13 @@ button {
 .navbar-custom {
   background: #252525d6;
 }
+
+// Cuando el scroll este en 0, se activa esto.
+.navbar-custom.shrink {
+    background-color: transparent;
+    padding-top: 1.5rem;
+}
+
 .navbar-custom .navbar-nav .nav-link {
     color: white;
     text-transform: uppercase;

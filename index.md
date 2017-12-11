@@ -4,8 +4,8 @@ title: "Home"
 scripts:
  - index
 ---
-
   <body itemscope="" itemtype="http://schema.org/Blog">
+
     {% include navbar.html %}
     
     <header class="headerwrap background-avatar-main">
@@ -45,7 +45,8 @@ scripts:
 
   {% include footer.html %}
     
+  {% include navbar_animation.html %}
   
-      
     
   </body>
+  }
