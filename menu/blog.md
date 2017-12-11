@@ -3,6 +3,7 @@ layout: index
 title: "Blog"
 scripts:
  - index
+permalink: /blog/
 ---
 
 <body  itemscope="" itemtype="http://schema.org/Blog">
