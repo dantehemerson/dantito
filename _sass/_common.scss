@@ -306,6 +306,7 @@ button {
 }
 .post-item .box-body .cover a img {
   width: 100%;
+  border-radius: 3px 3px 0 0;
 }
 
 .post-item .box-body .box-info .post-title {
@@ -368,6 +369,14 @@ button {
 }
 
 
+
+.shadow {
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.38s;
+  &:hover {
+    box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.2);
+  }
+}
 
 
 // Solo funciona en bootstrap4 alpha 6

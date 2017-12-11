@@ -11,7 +11,7 @@ scripts:
 	<div class="container-fluid mtb">
 		<div class="card-columns">		
 		     {% for post in site.posts limit:6 %}
-		     	<article class="card post-item" >
+		     	<article class="card shadow post-item" >
 		     		<div class="box-body">
 		     			<!-- <span class="category">TECH</span> -->
 		     			<div class="cover">
