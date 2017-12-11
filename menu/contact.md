@@ -3,6 +3,7 @@ layout: index
 title: "Contact"
 scripts:
  - index
+permalink: /contact/
 ---
 
 
