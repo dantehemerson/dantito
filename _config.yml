@@ -38,7 +38,6 @@ permalink: /:title/
 # Build settings
 # markdown: kramdown
 # highlighter: rouge
-theme: minima
 
 
 
@@ -49,6 +48,7 @@ theme: minima
 
 
 markdown: kramdown
+theme: minima
 # !github-pages! mandatory › https://help.github.com/articles/using-jekyll-with-pages/#configuration-settings-you-cannot-change
 # Since Jekyll 3 the default highlighter is Rouge (replaced Pygments.rb in v44)
 highlighter: rouge
