@@ -110,11 +110,14 @@ button {
 
 .navbar-custom {
   background: $primary-color;
+    box-shadow: 0px 0px 2px grey;
 }
 
 .navbar-custom .navbar-brand {
   color: $navlink-color;
 }
+
+
 
 
 /**
@@ -123,7 +126,9 @@ button {
 .navbar-custom.shrink {
     background-color: transparent;
     padding-top: 1.5rem;
+    box-shadow: none;
 }
+
 
 .navbar-custom .navbar-nav .nav-link {
     color: $navlink-color;
