@@ -115,7 +115,11 @@ button {
 .navbar-custom .navbar-brand {
   color: $navlink-color;
 }
-// Cuando el scroll este en 0, se activa esto.
+
+
+/**
+*   ===== Cuando este sin el scroll =======
+**/
 .navbar-custom.shrink {
     background-color: transparent;
     padding-top: 1.5rem;
