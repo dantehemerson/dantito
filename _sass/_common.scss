@@ -1,4 +1,4 @@
-//@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,900');
 
 @import "variables";
@@ -345,6 +345,9 @@ button {
   max-width: 1160px; /* or 950px */
   padding-left: 25px;
   padding-right: 25px;
+}
+.container-fluid.project-container {
+  max-width: 990px; /* or 950px */
 }
 
 

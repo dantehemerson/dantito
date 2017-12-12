@@ -1,4 +1,4 @@
-<script>
+
 
 	$('.navbar-custom')
 		.addClass('shrink');
@@ -22,4 +22,3 @@
 			return window.pageYOffset || document.documentElement.scrollTop;
 		}
 	});
-</script>

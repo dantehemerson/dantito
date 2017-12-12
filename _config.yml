@@ -1,16 +1,10 @@
 title: Dante Calderón
 email: dantehemerson@gmail.com
-  # description: >- # this means to ignore newlines until "baseurl:"
-  #   Write an awesome description for your new site here. You can edit this
-  #   line in _config.yml. It will appear in your document head meta (for
-  #   Google search results) and in your feed.xml site description.
-#baseurl: "https://dantehemerson.github.io/blog" # the subpath of your site, e.g. /blog
 twitter_username: dantehemerson
 github_username:  dantehemerson
 
   # # Build settings
   # markdown: kramdown
-  # theme: minima
   # plugins:
   #   - jekyll-feed
 
@@ -42,10 +36,19 @@ permalink: /:title/
 
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
+# highlighter: rouge
+theme: minima
 
 
 
 # disqus_categories:
 #   tech: 3550508
 #   opinion: 3550509
+
+
+
+markdown: kramdown
+# !github-pages! mandatory › https://help.github.com/articles/using-jekyll-with-pages/#configuration-settings-you-cannot-change
+# Since Jekyll 3 the default highlighter is Rouge (replaced Pygments.rb in v44)
+highlighter: rouge

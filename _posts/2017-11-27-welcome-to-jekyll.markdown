@@ -12,20 +12,16 @@ Millions of people use messengers every day, but their place in the world of ful
 On the other hand, messengers displace social networks more and more. Even now, there’s a flood of new messenger apps with new features, and the demand for them remains sky-high. There’s an identifiable trend to messengers where each one tries to one-up every other and add that little bit of flair that nobody else has.tter. Take a look at the source for this post to get an idea about how it works.
 
 Jekyll also offers powerful support for code snippets:
-```python
 
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-
-```
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+{% highlight python %}
+def fib(n):
+ a,b = 1,1
+ for i in range(n-1):
+  a,b = b,a+b
+ return a
+print fib(5)
+{% endhighlight %}
 
 
-![alt text](https://static.leica-camera.com/var/leica/storage/images/media/media-asset-management-mam/global-international/photography/m-system/leica-m-typ-262/features/group_2400x1350/1613263-1-eng-MA/Group_2400x1350_teaser-1200x675.jpg "Logo Title Text 1")
+
+<script src="https://gist.github.com/LeNPaul/e4a87bba80cc97045848bae3b6d89aa2.js"></script>

@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: project
 title:  "Calculator in Javascript"
 date:   1017-07-14 17:47:30 -0500
 category:
 image:
-  feature: post02.jpg
+  feature: calculator_js.png
 permalink: /portfolio/:title/
 ---
 Millions of people use messengers every day, but their place in the world of fully functional apps isn’t totally clear. One the one hand, they were created to enable communication without relying on operators like SMS, which had plenty of downsides. That’s why the first messengers were so popular.
@@ -26,6 +26,3 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
-
-
-![alt text](https://static.leica-camera.com/var/leica/storage/images/media/media-asset-management-mam/global-international/photography/m-system/leica-m-typ-262/features/group_2400x1350/1613263-1-eng-MA/Group_2400x1350_teaser-1200x675.jpg "Logo Title Text 1")

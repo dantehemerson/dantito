@@ -45,7 +45,6 @@ scripts:
 
   {% include footer.html %}
     
-  {% include navbar_animation.html %}
   
-    
+    <script src="{{ site.baseurl }}/assets/scripts/navbar_animation.js"></script>
   </body>
