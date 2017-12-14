@@ -1,15 +1,14 @@
-<article class="shadow portfolio-item col-sm-6 col-md-4" style="background-image: url('{{ site.baseurl }}/assets/images/{{ post.image.feature }}');">
+<article class="shadow portfolio-item col-sm-6 col-md-4">
 	<div class="box-body">
-		<!-- <span class="category">TECH</span> -->
-		<div class="cover">
-			<a href="{{ post.url }}">
+		
+			<a href="{{ post.url }}" style="background-image: url('{{ site.baseurl }}/assets/images/{{ post.image.feature }}');">
 
-	<!-- 				{% if post.image.feature %}
-						<img src="{{ site.baseurl }}/assets/images/{{ post.image.feature }}" alt="">
+					{% if post.image.feature %}
+						<img height="100%" src="{{ site.baseurl }}/assets/images/{{ post.image.feature }}" alt="">
 					{% else %}
 						<img src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
-					{% endif %}		     					 -->
+					{% endif %}		     					
 			</a>
-		</div>		
+		
 	</div>
 </article>	
