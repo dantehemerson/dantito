@@ -484,6 +484,27 @@ button {
 //   }
 // }
 
+@media (max-width: 575px) {
+   .headerwrap .title-container .greeting {
+      font-size: 1.2rem;
+  }
+  .headerwrap .title-container .name {
+    font-size: 5rem;
+    margin-top: -0.6rem !important;
+
+  }
+  .headerwrap .title-container .lastname {  
+    font-size: 2rem;
+    margin-top: -11px;
+    padding-left: 0.9rem;
+    letter-spacing: 0.8rem;
+  }
+  .headerwrap .title-container .username {
+    text-transform: lowercase;
+    font-size: 1rem;
+  }
+
+} 
 
 
 @media (min-width: 576px) {
