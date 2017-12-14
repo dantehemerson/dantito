@@ -170,12 +170,10 @@ button {
   position: relative;
   padding-bottom: 0px;
   text-align: center; 
-   background-image: url("https://img.buzzfeed.com/buzzfeed-static/static/2014-10/17/10/enhanced/webdr02/enhanced-buzz-31512-1413557503-8.jpg?downsize=715:*&output-format=auto&output-quality=auto"); 
-   background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/61/22/9457a7228e21d91.jpg"); 
-   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/2e/df/c4/2edfc4a59de13c55798ac49dd64d151b.jpg"); 
-    background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+   //background-image: url("https://s-media-cache-ak0.pinimg.com/originals/2e/df/c4/2edfc4a59de13c55798ac49dd64d151b.jpg"); 
+    background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
 }
 
 .headerwrap h3, .headerwrap h1, .headerwrap h2, .headerwrap h5 {
@@ -249,7 +247,7 @@ button {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #040404bd;
+  //background: #040404bd;
  
 }
 
