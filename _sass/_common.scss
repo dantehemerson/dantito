@@ -187,10 +187,13 @@ button {
 
 .headerwrap .title-container {
   height: 100vh;
-
-
+  min-height: fit-content;
 }
 
+
+.headerwrap .title-container .align-self-center {
+  padding: 70px 0;
+}
 .headerwrap .title-container .greeting {
   font-size: 1.6rem;
   margin-bottom: 0;  
@@ -507,6 +510,12 @@ button {
     text-transform: lowercase;
     font-size: 1rem;
   }
+
+
+.avatar-main {
+  width: 100px;    
+}
+
 
 } 
 
