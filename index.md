@@ -23,12 +23,7 @@ scripts:
             </div>
       </div>
 
-    </header>
-
-
-    
-    {% include footer.html %}
-
+    </header>    
   
     <script src="{{ site.baseurl }}/assets/scripts/navbar_animation.js"></script>
   </body>
