@@ -6,7 +6,7 @@ scripts:
 ---
   <body itemscope="" itemtype="http://schema.org/Blog">
 
-    {% include navbar.html %}
+    {% include navbar_home.html %}
     <header class="headerwrap" style="background: url('{{ site.baseurl }}/assets/images/my_code_workspace.jpg');">
       <!-- div para crear un efecto de transparencia en el fondo. -->
       <div class="background-avatar-main"></div>
@@ -25,5 +25,7 @@ scripts:
 
     </header>    
   
+    {% include footer.html %}
     <script src="{{ site.baseurl }}/assets/scripts/navbar_animation.js"></script>
+
   </body>

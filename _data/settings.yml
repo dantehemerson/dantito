@@ -10,6 +10,12 @@ menu:
   - {name: 'About',       path: '', url: 'about'}
   - {name: 'Portfolio',   path: '', url: 'portfolio'}
 
+menu_home:
+  - {name: 'Blog',        path: '', url: 'blog'}
+  - {name: 'Contact',     path: '', url: 'contact'}
+  - {name: 'About',       path: '', url: 'about'}
+  - {name: 'Portfolio',   path: '', url: 'portfolio'}
+
 
 social:
   - {icon: 'github',    link: 'https://www.github.com/dantehemerson'}
