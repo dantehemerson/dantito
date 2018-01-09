@@ -1,32 +1,14 @@
 <footer class="footerwrap bg-secondary">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-6">
-				<h4>About</h4>
-				<div class="hline-w"></div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sunt nihil, beatae eum repudiandae consequatur reiciendis iusto nisi expedita laboriosam, possimus voluptates aliquid iure quod minus nemo doloremque! Facilis, tempora!</p>
-			</div>
-			<div class="col-lg-6">
-				<h4>Social Links</h4>
-				<div class="hline-w"></div>
+		<div class="row">			
+			<div class="col-md-6">				
 				<p>
 					{% for item in site.data.settings.social %}
 						<a href="{{ item.link }}" target="_blank"><i class="fa fa-{{ item.icon }}"></i></a>
 					{% endfor %}					
 				</p>
-			</div>
-			<!-- <div class="col-lg-4">
-				<h4>Our Bunker</h4>
-				<div class="hline-w"></div>
-				<p>
-					Some Ave, 987<br>
-					23980, New York, <br>
-					United States. <br>
-				</p>
-			</div> -->
-		</div>
-		<div class="row">
-			<div class="col-lg-12">
+			</div>		
+			<div class="col-md-6">				
 				<p class="footer-love">
 		          <a href="https://twitter.com/dantehemerson">
 		          	<i class="fa fa-code" aria-hidden="true"></i>		          			
@@ -36,8 +18,8 @@
 		          	<span class="author">@dantehemerson</span>
 		          </a>					
 				</p>
-			</div>			
-		</div>	
+			</div>		
+		</div>		
 	</div>
 	<script src="{{ site.baseurl }}/assets/scripts/jquery.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="{{ site.baseurl }}/assets/scripts/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
