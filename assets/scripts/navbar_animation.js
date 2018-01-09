@@ -7,7 +7,7 @@ $(function() {
 	$(window).scroll(function() {
 		$('.navbar-custom').css('transition', '0.5s');
 		var scroll = getCurrentScroll();
-		if(scroll >= 100) {
+		if(scroll >= 50) {
 			$('.navbar-custom').removeClass('shrink');
 		}
 		else {
