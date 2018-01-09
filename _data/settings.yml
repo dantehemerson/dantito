@@ -7,13 +7,11 @@ menu:
   - {name: 'Home',        path: '', url: ''}
   - {name: 'Blog',        path: '', url: 'blog'}
   - {name: 'Contact',     path: '', url: 'contact'}
-  - {name: 'About',       path: '', url: 'about'}
   - {name: 'Portfolio',   path: '', url: 'portfolio'}
 
 menu_home:
   - {name: 'Blog',        path: '', url: 'blog'}
   - {name: 'Contact',     path: '', url: 'contact'}
-  - {name: 'About',       path: '', url: 'about'}
   - {name: 'Portfolio',   path: '', url: 'portfolio'}
 
 
