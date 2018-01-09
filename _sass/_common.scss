@@ -211,7 +211,7 @@ button {
 }
 
 .footerwrap p {
-  color: #bfc9d3;
+  color: white;
 }
 
 .footerwrap h4 {
@@ -233,30 +233,53 @@ button {
 
 .footer-love {
   font-size: $fs-footer-love;
-  text-align: right;    
+  text-align: right; 
 
 }
 .footer-love a:hover {
   color: #00b3fe
 }
-.footer-love a:hover  i {
-  color: #00b3fe
-}
+
 
 .footer-love a {
   color: white; 
   transition: $transition-hover;
 }
 
-.footer-love a .fa-code {
+.footer-love .a .fa-code {
   font-weight: bold;
+  margin-right: 2px;
 }
+.footer-love .a .fa-code:hover {
+  color: white;
+}
+
+.footer-love .a .fa-heart {
+  color: red;
+  font-size: 14px;
+  animation: pound .35s infinite alternate;
+  -webkit-animation: pound .35s infinite alternate;
+}
+
+@-webkit-keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+
+
+@keyframes pound{
+  to {
+    transform: scale(1.1);
+  }
+}
+
 
 .footer-love a .author {
   font-weight: bold;
 }
-.footer-love a i {
-  font-size: $fs-footer-love;  
+.footer-love .a i {
+  font-size: $fs-footer-love + 2px;  
   margin-right: 0;
   transition: $transition-hover;
 
@@ -448,7 +471,14 @@ button {
 
 } 
 
-
+@media (max-width: 576px){
+    .footer-love {      
+      text-align: center; 
+    }
+    .footerwrap p {
+      text-align: center;
+    }
+}
 @media (min-width: 576px) {
     .card-columns {
         column-count: 1;
