@@ -1,17 +1,16 @@
-$('.navbar-custom')
-	.addClass('shrink');
-
 // Animación de la navbar cuando se hace scroll 
 // en el index.html solo.
+
+$navbar = $('.navbar-custom');
 $(function() {	
 	$(window).scroll(function() {
-		$('.navbar-custom').css('transition', '0.5s');
+		$navbar.css('transition', '0.5s');
 		var scroll = getCurrentScroll();
 		if(scroll >= 50) {
-			$('.navbar-custom').removeClass('shrink');
+			$navbar.removeClass('shrink ligth');			
 		}
 		else {
-			$('.navbar-custom').addClass('shrink');
+			$navbar.addClass('shrink ligth');
 		} 
 
 	});

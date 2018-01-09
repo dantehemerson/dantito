@@ -4,7 +4,6 @@ tagline: Programmer
 
 # Elementos en el navbar
 menu:
-  - {name: 'Home',        path: '', url: ''}
   - {name: 'Blog',        path: '', url: 'blog'}
   - {name: 'Contact',     path: '', url: 'contact'}
   - {name: 'Portfolio',   path: '', url: 'portfolio'}
