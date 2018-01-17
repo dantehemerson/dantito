@@ -24,7 +24,7 @@ scripts:
 
     </header>    
     
-
+    {% include about.html %}
       <!-- Al parecer acá no queda ninguno de los temas -->
     {% include footer.html %}
     <script src="{{ site.baseurl }}/assets/scripts/navbar_animation.js"></script>

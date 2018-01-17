@@ -1,6 +1,3 @@
-// Animación de la navbar cuando se hace scroll 
-// en el index.html solo.
-
 $navbar = $('.navbar-custom');
 $(function() {	
 	$(window).scroll(function() {
