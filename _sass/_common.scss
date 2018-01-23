@@ -162,11 +162,36 @@ button {
 
 
 .avatar {
-  width: 140px;
+  width: 200px;
   border-radius: 50%;  
-  
+  box-shadow: 1px 1px 5px #8e8e8e; 
 }
 
+.about {
+  text-align: center;
+  background-color: #b9b9b9;
+  padding: 40px 0;
+
+}
+
+
+a.button {
+   /* BACKGROUND GRADIENT */
+
+  background: -moz-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(164,27,239,1)), color-stop(33%, rgba(164,27,239,1)), color-stop(68%, rgba(254,0,114,1)), color-stop(100%, rgba(254,0,114,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* ie10+ */
+  background: linear-gradient(47deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a41bef', endColorstr='#fe0072',GradientType=1 ); /* ie6-9 */
+
+  color: white;
+  padding: 7px 30px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+}
 .background-avatar-main {
  
   position: absolute;
