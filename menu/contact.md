@@ -10,8 +10,9 @@ permalink: /contact/
 <body itemscope="" itemtype="http://schema.org/Blog">
     {% include navbar.html %}
 
-    
+   
 	<div class="container mtb">
+		{% include socials.html %}
 		<div class="row">
 					<div class="col-lg-8">
 			 			<h4>Just Get In Touch!</h4>

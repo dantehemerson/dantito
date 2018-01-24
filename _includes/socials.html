@@ -1,0 +1,18 @@
+<section class="socials">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="social-network">
+					<p>
+					{% for item in site.data.settings.social-net %}
+
+						<a href="{{ item.link }}" target="_blank"><i class="fa fa-{{ item.icon }}"></i></a>
+						<p>{{ item.info }}</p>
+					{% endfor %}					
+				</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</section>

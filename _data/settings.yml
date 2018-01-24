@@ -1,5 +1,5 @@
 title: Dante Calderón
-tagline: Programmer
+tagline: Programmer 
 
 
 # Elementos en el navbar
@@ -20,6 +20,21 @@ social:
   - {icon: 'linkedin',  link: 'https://www.linkedin.com/in/dantehemerson/'}
   - {icon: 'instagram', link: 'https://www.instagram.com/dantehemerson/'}
   - {icon: 'facebook',  link: 'https://www.facebook.com/dantehemerson'}
+
+
+
+
+social-net:
+  - { icon: 'github',    
+      link: 'https://www.github.com/dantehemerson',
+      info: 'Donde comparto mis codigos que he hecho.' }
+  - { icon: 'twitter',   
+      link: 'https://twitter.com/dantehemerson',
+      info: 'Done twiteo sobre cosas que me interesan, sobre todo programación. Tweeteame o enviame un mensaje :).'}
+  - { icon: 'instagram', 
+      link: 'https://www.instagram.com/dantehemerson/',
+      info: 'Donde comparto mis fotos personales codeando.'}
+  # - {icon: 'linkedin',  link: 'https://www.linkedin.com/in/dantehemerson/'}
 
 
 social-share:
