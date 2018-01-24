@@ -192,11 +192,19 @@ a.button {
   border-radius: 4px;
   font-weight: bold;
   display: inline-block;
-  transition: 1s;
+  transition: all 3s;
 }
 
 a.button:hover {
-  background: #fe0072;
+  transition: 2s;
+  background: -moz-linear-gradient(43deg, rgba(109,15,160,1) 0%, rgba(109,15,160,1)33%, rgba(202,1,91,1) 68%, rgba(202,1,91,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(109,15,160,1)), color-stop(33%, rgba(109,15,160,1)), color-stop(68%, rgba(202,1,91,1)), color-stop(100%, rgba(202,1,91,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(43deg, rgba(109,15,160,1) 0%, rgba(109,15,160,1) 33%, rgba(202,1,91,1) 68%, rgba(202,1,91,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(43deg, rgba(109,15,160,1) 0%, rgba(109,15,160,1) 33%, rgba(202,1,91,1) 68%, rgba(202,1,91,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(43deg, rgba(109,15,160,1) 0%, rgba(109,15,160,1) 33%, rgba(202,1,91,1) 68%, rgba(202,1,91,1) 100%); /* ie10+ */
+  background: linear-gradient(47deg, rgba(109,15,160,1) 0%, rgba(109,15,160,1) 33%, rgba(202,1,91,1) 68%, rgba(202,1,91,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0fa0', endColorstr='#ca015b',GradientType=1 ); /* ie6-9 */
+
 }
 .background-avatar-main {
  
