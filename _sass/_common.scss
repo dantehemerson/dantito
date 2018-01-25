@@ -465,6 +465,22 @@ a.button:hover {
   }
 }
 
+// Socials 
+
+.socials {
+  text-align: center;
+}
+.social-network {
+  //background-color: red;
+  width: 200px;
+  height: 100%;
+  display: inline-block;
+
+}
+.social-network .fa {
+  font-size: 72px;
+}
+
 
 // Solo funciona en bootstrap4 alpha 6
 // .card-columns {
