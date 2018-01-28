@@ -469,12 +469,14 @@ a.button:hover {
 
 .socials {
   text-align: center;
+  
 }
 .social-network {
   //background-color: red;
   width: 200px;
   height: 100%;
   display: inline-block;
+  background: gray;
 
 }
 .social-network .fa {
