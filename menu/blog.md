@@ -14,7 +14,7 @@ permalink: /blog/
 			Ap98nfn_9199
      -->
 
-	<div class="container mtb">
+	<div class="container container-full mtb">
 		<div class="row">				
 
 		     {% for post in site.posts limit: 6 %}		     
