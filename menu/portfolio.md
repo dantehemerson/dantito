@@ -10,7 +10,7 @@ permalink: /portfolio/
 <body itemscope="" itemtype="http://schema.org/Blog">
     {% include navbar.html %}
 	
-	<div class="container-fluid mtb">
+	<div class="container mtb">
 		<div class="row">					
 		     {% for post in site.categories.projects %}		     			     
 			 	{% include portfolio-item.html %}
