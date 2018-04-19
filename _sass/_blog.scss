@@ -1,0 +1,89 @@
+// BLOG
+// La altura de la imagen es fija :(
+
+// BLOG ITEM (POST) 
+.post-item {  
+  margin: 10px;
+  height: 100%;
+
+}
+
+.middotDivider:after {
+    content: '\00B7';
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+.container-post {
+  padding: 0;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+
+.post-item .box-body {
+  // -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  // box-shadow: 0 1px 4px rgba(255, 13, 13, 0.04);  
+  // //border-radius: 1px;
+  // height: 100%;
+
+}
+
+.post-item .box-body .box-info {
+  padding: 16px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+}
+.post-item .box-body .cover a img {
+  width: 100%;
+  //height: 190px;
+  border-radius: 3px 3px 0 0;
+}
+
+.post-item .box-body .box-info .post-title {
+  font-size: 1.17rem;
+  color: rgba(0,0,0,.84);
+}
+
+.post-item .box-body .box-info .description {
+  font-size: .93rem;
+  color: rgba(0,0,0,0.54);
+}
+
+.post-item .box-body .box-info .post-date {
+    width: 100%;
+    display: block;
+    font-size: .8rem;
+    text-align: right;
+    color: rgba(0,0,0,0.54);
+    margin-bottom: 5px;
+}
+
+
+
+///// BLOG
+.blog-container {
+  max-width: 740px;
+  font-size: $fs-blog;
+  line-height: 1.58;
+  letter-spacing: -.004em;
+}
+
+.post-share .share-icons {
+  text-align: center;
+} 
+
+.post-share .share-icons a i {
+  font-size: 25px;
+  padding: 10px;
+  //border: 1px solid #D8D8D8;
+  border-radius: 50%;
+}
+
+.shadow {
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.38s;
+  &:hover {
+    box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.2);
+  }
+}

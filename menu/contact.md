@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: contact
 title: "Contact"
 scripts:
  - index

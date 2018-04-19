@@ -57,3 +57,14 @@
   animation: pound .35s infinite alternate;
   -webkit-animation: pound .35s infinite alternate;
 }
+
+
+.footer-love a .author {
+  font-weight: bold;
+}
+.footer-love .a i {
+  font-size: $fs-footer-love + 2px;  
+  margin-right: 0;
+  transition: $transition-hover;
+
+}
