@@ -1,0 +1,36 @@
+.suscribe-container {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+
+.form-suscribe .form-container {
+	position: relative;
+}
+
+.suscribe-container .title-suscribe{
+	font-size: 36px;
+	line-height: 38px;
+	font-family: $avenir-medium;
+}
+
+.suscribe-container .email {
+	width: 70%;
+	display: inline-block;
+	margin: 0;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    left: 0;
+	position: absolute;
+}
+.suscribe-container .sign-in {
+	width: 30%;
+	margin-left: -1px;
+	display: inline-block;
+	margin: 0;
+	border-top-left-radius: 0;
+    border-bottom-left-radius: 0;    
+    right: 0;
+    position: absolute;
+}

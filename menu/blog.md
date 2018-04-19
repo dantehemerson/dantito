@@ -6,30 +6,34 @@ scripts:
 permalink: /blog/
 ---
 
-<body  itemscope="" itemtype="http://schema.org/Blog">
-    {% include navbar.html %}
+<body itemscope="" itemtype="http://schema.org/Blog">
+	<div class="container-image">
+	    {% include navbar.html %}
 
-    <!-- 335661234
-			dantehcv_77@outlook.com
-			Ap98nfn_9199
-     -->
+	    <!-- 335661234
+				dantehcv_77@outlook.com
+				Ap98nfn_9199
+	     -->
 
-	<div class="container container-full mtb">
-		<div class="row">				
+		<div class="container container-full mtb">
+			<div class="row">				
 
-		     {% for post in site.posts limit: 6 %}		     
+			     {% for post in site.posts limit: 6 %}		     
 
-		     	<!-- Si el post no contiene la categoria projects -->
-		     	{% unless post.categories contains 'projects' %}
-					{% include blog-item.html %}
-		     	{% endunless %}		     	
+			     	<!-- Si el post no contiene la categoria projects -->
+			     	{% unless post.categories contains 'projects' %}
+						{% include blog-item.html %}
+			     	{% endunless %}		     	
 
-			 {% endfor %}
+				 {% endfor %}
 
 
-		</div>	
+			</div>				
+		</div>
+		
+		{% include suscribe.html %}
+		
+	  	{% include footer.html %}         
+		
 	</div>
-
-	
-  	{% include footer.html %}         
 </body>

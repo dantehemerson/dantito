@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "La nueva etapa de mi vida!"
+title:  "Nylas Webhooks: Now Available for Email, Calendar, and Contacts"
 date:   2017-11-28 17:47:30 -0500
 categories: jekyll update
 image:

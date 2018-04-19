@@ -1,5 +1,5 @@
 <div class="col-lg-4 col-md-6 col-sm-6  container-post">
-	<article class="card shadow post-item" >
+	<article class="post-item" >
 		<div class="box-body">
 			<!-- <span class="category">TECH</span> -->
 			<div class="cover"> 
@@ -22,13 +22,15 @@
 					<i class="fa fa-clock-o" aria-hidden="true"></i> 				
 					{% include read-time.html %}
 				</span>
+
 				<!-- titulo -->
-				<a href="{{ post.url }}">
-					<h2 class="post-title">{{ post.title }}</h2>
+				<a class="link post-title" href="{{ post.url }}">
+					{{ post.title }}
 				</a>
-				<a href="{{ post.url }}">
-					<p class="description">{{ post.content | strip_html | truncate: 200 }}</p>
-				</a>
+				<!-- description -->
+				<p class="description">{{ post.content | strip_html | truncate: 200 }}</p>
+				
+				<a class="link" href="{{ post.url }}">Read More</a>
 			</div>
 		</div>
 	</article>
