@@ -1,0 +1,17 @@
+h1
+	AvenirLTStd-Light sans serif
+
+titulo-de-post
+	"AvenirLTStd-Medium", "Helvetica", sans-serif;
+
+
+boton: bold 
+	"AvenirLTStd-Heavy", "Helvetica", sans-serif;
+
+
+
+
+// EL background
+background-image: linear-gradient(-90deg, #CEF4D5 7%, #C5EFED 96%);
+
+ 

@@ -1,0 +1,79 @@
+
+/** Mi logo en indehtml*/
+.headerwrap {
+  //background-color: #00b3fe;
+  min-height: 100vh;
+  //padding-top: 80px;
+  //margin-top: 50px;
+  position: relative;
+  padding-bottom: 0px;
+  text-align: center; 
+   //background-image: url("https://s-media-cache-ak0.pinimg.com/originals/2e/df/c4/2edfc4a59de13c55798ac49dd64d151b.jpg"); 
+    background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.headerwrap h3, .headerwrap h1, .headerwrap h2, .headerwrap h5 {
+  color: white;
+  font-family: 'Roboto', sans-serif !important;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.headerwrap .title-container {
+  height: 100vh;
+  min-height: fit-content;
+}
+
+
+.headerwrap .title-container .align-self-center {
+  padding: 70px 0;
+}
+.headerwrap .title-container .greeting {
+  font-size: 1.6rem;
+  margin-bottom: 0;  
+}
+
+.headerwrap .title-container .name {
+  font-size: 8rem;
+  margin-top: -0.6rem !important;
+
+
+
+
+
+  /* BACKGROUND GRADIENT */
+
+  background: -moz-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(164,27,239,1)), color-stop(33%, rgba(164,27,239,1)), color-stop(68%, rgba(254,0,114,1)), color-stop(100%, rgba(254,0,114,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* ie10+ */
+  background: linear-gradient(47deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a41bef', endColorstr='#fe0072',GradientType=1 ); /* ie6-9 */
+
+
+
+  width: fit-content;
+  margin: 0 auto;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.headerwrap .title-container .lastname {  
+  font-size: 3.2rem;
+  margin-top: -11px;
+  padding-left: 1.4rem;
+  letter-spacing: 1.2rem;
+}
+.headerwrap .title-container .username {
+  text-transform: lowercase;
+  font-size: 1rem;
+}
+
+
+.avatar {
+  width: 200px;
+  border-radius: 50%;  
+  box-shadow: 1px 1px 5px #8e8e8e; 
+}
