@@ -14,7 +14,7 @@ body {
 h1, h2, h3, h4, h5 {
   color: $titles-color;
   font-family: 'Avenir LT Std 85 Heavy', sans-serif;
-  font-weight: 700;
+  
 }
 
 button {
@@ -49,25 +49,6 @@ a:hover, a:focus {
 
 
 
-
-/** Customizando los colores de Boostrap **/
-.bg-primary {
-  background-color: $primary-color !important;
-}
-
-.bg-secondary {
-  background-color: $secondary-color !important;
-}
-
-.btn-primary {
-    background-color: $primary-color;
-    border-color: $primary-color;
-}
-.btn-primary:hover {
-    background-color: $hover-default-color;
-    border-color: $hover-default-color;
-}
-
 .form-control:focus {
   border-color: #939090;
   box-shadow: 0 0 0 0.2rem transparentize($primary-color, 0.80);
@@ -80,8 +61,7 @@ a:hover, a:focus {
   margin-right: auto;
   margin-left: auto;
   max-width: 1160px; /* or 950px */
-  // padding-left: 25px;
-  // padding-right: 25px;
+
 }
 .container-fluid.project-container {
   max-width: 990px; /* or 950px */
@@ -99,29 +79,16 @@ a:hover, a:focus {
 
 
 @media (max-width: 576px){
-    .footer-love {      
-      text-align: center; 
-    }
-    .footerwrap p {
-      text-align: center;
-      margin-top: 2px;
-      margin-bottom: 2px;
-    }
+    
 }
 @media (min-width: 576px) {
-    .card-columns {
-        column-count: 1;
-    }
+    
 }
 
 @media (min-width: 768px) {
-    .card-columns {
-        column-count: 2;
-    }
+    
 }
 
 @media (min-width: 992px) {
-    .card-columns {
-        column-count: 3;
-    }
+    
 }

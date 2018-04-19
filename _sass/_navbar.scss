@@ -1,6 +1,7 @@
 @import "variables";
 
 .navbar {  
+  background: transparent;
   padding-top: $padding-navbar;
   padding-bottom: $padding-navbar;  
 }
@@ -9,86 +10,52 @@
   flex-grow: 0;
 }
 
-.navbar-brand {  
-
-}
-
-.navbar-nav > li > a {
-  font-weight: 700;
-  font-size: $fs-menu;
-}
-
-.navbar-toggler {
-  font-size: 1.1rem;
-}
-
-.navbar-custom {
-  background: $primary-color;
-  box-shadow: 0px 0px 1px #c1c1c1;
-}
-
-
 .navbar-custom .navbar-brand {
   color: $navlink-color;
+  font-size: 1.7rem;
 }
-
-
-/**
-*   ===== Cuando este sin el scroll =======
-**/
-.navbar-custom.shrink {
-    background-color: transparent;
-    padding-top: 1.5rem;
-    box-shadow: none;
-}
-
 
 .navbar-custom .navbar-nav .nav-link {
     color: $navlink-color;
-    text-transform: uppercase;
 }
 
-/* Link activo en la navbar*/
-.navbar-custom .nav-item.active .nav-link {
-  color: #00b3fe;
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: $navlink-color;
 }
 
-.navbar-custom .nav-item:hover .nav-link {
-    color: #00b3fe;
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 50px;
 }
 
-.navbar-toggler:hover { 
-  background: #CFCFCF;
+.va-middle {
+  vertical-align: middle;
+}
+
+.logo {
+  font-family: 'Avenir LT Std 95 Black';
+  font-size: 2.4rem;
+  
+  /* BACKGROUND GRADIENT */
+  background: -moz-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(164,27,239,1)), color-stop(33%, rgba(164,27,239,1)), color-stop(68%, rgba(254,0,114,1)), color-stop(100%, rgba(254,0,114,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* ie10+ */
+  background: linear-gradient(47deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a41bef', endColorstr='#fe0072',GradientType=1 ); /* ie6-9 */
+
+  width: fit-content;
+  margin: 0 auto;
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 
-.navbar-custom.ligth .navbar-nav .nav-link {
-    color: white;    
-}
 
-.dropdown-menu {
-  background: #44a59c;
-  padding: .1rem 0;
-  left: auto;
-  right: 0;
-}
-
-.dropdown-menu > a {
-  color: white;
-  font-weight: 700;
-  font-size: 12px;
-}
-
-
-
-
-
-.navbar-dark.shrink .navbar-toggler {
-  color: white;
-  border-color: gray;  
-}
-
-.navbar-dark .navbar-toggler {
-  color: gray;
-  border-color: gray;
+@media (max-width: 576px){
+  .navbar {
+    background: white;
+  }   
 }
