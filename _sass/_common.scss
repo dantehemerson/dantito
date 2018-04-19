@@ -2,19 +2,17 @@
 
 body { 
   background-color: #F8F8F8;
-  color: #648785;
+  color: $font-color;
   font-family: "Avenir LT Std 65 Medium", "Helvetica", sans-serif;
-  font-size: 16px;
+  font-size: $font-size;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;  
   padding: 0;
 }
 
-
-// Inconsistencia
 h1, h2, h3, h4, h5 {
-  color: #0D2B29;
+  color: $titles-color;
   font-family: 'Avenir LT Std 85 Heavy', sans-serif;
   font-weight: 700;
 }
@@ -98,33 +96,7 @@ a:hover, a:focus {
 }
 
 
-@media (max-width: 575px) {
-   .headerwrap .title-container .greeting {
-      font-size: 1.2rem;
-  }
-  .headerwrap .title-container .name {
-    font-size: 5rem;
-    margin-top: -0.6rem !important;
 
-  }
-  .headerwrap .title-container .lastname {  
-    font-size: 2rem;
-    margin-top: -11px;
-    padding-left: 0.9rem;
-    letter-spacing: 0.8rem;
-  }
-  .headerwrap .title-container .username {
-    text-transform: lowercase;
-    font-size: 1rem;
-  }
-
-
-.avatar-main {
-    width: 100px;    
-  }
-
-
-} 
 
 @media (max-width: 576px){
     .footer-love {      

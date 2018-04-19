@@ -1,46 +1,35 @@
-
-.background-avatar-main {
- 
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  //background: #040404bd;
- 
-}
-
-/** Mi logo en indehtml*/
-.headerwrap {
-  //background-color: #00b3fe;
-  min-height: 100vh;
-  //padding-top: 80px;
-  //margin-top: 50px;
-  position: relative;
+.headerwrap {    
   padding-bottom: 0px;
   text-align: center; 
-   //background-image: url("https://s-media-cache-ak0.pinimg.com/originals/2e/df/c4/2edfc4a59de13c55798ac49dd64d151b.jpg"); 
-    background-repeat: no-repeat !important;
-  background-position: center !important;
+  background-image: linear-gradient(-90deg, #b4eeff 7%, #ff8fcd 96%);
+  background-position: top left !important;
+  background-repeat: no-repeat !important;
   background-size: cover !important;
+  min-height: 0;  
 }
 
-.headerwrap h3, .headerwrap h1, .headerwrap h2, .headerwrap h5 {
-  color: white;
-  font-family: 'Roboto', sans-serif !important;
+
+.headerwrap .greeting, 
+.headerwrap .name, 
+.headerwrap .lastname {  
   text-transform: uppercase;
   line-height: 1;
 }
 
+
+.headerwrap .header-image {
+  background-image: url(/assets/images/back_header6.png);
+  background-repeat: no-repeat;
+  background-position: top left !important;
+  background-position: center;
+
+}
+
 .headerwrap .title-container {
-  height: 100vh;
-  min-height: fit-content;
+  padding-top: 110px;
+  padding-bottom: 110px;
 }
 
-
-.headerwrap .title-container .align-self-center {
-  padding: 70px 0;
-}
 .headerwrap .title-container .greeting {
   font-size: 1.6rem;
   margin-bottom: 0;  
@@ -49,13 +38,7 @@
 .headerwrap .title-container .name {
   font-size: 8rem;
   margin-top: -0.6rem !important;
-
-
-
-
-
   /* BACKGROUND GRADIENT */
-
   background: -moz-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* ff3.6+ */
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(164,27,239,1)), color-stop(33%, rgba(164,27,239,1)), color-stop(68%, rgba(254,0,114,1)), color-stop(100%, rgba(254,0,114,1))); /* safari4+,chrome */
   background: -webkit-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* safari5.1+,chrome10+ */
@@ -71,11 +54,12 @@
   color: transparent;
   -webkit-background-clip: text;
 }
+
 .headerwrap .title-container .lastname {  
   font-size: 3.2rem;
   margin-top: -11px;
-  padding-left: 1.4rem;
-  letter-spacing: 1.2rem;
+  padding-left: 0.8rem;
+  letter-spacing: 1.3rem;
 }
 .headerwrap .title-container .username {
   text-transform: lowercase;
@@ -86,5 +70,48 @@
 .avatar {
   width: 200px;
   border-radius: 50%;  
-  box-shadow: 1px 1px 5px #8e8e8e; 
+  //box-shadow: 1px 1px 5px #8e8e8e; 
+}
+
+
+@media (max-width: 575px) {
+  .headerwrap .title-container .greeting {
+      font-size: 1.4rem;
+  }
+  .headerwrap .title-container .name {
+    font-size: 6rem;
+    margin-top: -0.6rem !important;
+
+  }
+
+  .headerwrap .title-container .lastname {  
+    font-size: 2rem;
+    margin-top: -11px;    
+    letter-spacing: 0.8rem;
+  }
+  .headerwrap .title-container .username {
+    text-transform: lowercase;
+    font-size: 1rem;
+  }
+
+  .avatar {
+    width: 150px;    
+  }
+} 
+
+@media (max-width: 767px) {
+  .headerwrap .title-container {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  .headerwrap .title-container .greeting {
+    margin-top: 10px;
+  }
+
+  .headerwrap .title-container .lastname {  
+    padding-left: 1.6rem;
+    letter-spacing: 1.3rem;  
+  }
+  
 }

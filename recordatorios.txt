@@ -15,3 +15,10 @@ boton: bold
 background-image: linear-gradient(-90deg, #CEF4D5 7%, #C5EFED 96%);
 
  
+
+// la imagen
+background-image: url(https://cdn2.hubspot.net/hubfs/3314308/bg--hero-blog.svg);
+
+    background-position: top left;
+    background-repeat: no-repeat;
+    min-height: 0;
