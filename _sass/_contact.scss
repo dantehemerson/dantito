@@ -1,3 +1,4 @@
+$hr-contact-color: $titles-color;
 .socials {
   text-align: center;
   
@@ -7,12 +8,11 @@
 }	
 
 .social-network h3 {	
-	padding-bottom: 30px;
+	padding-bottom: 0;
+	margin-bottom: 0 !important;
 }
-	.container-social {		
-		
-		
-
+	.container-social {				
+		margin-top: 50px;
 	}
 	.container-social .fa {
 		font-size: 50px; 		
@@ -30,6 +30,13 @@
 		}
 	}
 
+	.contact-subtitle-hr {
+		background-color: $hr-contact-color;
+		width: 33px;
+		height: 4px;
+		border: none;	
+		margin-top: 7px;
+	}
 
 	.container-social a i, .container-social .info {
 		color: $font-color;
@@ -52,11 +59,23 @@
 	margin-bottom: 88px;
 }
 .form-contact-container h3 {
-	margin-bottom: 30px;
+	margin-bottom: 0;
+}
+
+.form-contact-container form {
+	margin-top: 60px;
 }
 
 .white-background {
 	background: white;
 	padding-top: 55px;
-	padding-bottom: 80px;
+	padding-bottom: 55px;
+}
+
+.title-contact {
+	margin-bottom: 40px;
+}
+
+.header-contact hr {
+	margin-top: 0;
 }

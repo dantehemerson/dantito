@@ -54,6 +54,19 @@ a:hover, a:focus {
 }
 
 
+.background-gradient {
+  /* BACKGROUND GRADIENT */
+  background: -moz-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%) !important; /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(164,27,239,1)), color-stop(33%, rgba(164,27,239,1)), color-stop(68%, rgba(254,0,114,1)), color-stop(100%, rgba(254,0,114,1))) !important; /* safari4+,chrome */
+  background: -webkit-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%) !important; /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%) !important; /* opera 11.10+ */
+  background: -ms-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%) !important; /* ie10+ */
+  background: linear-gradient(47deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%) !important; /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a41bef', endColorstr='#fe0072',GradientType=1 ) !important; /* ie6-9 */
+  background: #648785 !important;
+}
+
+
 // Estilos para la seleccion del texto
 ::-moz-selection  {
   color: #fff;

@@ -11,11 +11,11 @@ permalink: /contact/
 	<div class="container-background">
 	    {% include navbar.html %}
 	   
-		<div class="container">			
+		<div class="container header-contact">			
 			<div class="row justify-content-center">
 				<header class="col-lg-8 contact-header">
-					<h1>Get In Touch</h1>
-		 			
+					<h1 class="title-contact">Get In Touch</h1>
+		 			<!-- <hr class="contact-subtitle-hr background-gradient"> -->
 		 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 				</header>				
 				
@@ -39,6 +39,7 @@ permalink: /contact/
 			<div class="row justify-content-center">
 				<div class="col-lg-8 form-contact-container">
 			 				<h3>Send Me a message</h3>
+			 				<hr class="contact-subtitle-hr background-gradient">
 				 			<form role="form">
 							  <div class="form-group">
 							    <label for="InputName1" style="display: none;">Your Name</label>

@@ -1,7 +1,7 @@
 
 $title-color: #555555;
 $subtitle-color: #666666;
-
+$hr-post-color: #00BAB7;
 
 a {
 
@@ -33,7 +33,7 @@ a {
 }
 
 .post-container hr.post-hr-header {
-	background-color: #00BAB7;
+	background-color: $hr-post-color;
 	width: 65px;
 	height: 4px;
 	border: none;	

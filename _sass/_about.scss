@@ -1,3 +1,4 @@
+$hr-about-color: $titles-color;
 
 .about {
   text-align: center;
@@ -7,4 +8,17 @@
 
 .about .about-description {
 	font-size: 18px;
+	margin-top: 45px;
+}
+
+.about-title {
+	margin-bottom: 0;
+}
+
+.about-hr {
+	background-color: $hr-about-color;
+	width: 33px;
+	height: 4px;
+	border: none;	
+	margin-top: 7px;
 }
