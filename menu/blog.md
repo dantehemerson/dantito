@@ -28,7 +28,7 @@ permalink: /blog/
 		
 		{% include suscribe.html %}
 		
-	  	{% include footer.html %}         
+	  	<!-- {% include footer.html %}  -->        
 		
 	</div>
 </body>
