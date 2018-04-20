@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-sm navbar-light navbar-custom">
 	<div class="container">
 		
-		<a class="navbar-brand" href="{{ site.baseurl }}/index.html">
+		<a class="navbar-brand link-no-border" href="{{ site.baseurl }}/index.html">
 			<div>
 				<span class="logo va-middle">D</span> 
 				<span class="logo-text va-middle">Dante</span>
@@ -19,11 +19,11 @@
 				{% for item in site.data.settings.menu %}
 					<li class="nav-item {% if item.name == page.title %}active{% endif %}">
 						{% if item.path == "" %}
-							<a class="nav-link" href="{{ site.baseurl }}/{{ item.url}}">{{ item.name }} 
+							<a class="nav-link link-no-border" href="{{ site.baseurl }}/{{ item.url}}">{{ item.name }} 
 								{% if item.name == page.title %}<span class="sr-only">(current)</span>{% endif %}
 							</a>
 						{% else %}
-							<a class="nav-link" href="{{ site.baseurl }}/{{ item.path }}/{{ item.url}}">{{ item.name }}</a>
+							<a class="nav-link link-no-border" href="{{ site.baseurl }}/{{ item.path }}/{{ item.url}}">{{ item.name }}</a>
 						{% endif %}
 					</li>	
 				{% endfor %}				

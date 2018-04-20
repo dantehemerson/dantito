@@ -26,9 +26,12 @@ button {
 
 
 a {
+  border-bottom: 1px solid transparent;
+  transition: all 0.4s;
   color: $link-color;  
   &:hover {
     color: $link-color;  
+    border-bottom: 1px solid $link-color;
   }
 }
 
@@ -36,11 +39,10 @@ a:hover, a:focus {
   text-decoration: none;  
 }
 
-.link {  
-  border-bottom: 1px solid transparent;
-  transition: all 0.4s;
+.link-no-border {  
+  border-bottom: 0px solid transparent;
   &:hover {
-    border-bottom: 1px solid $link-color;
+    border-bottom: 0px solid transparent;
   }
 }
 

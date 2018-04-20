@@ -24,13 +24,13 @@
 				</span>
 
 				<!-- titulo -->
-				<a class="link post-title" href="{{ post.url }}">
+				<a class="post-title" href="{{ post.url }}">
 					{{ post.title }}
 				</a>
 				<!-- description -->
 				<p class="description">{{ post.content | strip_html | truncate: 170 }}</p>
 				
-				<a class="link" href="{{ post.url }}">Read More</a>
+				<a href="{{ post.url }}">Read More</a>
 			</div>
 		</div>
 	</article>
