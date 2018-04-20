@@ -7,15 +7,10 @@ permalink: /blog/
 ---
 
 <body itemscope="" itemtype="http://schema.org/Blog">
-	<div class="container-image">
+	<div class="container-background">
 	    {% include navbar.html %}
 
-	    <!-- 335661234
-				dantehcv_77@outlook.com
-				Ap98nfn_9199
-	     -->
-
-		<div class="container container-full mtb">
+		<div class="container container-full">
 			<div class="row">				
 
 			     {% for post in site.posts limit: 6 %}		     

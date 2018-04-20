@@ -22,3 +22,5 @@ background-image: url(https://cdn2.hubspot.net/hubfs/3314308/bg--hero-blog.svg);
     background-position: top left;
     background-repeat: no-repeat;
     min-height: 0;
+
+*** Poner la fecha del post dentro de la imagen del post
