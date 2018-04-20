@@ -11,43 +11,57 @@ permalink: /contact/
 	<div class="container-background">
 	    {% include navbar.html %}
 	   
-		<div class="container">
+		<div class="container">			
+			<div class="row justify-content-center">
+				<header class="col-lg-8 contact-header">
+					<h1>Get In Touch</h1>
+		 			
+		 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+				</header>				
+				
 
-			<!-- {% include socials.html %} -->
-
-			<div class="row">
-						<div class="col-lg-8">
-				 			<h4>Just Get In Touch!</h4>
-				 			
-					 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-					 			<form role="form">
-								  <div class="form-group">
-								    <label for="InputName1" style="display: none;">Your Name</label>
-								    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" required>
-								  </div>
-								  <div class="form-group">
-								    <label for="InputEmail1" style="display: none;">Email address</label>
-								    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
-								  </div>
-								  <div class="form-group">
-								    <label for="InputSubject1" style="display: none;">Subject</label>
-								    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Subject">
-								  </div>
-								  <div class="form-group">
-								  	<label for="message1" style="display: none;">Message</label>
-								  	<textarea class="form-control" id="message1" rows="4" placeholder="Your Message here" required></textarea>
-								  </div>
-								  <button type="submit" class="btn btn-primary">Send Message</button>
-								</form>
-						</div>
-
-						<div class="col-lg-4">
-						 		
-					 	</div>	
 			</div>
 			
 		</div>    
-		{% include footer.html %}
+
+		<div class="container-full white-background">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 follow-me-container">					
+						{% include socials.html %}
+				 	</div>	
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 form-contact-container">
+			 				<h3>Send Me a message</h3>
+				 			<form role="form">
+							  <div class="form-group">
+							    <label for="InputName1" style="display: none;">Your Name</label>
+							    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" required>
+							  </div>
+							  <div class="form-group">
+							    <label for="InputEmail1" style="display: none;">Email address</label>
+							    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
+							  </div>
+							  <div class="form-group">
+							    <label for="InputSubject1" style="display: none;">Subject</label>
+							    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Subject">
+							  </div>
+							  <div class="form-group">
+							  	<label for="message1" style="display: none;">Message</label>
+							  	<textarea class="form-control" id="message1" rows="6" placeholder="Your Message here" required></textarea>
+							  </div>
+							  <button type="submit" class="btn btn-primary">Send Message</button>
+							</form>
+					</div>
+			</div>			 		
+		</div>
+		<!-- {% include footer.html %} -->
 		
 	</div>
     

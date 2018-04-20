@@ -1,12 +1,11 @@
-<div class="row">
-	<div class="socials col">
-		<section class="socials">	
+<div class="row justify-content-center">
+
+	<div class="col-12 social-network">				
+		<h3>Follow me</h3>
+		<div class="container-social">
 			{% for item in site.data.settings.social-net %}
-				<div class="social-network">				
-					<a href="{{ item.link }}" target="_blank"><i class="fa fa-{{ item.icon }}"></i></a>
-					<p>{{ item.info }}</p>
-				</div>
-			{% endfor %}								
-		</section>
+					<a class href="{{ item.link }}" target="_blank"><i class="fa fa-{{ item.icon }}"></i></a>		
+			{% endfor %}		
+		</div>
 	</div>
-</div>	
+</div>
