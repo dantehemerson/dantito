@@ -1,4 +1,5 @@
 @import "variables";
+@import "code_syntax_md";
 
 body { 
   background-color: #FFF;
@@ -199,9 +200,6 @@ a:hover, a:focus {
   width: 100%;
   max-width: 1160px;
 }
-
-
-
 
 @media (max-width: 576px){
     

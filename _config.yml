@@ -22,7 +22,6 @@ github_username:  dantehemerson
 #   - vendor/gems/
 #   - vendor/ruby/
 
-
 sass:
   style: :compressed  # Change to :expanded for debugging
 
@@ -35,20 +34,8 @@ debug: false
 permalink: /:title/
 
 
-# Build settings
-# markdown: kramdown
-# highlighter: rouge
-
-
-
-# disqus_categories:
-#   tech: 3550508
-#   opinion: 3550509
-
-
+theme: minima
 
 markdown: kramdown
-theme: minima
-# !github-pages! mandatory › https://help.github.com/articles/using-jekyll-with-pages/#configuration-settings-you-cannot-change
-# Since Jekyll 3 the default highlighter is Rouge (replaced Pygments.rb in v44)
 highlighter: rouge
+
