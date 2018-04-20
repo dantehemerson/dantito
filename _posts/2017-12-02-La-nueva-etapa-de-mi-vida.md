@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Nylas Webhooks: Now Available for Email, Calendar, and Contacts"
+title:  "How to Tackle the Learning Curve of your First Major Engineering Project"
+subtitle: "A closer look at the 16 week-long Contacts API project and the learnings that came from engineering fullstack systems at scale"
+
 date:   2017-11-28 17:47:30 -0500
 categories: jekyll update
 image:
