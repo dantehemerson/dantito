@@ -24,3 +24,4 @@ background-image: url(https://cdn2.hubspot.net/hubfs/3314308/bg--hero-blog.svg);
     min-height: 0;
 
 *** Poner la fecha del post dentro de la imagen del post
+*** hace mi historia con emojis :)

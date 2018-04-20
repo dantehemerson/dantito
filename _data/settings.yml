@@ -34,7 +34,9 @@ social-net:
   - { icon: 'instagram', 
       link: 'https://www.instagram.com/dantehemerson/',
       info: 'Donde comparto mis fotos personales codeando.'}
-  # - {icon: 'linkedin',  link: 'https://www.linkedin.com/in/dantehemerson/'}
+  - { icon: 'linkedin',  
+      link: 'https://www.linkedin.com/in/dantehemerson/',
+      info: 'Puedes encontrar informacion profesionala aca'}
 
 
 social-share:

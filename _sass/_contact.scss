@@ -3,13 +3,59 @@
   
 }
 .social-network {
-  //background-color: red;
-  width: 200px;
-  height: 100%;
-  display: inline-block;
-  background: gray;
+  text-align: center;    
+}	
 
+.social-network h3 {	
+	padding-bottom: 30px;
 }
-.social-network .fa {
-  font-size: 72px;
+	.container-social {		
+		
+		
+
+	}
+	.container-social .fa {
+		font-size: 50px; 		
+	}
+
+	.container-social a i {
+		padding-left: 10px;
+		padding-right: 10px;
+		transition: all .4s;
+		&:hover {						
+			transform:  scale(1.1,1.1);
+			
+
+
+		}
+	}
+
+
+	.container-social a i, .container-social .info {
+		color: $font-color;
+	}
+
+.contact-header {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 45px;
+}
+
+.contact-header p {
+	padding-top: 10px;
+}
+
+.form-contact-container {
+	text-align: center;
+	margin-top: 55px;
+	margin-bottom: 88px;
+}
+.form-contact-container h3 {
+	margin-bottom: 30px;
+}
+
+.white-background {
+	background: white;
+	padding-top: 55px;
+	padding-bottom: 80px;
 }
