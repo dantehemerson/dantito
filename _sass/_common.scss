@@ -1,5 +1,4 @@
 @import "variables";
-@import "code_syntax_md";
 
 body { 
   background-color: #FFF;
@@ -14,8 +13,7 @@ body {
 
 h1, h2, h3, h4, h5 {
   color: $titles-color;
-  font-family: 'Avenir LT Std 85 Heavy', sans-serif;
-  
+  font-family: 'Avenir LT Std 85 Heavy', sans-serif;  
 }
 
 
@@ -79,9 +77,15 @@ a:hover, a:focus {
   color: #fff;
   text-shadow: none;
   background: #2B2E31;
+  background: #17171785;
+  
 }
 
-
+.title-section {
+  font-size: 24px !important;
+  font-family: $avenir-medium;
+  line-height: 26px;
+}
 
 .btn:hover {
   cursor: pointer;
@@ -95,11 +99,6 @@ a:hover, a:focus {
   input[type=text], input[type=email], textarea {
     padding: 10px 12px 6px !important;
     border: 1px solid #ccc !important;
-  }
-  h3, .h3 {
-    font-size: 24px !important;
-    font-family: $avenir-medium;
-    line-height: 26px;
   }
   .btn-primary {    
     font-family: $avenir-heavy;

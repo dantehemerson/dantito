@@ -38,7 +38,7 @@ permalink: /contact/
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-8 form-contact-container">
-			 				<h3>Send Me a message</h3>
+			 				<h3 class="title-section">Send Me a message</h3>
 			 				<hr class="contact-subtitle-hr background-gradient">
 				 			<form role="form">
 							  <div class="form-group">

@@ -1,3 +1,5 @@
+// Estilos para el markdown
+
 pre.highlight, figure.highlight {
   font-size: 12px;
   background: #fdfdfd;
@@ -8,4 +10,34 @@ pre.highlight, figure.highlight {
 
 figure.highlight {
   font-size: 13px;
+}
+
+code {
+	color: #0d8835;
+}
+
+strong {
+	font-family: $avenir-heavy;
+}
+
+
+
+p {
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+h2 {
+	opacity: 0.8;
+	margin-top: 40px;
+	margin-bottom: .75em;
+	text-align: center;
+}
+
+h3 {
+	margin: 1.5em 0 0.75em 0;
+}
+
+h3, h4, h5 {
+	color: $font-color !important;
 }

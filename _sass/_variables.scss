@@ -1,19 +1,4 @@
-//$body-bg: #E42E38;
-//$body-color: #532;
-//$font-size-base: 0.9rem; // Me parece muy pequeña
-// $theme-colors: (
-//   "primary": #333333,
-//   "danger": #ff4136
-// );
-
-
-// Bootstrap and its default variables
-//@import "bootstrap";
-
-
-
 /** Fuentes */
-
 	$avenir-black: 'Avenir LT Std 95 Black', sans-serif;
 	$avenir-book: 'Avenir LT Std 45 Book', sans-serif;
 	$avenir-heavy: 'Avenir LT Std 85 Heavy', sans-serif;
@@ -41,10 +26,9 @@
 
 
 
-$padding-navbar: 0.4rem;
 
 
-$fs-blog: 1.2rem;
+$fs-blog: 1.1rem;
 
 
 $primary-color: #41C3B6;
@@ -56,6 +40,7 @@ $hover-default-color: #00b3fe;
 // Navbar colors
 		$navlink-color: #2b2b2b;
 
+$padding-navbar: 0.4rem;
 
 $transition-hover: 0.4s;
 
