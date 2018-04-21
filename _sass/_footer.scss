@@ -1,12 +1,13 @@
 
 $icons-footer-size: 25px;
-$padding-footer: 20px;
-$font-footer-color: #668886;
+$padding-footer: 30px;
+//$font-footer-color: #668886;
+$font-footer-color:  rgba(191, 191, 191, 0.51);
 
 
 .footerwrap {  
   background: #232323;
-  padding-top: $padding-footer + 30px;
+  padding-top: $padding-footer + 20px;
   padding-bottom: $padding-footer;
   background-image: url("../assets/images/img-bg-footer.png");
   color: $font-footer-color;
@@ -80,7 +81,7 @@ $font-footer-color: #668886;
     &:hover {
       color: white !important;
       background: $instagram-color !important;
-      
+
     }
   }
 
@@ -115,7 +116,7 @@ $font-footer-color: #668886;
     padding: 10px 0;
     display: inline-block;
     padding-top: 2px;
-    padding-bottom: 2px;
+    padding-bottom: 2px;    
   }
 
 /** Footer Logo **/
@@ -135,6 +136,12 @@ $font-footer-color: #668886;
     font-family: $avenir-black;
   }
 
+
+  .footerwrap a {
+    &:hover {
+      border-bottom: 1px solid #bfbfbf;
+    }
+  }
 
 
 /** Footer love **/
