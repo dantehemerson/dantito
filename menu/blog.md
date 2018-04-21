@@ -10,7 +10,7 @@ permalink: /blog/
 	<div class="container-background">
 	    {% include navbar.html %}
 
-		<div class="container container-full">
+		<div class="container container-full pt">
 			<div class="row">				
 
 			     {% for post in site.posts limit: 6 %}		     
@@ -24,9 +24,11 @@ permalink: /blog/
 
 
 			</div>				
+
 		</div>
 		
 		{% include suscribe.html %}
+		
 		
 	  	{% include footer.html %}
 		
