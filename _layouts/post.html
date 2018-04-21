@@ -3,6 +3,7 @@ layout: default
 style:
  name: post
  embedded: true
+comments: true
 ---
 
 <body>	
@@ -38,9 +39,45 @@ style:
 			{{ content }}	
 <!-- 			<p>SHARE: </p>
  -->			<!-- {% include social-sharing.html %} -->
+			<div id="disqus_thread"></div>
 		</div>
+		
 
+		<!-- DISQUS --->
+		{% if layout.comments %}
+			<script src="{{ site.baseurl }}/assets/scripts/disqus.js"></script>
+			<script id="dsq-count-scr" src="//dantecalderon.disqus.com/count.js" async></script>
+		{% endif %}
+		
 
 		{% include footer.html %}
 	</div>
 </body>
+
+<!-- 
+<script type="text/javascript">
+var disqus_config = function () {
+      this.page.url = document.location.href;
+      // this will make sure
+      // when url became /blog/2016/11/15/how-to-add-background-music-in-processing-3.0
+      // or /blog/2016/11/15/how-to-add-background-music-in-processing-3.0/
+      // or /blog/2016/11/15/how-to-add-background-music-in-processing-3.0.html
+      // will all back to /blog/2016/11/15/how-to-add-background-music-in-processing-3.0
+      // for disqus to recongize the post
+      var pathname = document.location.pathname;
+      var dividerList = pathname.split("/");
+      if(dividerList[dividerList.length - 1] == "") {
+        // there exist trailing "/", we should remove them
+        pathname = pathname.slice(0, -1)
+      }
+      // remove .html if any
+      pathname = pathname.replace(".html", "");
+      this.page.identifier = pathname;
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = '//poanchen.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+   </script> -->
