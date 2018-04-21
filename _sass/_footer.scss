@@ -56,7 +56,7 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
     box-sizing: content-box !important;
 
     &:hover {
-      
+      border-bottom: 0;
     }
   }
 
@@ -158,9 +158,6 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
   .footer-love .a .fa-code {
     font-weight: bold;
     margin-right: 2px;
-  }
-  .footer-love .a .fa-code:hover {
-    color: white;
   }
 
   .footer-love .a .fa-heart {
