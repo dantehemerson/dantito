@@ -132,15 +132,24 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
 
 /** Footer Logo **/
 
-  .footer-col-logo .title-logo {
+  .footer-col-logo .copyear {
+    font-family: "Courier New", Courier, monospace;   
+    line-height: 1;
+    font-size: 11px;
     margin-top: -17px;
+    &::after, &::before {
+      content: '\00B7';
+      font-weight: bolder;
+      padding-left: 4px;
+      padding-right: 4px;
+    }
   }
-
 
   .footer-logo {
     font-size: 8rem;
     line-height: 1;
     font-family: $avenir-black;        
+
   }
 
 
