@@ -22,11 +22,17 @@
 				<div class="footer-nav">
 					<h4>DANTE</h4>
 					<hr class="footer-hr">
-					<ul>
-						<li><a href="">Home</a></li>
-						<li><a href="">Blog</a></li>
-						<li><a href="">Contact</a></li>
-						<li><a href="">Portfolio</a></li>
+					<ul>						
+
+						{% for item in site.data.settings.menu_footer %}
+							<li>
+								{% if item.path == "" %}
+									<a href="{{ site.baseurl }}/{{ item.url}}">{{ item.name }}</a>
+								{% else %}
+									<a href="{{ site.baseurl }}/{{ item.path }}/{{ item.url}}">{{ item.name }}</a>
+								{% endif %}
+							</li>	
+						{% endfor %}			
 					</ul>
 				</div>
 			</div>		

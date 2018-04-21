@@ -13,6 +13,11 @@ menu_home:
   - {name: 'Contact',     path: '', url: 'contact'}
   - {name: 'Portfolio',   path: '', url: 'portfolio'}
 
+menu_footer:
+  - {name: 'Home',        path: '', url: ''}
+  - {name: 'Blog',        path: '', url: 'blog'}
+  - {name: 'Contact',     path: '', url: 'contact'}
+  - {name: 'Portfolio',   path: '', url: 'portfolio'}
 
 social:
   - {title: 'Github',     icon: 'github',    link: 'https://www.github.com/dantehemerson'}
