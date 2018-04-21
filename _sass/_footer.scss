@@ -29,6 +29,11 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
   margin-left: 0;
 }
 
+
+.footer-nav .footer-hr {
+  margin-left: auto;
+}
+
 .footerwrap h4 {
   color: white;
   text-transform: uppercase;
@@ -38,7 +43,7 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
 /** Social **/
   .footer-social-container {
     display: block;
-    text-align: right;
+    text-align: center;
   }
 
   .footerwrap .footer-social-container .fa {
@@ -100,6 +105,13 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
     }
   }
 
+  .footerwrap a {
+    &:hover {
+      border-bottom: 1px solid #bfbfbf;
+    }
+  }
+
+
 /** Footer nav **/
 
   .footer-nav ul {
@@ -124,28 +136,19 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
     margin-top: -17px;
   }
 
-  .footer-col-logo {
-    text-align: center;
-  }
-
 
   .footer-logo {
     font-size: 8rem;
     line-height: 1;
-    font-family: $avenir-black;
+    font-family: $avenir-black;        
   }
 
 
-  .footerwrap a {
-    &:hover {
-      border-bottom: 1px solid #bfbfbf;
-    }
-  }
 
 
 /** Footer love **/
   .footer-love { 
-    text-align: left; 
+    text-align: center; 
     margin-top: 20px;
   }
 
@@ -168,3 +171,9 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
     font-weight: bold;
     color: $font-footer-color;
   }
+
+@media (min-width: 768px) { 
+  .footer-nav .footer-hr {
+    margin-left: 0;
+  }
+}

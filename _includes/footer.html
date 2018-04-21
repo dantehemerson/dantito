@@ -1,8 +1,8 @@
 <footer class="footerwrap">
 	<div class="container">
 		<div class="row">			
-			<div class="col-3">
-				<div class="footer-col-logo">					
+			<div class="col-md-3 col-6">
+				<div class="footer-col-logo text-center">					
 					<div class="footer-logo-container">
 						<p class="footer-logo font-gradient">D</p>
 					</div>
@@ -11,15 +11,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-7">				
-				<div class="footer-about">
-					<h4>About Me</h4>
-					<hr class="footer-hr">
-					<p>Soy una persona que le dedica la mayor parte del tiempo a programar, tengo mucha pasion por ello, aprendi a programar de manera autodidacta.</p>
-				</div>
-			</div>		
-			<div class="col-sm-2">				
-				<div class="footer-nav">
+			<div class="col-md-2 col-6 order-md-12">				
+				<div class="footer-nav text-center text-md-left">
 					<h4>DANTE</h4>
 					<hr class="footer-hr">
 					<ul>						
@@ -35,12 +28,26 @@
 						{% endfor %}			
 					</ul>
 				</div>
+			</div>	
+			<div class="col-md-7">				
+				<div class="footer-about">
+					<h4>About Me</h4>
+					<hr class="footer-hr">
+					<p>Soy una persona que le dedica la mayor parte del tiempo a programar, tengo mucha pasion por ello, aprendi a programar de manera autodidacta.</p>
+				</div>
 			</div>		
 		</div>	
 
 		<div class="row">
-			<div class="col-6">				
-				<p class="footer-love">
+			<div class="col-md-6 order-md-2">
+				<div class="footer-social-container text-md-right">
+					{% for item in site.data.settings.social %}
+						<a class="fa fa-{{ item.icon }} link-no-border" href="{{ item.link }}" target="_blank" title="{{ item.title }}" ></a>
+					{% endfor %}					
+				</div>				
+			</div>
+			<div class="col-md-6">				
+				<p class="footer-love text-md-left">
 					<span href="" class="a">
 			          	<i class="fa fa-code" aria-hidden="true"></i>		          			
 			          	with 
@@ -52,13 +59,6 @@
 		          	<span class="author">@dantehemerson</span>
 		          </a>					
 				</p>
-			</div>
-			<div class="col-6">
-				<div class="footer-social-container">
-					{% for item in site.data.settings.social %}
-						<a class="fa fa-{{ item.icon }} link-no-border" href="{{ item.link }}" target="_blank" title="{{ item.title }}" ></a>
-					{% endfor %}					
-				</div>				
 			</div>
 		</div>		
 
