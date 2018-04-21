@@ -1,25 +1,27 @@
 <footer class="footerwrap">
 	<div class="container">
 		<div class="row">			
-			<div class="col-4">
+			<div class="col-3">
 				<div class="footer-col-logo">					
 					<div class="footer-logo-container">
-						<p class="footer-logo">D</p>
+						<p class="footer-logo font-gradient">D</p>
 					</div>
 					<div>
-						<p>Dante Calderón</p>
+						<p class="title-logo">Dante Calderón</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6">				
+			<div class="col-sm-7">				
 				<div class="footer-about">
 					<h4>About Me</h4>
+					<hr class="footer-hr">
 					<p>Soy una persona que le dedica la mayor parte del tiempo a programar, tengo mucha pasion por ello, aprendi a programar de manera autodidacta.</p>
 				</div>
 			</div>		
 			<div class="col-sm-2">				
 				<div class="footer-nav">
 					<h4>Me</h4>
+					<hr class="footer-hr">
 					<ul>
 						<li><a href="">Home</a></li>
 						<li><a href="">Blog</a></li>
@@ -31,16 +33,7 @@
 		</div>	
 
 		<div class="row">
-			<div class="col-12">
-				<p>
-					{% for item in site.data.settings.social %}
-						<a href="{{ item.link }}" target="_blank"><i class="fa fa-{{ item.icon }}"></i></a>
-					{% endfor %}					
-				</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">				
+			<div class="col-6">				
 				<p class="footer-love">
 					<span href="" class="a">
 			          	<i class="fa fa-code" aria-hidden="true"></i>		          			
@@ -54,7 +47,14 @@
 		          </a>					
 				</p>
 			</div>
-		</div>
+			<div class="col-6">
+				<div class="footer-social-container">
+					{% for item in site.data.settings.social %}
+						<a class="fa fa-{{ item.icon }} link-no-border" href="{{ item.link }}" target="_blank" title="{{ item.title }}" ></a>
+					{% endfor %}					
+				</div>				
+			</div>
+		</div>		
 
 	</div>
 

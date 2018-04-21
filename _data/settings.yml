@@ -15,11 +15,11 @@ menu_home:
 
 
 social:
-  - {icon: 'github',    link: 'https://www.github.com/dantehemerson'}
-  - {icon: 'twitter',   link: 'https://twitter.com/dantehemerson'}
-  - {icon: 'linkedin',  link: 'https://www.linkedin.com/in/dantehemerson/'}
-  - {icon: 'instagram', link: 'https://www.instagram.com/dantehemerson/'}
-  - {icon: 'facebook',  link: 'https://www.facebook.com/dantehemerson'}
+  - {title: 'Github',     icon: 'github',    link: 'https://www.github.com/dantehemerson'}
+  - {title: 'Twitter',    icon: 'twitter',   link: 'https://twitter.com/dantehemerson'}
+  - {title: 'Linkedin',   icon: 'linkedin',  link: 'https://www.linkedin.com/in/dantehemerson/'}
+  - {title: 'Instagram',  icon: 'instagram', link: 'https://www.instagram.com/dantehemerson/'}
+  - {title: 'Facebook',   icon: 'facebook',  link: 'https://www.facebook.com/dantehemerson'}
 
 
 
