@@ -141,35 +141,35 @@ a:hover, a:focus {
   .fa.fa-github {
     transition: all .4s;    
     &:hover {
-      color: $github-color;
+      color: $github-color !important;
     }
   }
 
   .fa.fa-twitter {
     transition: all .4s;
     &:hover {
-      color: $twitter-color;
+      color: $twitter-color !important;
     }
   }
 
   .fa.fa-instagram {
     transition: all .4s;
     &:hover {
-      color: $instagram-color;
+      color: $instagram-color !important;
     }
   }
 
   .fa.fa-facebook {
     transition: all .4s;
     &:hover {
-      color: $facebook-color;
+      color: $facebook-color !important;
     }
   }
 
   .fa.fa-linkedin {
     transition: all .4s;
     &:hover {
-      color: $linkedin-color;
+      color: $linkedin-color !important;
     }
   }
 
