@@ -39,7 +39,7 @@ permalink: /contact/
 			<div class="row justify-content-center">
 				<div class="col-lg-8 form-contact-container">
 			 				<h3 class="title-section">Send Me a message</h3>
-			 				<hr class="contact-subtitle-hr background-gradient">
+			 				<hr class="contact-subtitle-hr">
 				 			<form role="form">
 							  <div class="form-group">
 							    <label for="InputName1" style="display: none;">Your Name</label>
@@ -62,7 +62,8 @@ permalink: /contact/
 					</div>
 			</div>			 		
 		</div>
-		<!-- {% include footer.html %} -->
+
+		{% include footer.html %}
 		
 	</div>
     

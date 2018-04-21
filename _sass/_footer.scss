@@ -21,6 +21,15 @@ $padding-footer: 20px;
   font-size: $icons-footer-size;  
 }
 
+/** Footer nav **/
+
+.footer-nav ul {
+  padding-left: 0;
+}
+
+.footer-nav ul li {
+  list-style: none;
+}
 
 /** Footer Logo **/
 .footer-logo-container {
