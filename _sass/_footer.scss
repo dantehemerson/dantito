@@ -1,11 +1,16 @@
 
+$icons-footer-size: 20px;
+$padding-footer: 20px;
+
 /* Footer */
 .footerwrap {  
-  
+  background: black;
+  padding-top: $padding-footer + 30px;
+  padding-bottom: $padding-footer;
 }
 
 .footerwrap p {
-  color: white;
+  margin-bottom: 0 !important;
 }
 
 .footerwrap h4 {
@@ -13,25 +18,29 @@
 }
 
 .footerwrap i {
-  font-size: 20px; // tamaño de los iconos del footer
-  color: white;
-  margin-right: 15px;
-}
-
-.footerwrap i:hover {
-  color: #00b3fe
+  font-size: $icons-footer-size;  
 }
 
 
-// Code with love by dantehemerson
-
-.footer-love {
- 
-  text-align: right; 
+/** Footer Logo **/
+.footer-logo-container {
 
 }
-.footer-love a:hover {
-  color: #00b3fe
+
+.footer-logo {
+  font-size: 8rem;
+  line-height: 1;
+  font-family: $avenir-black;
+}
+
+.footer-col-logo {
+  text-align: center;
+}
+
+
+.footer-love { 
+  text-align: left; 
+  margin-top: 20px;
 }
 
 
@@ -59,6 +68,7 @@
 .footer-love a .author {
   font-weight: bold;
 }
+
 .footer-love .a i {
   
   margin-right: 0;

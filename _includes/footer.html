@@ -1,14 +1,45 @@
-<footer class="footerwrap bg-secondary">
+<footer class="footerwrap">
 	<div class="container">
 		<div class="row">			
+			<div class="col-3">
+				<div class="footer-col-logo">					
+					<div class="footer-logo-container">
+						<p class="footer-logo">D</p>
+					</div>
+					<div>
+						<p>Dante Calderón</p>
+					</div>
+				</div>
+			</div>
 			<div class="col-sm-6">				
+				<div class="footer-about">
+					<h4>About Me</h4>
+					<p>Soy una persona que le dedica la mayor parte del tiempo a programar, tengo mucha pasion por ello, aprendi a programar de manera autodidacta.</p>
+				</div>
+			</div>		
+			<div class="col-sm-3">				
+				<div>
+					<h4>Me</h4>
+					<ul>
+						<li><a href="">Blog</a></li>
+						<li><a href="">Contact</a></li>
+						<li><a href="">Portfolio</a></li>
+					</ul>
+				</div>
+			</div>		
+		</div>	
+
+		<div class="row">
+			<div class="col-12">
 				<p>
 					{% for item in site.data.settings.social %}
 						<a href="{{ item.link }}" target="_blank"><i class="fa fa-{{ item.icon }}"></i></a>
 					{% endfor %}					
 				</p>
-			</div>		
-			<div class="col-sm-6">				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">				
 				<p class="footer-love">
 					<span href="" class="a">
 			          	<i class="fa fa-code" aria-hidden="true"></i>		          			
@@ -21,9 +52,11 @@
 		          	<span class="author">@dantehemerson</span>
 		          </a>					
 				</p>
-			</div>		
-		</div>		
+			</div>
+		</div>
+
 	</div>
+
 	<script src="{{ site.baseurl }}/assets/scripts/jquery.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="{{ site.baseurl }}/assets/scripts/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="{{ site.baseurl }}/assets/scripts/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
