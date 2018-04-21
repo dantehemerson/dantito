@@ -9,6 +9,72 @@ image:
    feature: portfolio_06.jpg
 ---
 
+
+
+¿Cómo estarás en una década? ¿Qué será de tu trabajo actual para entonces?
+
+En 10 años pueden pasar muchas cosas para las que no estaremos completamente preparados. La tecnología avanza de manera exponencial, así que en los años que vienen podremos ser testigos de una evolución en todos los campos gracias a las máquinas y la tecnificación de los trabajos.
+
+Al reflexionar sobre el futuro, es necesario que nos cuestionemos sobre muchos ámbitos, que nos hagamos preguntas así no tengamos respuestas y, en especial que tratemos de contemplar los campos que tienen que ver con nuestra profesión o nuestras áreas de conocimiento. Por ejemplo, ¿será que un robot te va a quitar mi trabajo en el futuro? ¿Desaparecerá tu profesión porque una máquina ahora hace las tareas requeridas?
+
+La creatividad se presenta en estos momentos como una posible solución, pues es la que nos ayudará a entender y prepararnos para usar la tecnología para desarrollar aquello que nos apasiona y dedicarle tiempo a lo que nos parece realmente importante.
+
+¿Alguna vez se han cuestionado si son o no son creativos?
+
+Existen muchos mitos alrededor de la creatividad. Nos han hecho creer que sólo los genios y los grandes artistas pueden tener un alto potencial creativo. También, que es algo con lo que se nace y que no se puede aprender.
+
+Se equivocan.
+
+Todos somos creativos, pero esta creatividad viene en magnitudes y expresiones diferentes. Recordemos que cuando éramos pequeños podíamos inventarnos historias y juegos de la nada, sabíamos resolver problemas con una inmediatez y resolución envidiables.
+Cuando crecemos, se puede ir perdiendo esa cualidad intrínseca de nuestro ser, no la cultivamos y dejamos que se atrofie, como un músculo que no se ejercita. Enterramos esa parte de nosotros y nos convencemos que no somos creativos, dejamos de cultivarlo.
+
+Lo primero que debemos entender es que la creatividad es inherente a nosotros y podemos disponer de ella si la trabajamos.
+Necesita esfuerzo, necesita alimentarse de conocimiento y, en especial, necesita de un constante “hacer-fallar-optimizar-reintentar”.
+
+¿Cómo te ayudará la creatividad para tu futuro?
+
+Los mejores momentos creativos son los que nacen de un problema que necesita una solución poco obvia. Volviendo al tema en que hablábamos de los trabajos del futuro, es muy importante que comencemos a pensar de manera creativa. De tal forma que podamos encontrar soluciones desde ya a problemas que pueden llegar y tendrán toda nuestra atención:
+¿A qué me dedicaré?
+¿Mi profesión será mi trabajo?
+¿Lo que hago hoy lo seguiré haciendo en unos años?
+
+Cuestionarnos, hacernos todas estas preguntas nos pueden ayudar a definir el mejor camino, pero la creatividad será la que nos ponga en el camino correcto con el avance necesario para llegar a nuestro destino
+
+En el curso de “Cómo prepararte profesionalmente para el futuro” de Platzi, aprenderás a utilizar estas herramientas para sacar más provecho de tus conocimientos y habilidades.
+El profesor Dani Granatta te llevará con su experiencia en este recorrido que te ayudará a prepararte ante lo impredecible.
+¡Inscríbete ya!
+
+
+Recordar vívidamente las clases de probabilidad estadística es poco probable, pero repasar y despertar el interés por descubrir las infinitas oportunidades en las que podemos aplicar esta rama de las matemáticas es algo que nos hará entender diferentes aspectos de nuestra cotidianidad de una manera más consciente.
+
+La probabilidad es la capacidad de calcular qué tan posible es que ocurra un evento. El análisis de variables nos permite saber el posible resultado de una decisión y esto nos da la capacidad de medir con mayor efectividad el impacto de nuestras acciones, si nos detenemos a pensar en esto nos damos cuenta que aplicamos la probabilidad y la estadística en muchas de nuestras acciones diarias de forma inconsciente.
+
+
+¿Creíste que lo que has visto es todo lo que Platzi tiene para ti? Estamos comprometidos por que tengas la mejor educación y hacerte la persona más competitiva para asegurarte un futuro profesional exitoso. Detrás de nosotros viene una generación que ha nacido con la tecnología y que están tan adaptados a ella que han comenzado a crearla.
+
+Es por esta razón que ha nacido el proyecto Platzi Kids un lugar donde nuestros niños podrán aprender diferentes disciplinas que completen su aprendizaje.
+
+
+![Imagen de platzi](https://i1.wp.com/www.padresam.com/wp-content/uploads/2017/06/Amigos.jpg?fit=1024%2C632&ssl=1
+ "titulo de imagen platzierzca")
+
+### Ahora tngo mucho dienro
+
+
+![Imagen de platzi](https://static.platzi.com/media/user_upload/Platzikids-a4f9690e-e30d-4f03-bdad-f0abef6677b7.jpg "titulo de imagen platzierzca")
+
+
+
+### Algunas otras imagenes que tengo:
+
+![Imagen de platzi](https://media.giphy.com/media/WoWm8YzFQJg5i/giphy.gif "titulo de imagen platzierzca")
+
+
+Esto es una línea normal
+
+> Esto es parte de un bloque de cita.
+> Esto es parte del mismo bloque de cita.
+
 The Nylas APIs allow developers to build email, calendar, and contacts functionality into their applications. Our goal is to support all three of these points fully, but until recently, our Contacts API didn’t have the full functionality that we wanted. Nylas is my first full-time engineering job, and shortly after joining, this need to upgrade the Contacts API surfaced again. It was a big task, but one that I was excited to take point on. In this blogpost, I’ll walk through the problem, the solution we came up with, and a few of the things that I learned as a result.
 
 ## The Problem
@@ -35,7 +101,6 @@ Actually using the product also showed me processes that while not broken, had a
 ### Put your product to the test.
 
 Writing good tests is important, but so is really using your product. When I thought I was finished with my Contacts v2.0 work, I started updating our Nylas NodeJS SDK to support the new functionality. This SDK is a NodeJS wrapper for our API which makes integrating the Nylas API into Javascript applications much easier. For the SDK, I had to add functions that enabled it to access the new endpoints, write tests for these functions, and expand the example applications in the SDK to include Contacts v2.0 functionality. 
-
 
 
 
