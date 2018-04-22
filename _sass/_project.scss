@@ -1,7 +1,8 @@
 .project-container {
-	font-size: 1.05em;
+	max-width: 992px;
+	font-size: 1.05rem;
 	line-height: 1.5;
-	letter-spacing: 0;
+	letter-spacing: 0;	
 }
 
 .post-container .title-project {
@@ -15,4 +16,31 @@
 
 .post-container .project-details h3 {
 	margin: 0;
+}
+
+.img-project {
+	max-height: 410px;
+	width: 100%;  
+	-o-object-fit: cover;
+	-o-object-position: 50% 50%;
+	object-fit: cover;
+	object-position: 50% 50%;	
+}
+
+.project-container hr {
+	background: #fe0072;
+	height: 2px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+
+.project-data {
+	margin-bottom: 42px;
+}
+
+@media (min-width: 768px) { 
+	.project-data {
+		margin-bottom: 0;
+	}	
 }

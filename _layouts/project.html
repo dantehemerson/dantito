@@ -5,14 +5,13 @@ style:
  embedded: true
 ---
 
-
 <body>
 	<div class="container-background">
 		{% include navbar.html %}
 			{% if page.image.feature %}
-				<img width="100%" style="max-height: 300px;" src="{{ site.baseurl }}/assets/images/{{ page.image.feature }}" alt="">
+				<img class="img-main-post img-project"  src="{{ site.baseurl }}/assets/images/{{ page.image.feature }}" alt="">
 			{% else %}
-				<img src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
+				<img class="img-main-post img-project"  src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
 			{% endif %}
 
 		<div class="container post-container project-container pb-lg pt-md">
@@ -21,22 +20,21 @@ style:
 					<h1 class="title-post title-project">{{ page.title }}</h1>	 		 		
 					<h2 class="subtitle-post subtitle-project">Un buena forma de pasar el tiempo cuando estas solo</h2>
 					<hr class="post-hr-header">
-				</div>
-			 	<div class="col-lg-7 col-md-10 mx-auto">
-				<!-- <div class="spacing"></div> -->
+				</div>				
+			</div>
+			<div class="row">
+			 	<div class="col-md-7 col-sm-10 mx-auto project-data">
 					{{ content }}	
 			 	</div>
 			 	
-			 	<div class="col-lg-5 col-md-10 mx-auto project-details">
-				 	<div class="spacing"></div>
+			 	<div class="col-md-5 col-sm-10 mx-auto project-details">				 	
 			 		<h3>Project Details</h3>
-			 		<div class="hline"></div>
-			 		<p><b>Date:</b>{{ page.date | date: ' %B %d'}} {{ page.date | date: ', %Y' | replace_first: '1', '2' }}</p>
+			 		<hr class="hline"></hr>
+			 		<p><b>Date:</b>{{ page.date | date: ' %B %d'}}{{ page.date | date: ', %Y' | replace_first: '1', '2' }}</p>
 			 		<p><b>Author:</b> Marcel Newman</p>
 			 		<p><b>Categories:</b> Illustration, Web Design, Wordpress</p>
 			 		<p><b>Tagged:</b> Flat, UI, Development</p>
-			 		<p><b>Client:</b> Wonder Corp.</p>
-			 		<p><b>Website:</b> <a href="http://blacktie.co">http://blacktie.co</a></p>
+			 		<p><b>Client:</b> Wonder Corp.</p>			 		
 			 	</div>		
 			</div>
 		</div>
