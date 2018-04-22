@@ -5,7 +5,7 @@
 				<a href="{{ post.url }}">
 
 						{% if post.image.feature %}
-							<img height="100%" src="{{ site.baseurl }}/assets/images/{{ post.image.feature }}" alt="">
+							<img src="{{ site.baseurl }}/assets/images/{{ post.image.feature }}" alt="">
 						{% else %}
 							<img src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
 						{% endif %}		     					
@@ -13,13 +13,13 @@
 			</div>			
 			<div class="row actions">
 				<div class="col-6">
-					<a class="link-no-border" href="">
+					<a class="link-no-border" target="_blank" href="{{ post.github }}">
 						<i class="fa fa-code"></i>
 						Source Code
 					</a>
 				</div>
 				<div class="col-6">
-					<a class="link-no-border" href="">
+					<a class="link-no-border" target="_blank" href="{{ post.url }}">
 						<i class="fa fa-eye"></i>
 						Demo
 					</a>

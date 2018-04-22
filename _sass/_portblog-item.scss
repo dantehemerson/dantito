@@ -7,6 +7,8 @@
 
 .portblog-item .box-body .cover a img {
   width: 100%;  
+  -o-object-fit: cover;
+  -o-object-position: 50% 50%;
   object-fit: cover;
   object-position: 50% 50%;
   height: 236px;
