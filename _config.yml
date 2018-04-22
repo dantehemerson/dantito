@@ -26,7 +26,6 @@ future: true
 sass:
   style: :compressed  # Change to :expanded for debugging
 
-permalink: /:year/:month/:day/:title.html
 
 url: https://dantehemerson.github.io/
 
@@ -42,3 +41,12 @@ highlighter: rouge
 
 
 comments: true
+
+plugins:
+  - jekyll-paginate
+
+
+## Pagination
+paginate: 3
+paginate_path: "/blog/page:num/"
+
