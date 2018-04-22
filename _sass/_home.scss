@@ -73,32 +73,6 @@
   //box-shadow: 1px 1px 5px #8e8e8e; 
 }
 
-
-@media (max-width: 575px) {
-  .headerwrap .title-container .greeting {
-      font-size: 1.4rem;
-  }
-  .headerwrap .title-container .name {
-    font-size: 6rem;
-    margin-top: -0.6rem !important;
-
-  }
-
-  .headerwrap .title-container .lastname {  
-    font-size: 2rem;
-    margin-top: -11px;    
-    letter-spacing: 0.8rem;
-  }
-  .headerwrap .title-container .username {
-    text-transform: lowercase;
-    font-size: 1rem;
-  }
-
-  .avatar {
-    width: 150px;    
-  }
-} 
-
 @media (max-width: 767px) {
   .headerwrap .title-container {
     padding-top: 15px;
@@ -115,3 +89,61 @@
   }
   
 }
+
+
+
+@media (max-width: 575.98px) {
+  .headerwrap .title-container .greeting {
+      font-size: 1.4rem;
+  }
+  .headerwrap .title-container .name {
+    font-size: 6rem;
+    margin-top: -0.6rem !important;
+
+  }
+
+  .headerwrap .title-container .lastname {  
+    font-size: 2.65rem;
+    margin-top: -11px;    
+    letter-spacing: 0.8rem;
+    padding-left: 16px;
+  }
+  .headerwrap .title-container .username {
+    text-transform: lowercase;
+    font-size: 1rem;
+  }
+
+  .avatar {
+    width: 150px;    
+  }
+} 
+
+@media (max-width: 400px) { 
+  .headerwrap .title-container .greeting {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+
+  }
+  .headerwrap .title-container .name {
+    font-size: 5rem;
+    margin-top: -0.6rem !important;
+
+  }
+
+  .headerwrap .title-container .lastname {  
+    font-size: 2rem;
+    margin-top: -11px;    
+    letter-spacing: 0.8rem;
+    padding-left: 5px;
+  }
+  .headerwrap .title-container {
+    padding-top: 27px;
+    padding-bottom: 20px;
+  }
+
+  .avatar {
+    width: 135px;    
+  }
+}
+
+
