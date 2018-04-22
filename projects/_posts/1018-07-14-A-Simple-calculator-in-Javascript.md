@@ -7,6 +7,7 @@ image:
   feature: calculator_js.png
 permalink: /portfolio/:title/
 github: 'https://github.com/dantehemerson/CalculatorJS/blob/master/README.md'
+hidden: true
 ---
 Una Calculadora simple, con las funciónes básicas.
 
