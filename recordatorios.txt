@@ -27,4 +27,4 @@ background-image: url(https://cdn2.hubspot.net/hubfs/3314308/bg--hero-blog.svg);
 *** hace mi historia con emojis :)
 
 
-
+Inclui todo el contenido de font-wesome.css a bootstrap.css, con el proposito de mejorar la velocidad de la pagina. Con esto hara una llamada a la hoja de estilos de bootstrap.
