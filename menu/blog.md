@@ -13,7 +13,7 @@ permalink: /blog/
 		<div class="container container-full pt">
 			<div class="row">				
 
-			     {% for post in site.posts limit: 6 %}		     
+			     {% for post in site.posts  %}		     
 
 			     	<!-- Si el post no contiene la categoria projects -->
 			     	{% unless post.categories contains 'projects' %}
