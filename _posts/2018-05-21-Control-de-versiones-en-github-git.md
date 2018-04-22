@@ -4,7 +4,8 @@ title:  "Control de versiones de gists en GithubGist"
 subtitle: "Como usar el verdadero poder de Github-gist con su control de versiones"
 date:   2018-04-21 08:20:33
 categories: github
-
+image:
+ feature: single02.jpg
 ---
 
 Hay veces en las cuales tenemos ciertos pedazos de codigo que nos gustaria guardar en [Github](https://www.github.com "Github"), pero no nos gusta la idea de crear un nuevo repositorio.
@@ -18,6 +19,7 @@ Github gist") nos permite hacer eso, podemos llevar el control de version de un 
 
 #### Segunda version:
 <script src="https://gist.github.com/dantehemerson/bc3ed1acf529faa0036ba49d261e0114/8a1f794e7b2d059057ce99a2a6770001ba5c470c.js"></script>
+
 
 #### Tercera version:
 <script src="https://gist.github.com/dantehemerson/bc3ed1acf529faa0036ba49d261e0114.js"></script>
