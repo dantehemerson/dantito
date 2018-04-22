@@ -4,8 +4,8 @@ title:  "Control de versiones de gists en GithubGist"
 subtitle: "Como usar el verdadero poder de Github-gist con su control de versiones"
 date:   2018-04-21 08:20:33
 categories: github
-image:
- feature: single02.jpg
+
+feature: 'https://s-media-cache-ak0.pinimg.com/originals/e2/ce/8d/e2ce8d0f37dd21e8a683d07f8f56da42.jpg'
 ---
 
 Hay veces en las cuales tenemos ciertos pedazos de codigo que nos gustaria guardar en [Github](https://www.github.com "Github"), pero no nos gusta la idea de crear un nuevo repositorio.

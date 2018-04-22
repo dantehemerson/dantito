@@ -7,6 +7,8 @@
 
 					{% if post.image.feature %}
 						<img src="{{ site.baseurl }}/assets/images/{{ post.image.feature }}" alt="">
+					{% elsif post.feature %}
+						<img src="{{ post.feature }}" alt="">	
 					{% else %}
 						<img src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
 					{% endif %}		     					
