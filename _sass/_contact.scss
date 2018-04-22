@@ -1,4 +1,6 @@
 $hr-contact-color: $titles-color;
+$font-size-socials: 50px;
+
 .socials {
   text-align: center;
   
@@ -15,19 +17,28 @@ $hr-contact-color: $titles-color;
 	.container-social {				
 		margin-top: 50px;
 	}
-	.container-social .fa {
-		font-size: 50px; 		
+
+	
+	.container-social a, .container-social .info {
+		color: $font-color;
 	}
 
-	.container-social a i {
-		padding-left: 10px;
-		padding-right: 10px;
+/** ICONOS dE REDES SOCIALES ***/
+	.fa.social-styled {				
+		background: #00000059;  
+		display: inline-block;  
+		text-decoration: none;
+		color: white;
+		padding: 10px;
+		font-size: $font-size-socials;
+		width: $font-size-socials;
+		text-align: center;
+		margin: 5px 2px;
+		border-radius: 50%;
+		box-sizing: content-box !important;		
 		transition: all .4s;
 		&:hover {						
-			transform:  scale(1.1,1.1);
-			
-
-
+			transform:  scale(1.1,1.1);		
 		}
 	}
 
@@ -39,9 +50,6 @@ $hr-contact-color: $titles-color;
 		margin-top: 7px;
 	}
 
-	.container-social a i, .container-social .info {
-		color: $font-color;
-	}
 
 .contact-header {
 	text-align: center;
