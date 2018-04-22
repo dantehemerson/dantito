@@ -1,5 +1,5 @@
 $hr-contact-color: $titles-color;
-$font-size-socials: 50px;
+$font-size-socials: 70px;
 
 .socials {
   text-align: center;
@@ -41,7 +41,7 @@ $font-size-socials: 50px;
 		font-size: $font-size-socials;
 		width: $font-size-socials;
 		text-align: center;
-		margin: 5px 10px;
+		margin: 0 11px;
 		border-radius: 10%;
 		box-sizing: content-box !important;		
 		transition: all .4s;
@@ -55,18 +55,17 @@ $font-size-socials: 50px;
 		// 3
 		background: #d6249f;
 		background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-		font-size: 71px;
-		width: 71px;
+		font-size: $font-size-socials - 12px;
+		width: $font-size-socials - 12px;
 		padding: 3px;
-		border-radius: 20px;
+		border-radius: 15px;
 	}
 
 	.fa.fa-twitter.social-styled {
 		background: transparent;
 		color: $twitter-color;
 		
-		font-size: 82px;
-    	width: 82px;
+	
     	
 		&:hover {
 			color: $twitter-color !important;			
@@ -76,9 +75,6 @@ $font-size-socials: 50px;
 	.fa.fa-github.social-styled {
 		background: transparent;
 		color: $github-color;
-
-		font-size: 82px;
-		width: 82px;
 		&:hover {
 			color: $github-color !important;
 		}
@@ -86,10 +82,9 @@ $font-size-socials: 50px;
 	
 	.fa.fa-linkedin.social-styled {
 		background: $linkedin-color;		
-		font-size: 51px;
-		width: 51px;
-		padding: 14px;
-		margin-bottom: 10px;
+		font-size: 41px;
+		width: 44px;
+		padding: 12px;		
 		&:hover {
 			
 		}
@@ -141,4 +136,34 @@ $font-size-socials: 50px;
 
 .header-contact hr {
 	margin-top: 0;
+}
+
+
+@media (max-width: 575.98px) { 
+
+	.fa.social-styled {							
+		font-size: $font-size-socials - 5px;
+		width: $font-size-socials - 5px;
+		margin: 0 8px;
+	}
+	
+	.fa.fa-instagram.social-styled {
+		font-size: $font-size-socials - 17px;
+		width: $font-size-socials - 17px;
+		padding: 3px;
+		border-radius: 15px;
+	}
+
+	.fa.fa-linkedin.social-styled {			
+		font-size: 37px;
+		width: 41px;
+		padding: 11px;				
+	} 
+
+}
+
+@media (max-width: 375.98px) {
+	.fa.social-styled {									
+		margin: 0 5px;
+	}
 }

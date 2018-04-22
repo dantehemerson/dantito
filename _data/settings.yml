@@ -30,16 +30,23 @@ social:
 
 
 social-net:
-  - { icon: 'github',    
+  - { title: 'Github - Dante Calderón',
+      icon: 'github',    
       link: 'https://www.github.com/dantehemerson',
       info: 'Donde comparto mis codigos que he hecho.' }
-  - { icon: 'twitter',   
+  - { 
+      title: 'Twitter - Dante Calderón',   
+      icon: 'twitter',
       link: 'https://twitter.com/dantehemerson',
       info: 'Done twiteo sobre cosas que me interesan, sobre todo programación. Tweeteame o enviame un mensaje :).'}
-  - { icon: 'instagram', 
+  - { 
+      title: 'Instagram - Dante Calderón',
+      icon: 'instagram', 
       link: 'https://www.instagram.com/dantehemerson/',
       info: 'Donde comparto mis fotos personales codeando.'}
-  - { icon: 'linkedin',  
+  - { 
+      title: 'Linkedin - Dante Calderón',
+      icon: 'linkedin',  
       link: 'https://www.linkedin.com/in/dantehemerson/',
       info: 'Puedes encontrar informacion profesionala aca'}
 
