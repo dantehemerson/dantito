@@ -101,10 +101,6 @@ a:hover, a:focus {
   line-height: 26px;
 }
 
-.btn:hover {
-  cursor: pointer;
-}
-
 /** Bootstrap clases sobreescribiendo **/
   input, textarea {
     font-size: 18px !important;
@@ -114,13 +110,36 @@ a:hover, a:focus {
     padding: 10px 12px 6px !important;
     border: 1px solid #ccc !important;
   }
-  .btn-primary {    
+
+  .btn {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: .4s;
     font-family: $avenir-heavy;
+    font-size: 1.05rem;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .btn.btn-inverted {
+    background-color: transparent !important;
+    border-width: 2px;
+    color: $primary-color !important;    
+    &:hover {
+      border-color: $primary-color !important;
+      background: $primary-color !important;
+      color: white !important;
+    }
+
+  }
+
+  .btn.btn-primary {    
     background: $primary-color;
-    border-color: $primary-color;
-    line-height: 15px !important;
-    min-height: 38px !important;
-    height: 45px !important;
+    border-color: $primary-color;   
     &:hover {
       background: darken($primary-color, 10% );
       border-color: darken($primary-color, 10%);
