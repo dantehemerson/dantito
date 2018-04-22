@@ -34,13 +34,59 @@ $font-size-socials: 50px;
 		width: $font-size-socials;
 		text-align: center;
 		margin: 5px 2px;
-		border-radius: 50%;
+		border-radius: 10%;
 		box-sizing: content-box !important;		
 		transition: all .4s;
-		&:hover {						
+		&:hover {		
+			color: white !important;				
 			transform:  scale(1.1,1.1);		
 		}
 	}
+	
+	.fa.fa-instagram.social-styled {
+		// 3
+		background: #d6249f;
+		background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+		font-size: 71px;
+		width: 71px;
+		padding: 3px;
+		border-radius: 20px;
+	}
+
+	.fa.fa-twitter.social-styled {
+		background: transparent;
+		color: $twitter-color;
+		
+		font-size: 82px;
+    	width: 82px;
+    	
+		&:hover {
+			color: $twitter-color !important;			
+		}
+	}
+
+	.fa.fa-github.social-styled {
+		background: transparent;
+		color: $github-color;
+
+		font-size: 82px;
+		width: 82px;
+		&:hover {
+			color: $github-color !important;
+		}
+	}
+	
+	.fa.fa-linkedin.social-styled {
+		background: $linkedin-color;		
+		font-size: 51px;
+		width: 51px;
+		padding: 14px;
+		margin-bottom: 10px;
+		&:hover {
+			
+		}
+	} 
+
 
 	.contact-subtitle-hr {
 		background-color: $hr-contact-color;
