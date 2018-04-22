@@ -4,9 +4,13 @@
 		<h3 class="title-section">Follow me</h3>
 		<hr class="contact-subtitle-hr ">
 		<div class="container-social">
+			<div>
 			{% for item in site.data.settings.social-net %}
-					<a class="link-no-border fa fa-{{ item.icon }} social-styled" href="{{ item.link }}" target="_blank"></a>		
+						<div>
+							<a class="link-no-border fa fa-{{ item.icon }} social-styled" href="{{ item.link }}" target="_blank"></a>		
+						</div>
 			{% endfor %}		
+			</div>
 		</div>
 	</div>
 </div>

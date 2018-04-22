@@ -17,6 +17,15 @@ $font-size-socials: 50px;
 	.container-social {				
 		margin-top: 50px;
 	}
+	
+	.container-social > div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.container-social > div > div {		
+		display: inline-block;
+	}
 
 	
 	.container-social a, .container-social .info {
@@ -28,12 +37,11 @@ $font-size-socials: 50px;
 		background: #00000059;  
 		display: inline-block;  
 		text-decoration: none;
-		color: white;
-		padding: 10px;
+		color: white;		
 		font-size: $font-size-socials;
 		width: $font-size-socials;
 		text-align: center;
-		margin: 5px 2px;
+		margin: 5px 10px;
 		border-radius: 10%;
 		box-sizing: content-box !important;		
 		transition: all .4s;
