@@ -15,19 +15,23 @@ style:
 				<img src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
 			{% endif %}
 
-		<div class="container post-container">
+		<div class="container post-container project-container pb-lg pt-md">
 			<div class="row">
+				<div class="col-12">
+					<h1 class="title-post title-project">{{ page.title }}</h1>	 		 		
+					<h2 class="subtitle-post subtitle-project">Un buena forma de pasar el tiempo cuando estas solo</h2>
+					<hr class="post-hr-header">
+				</div>
 			 	<div class="col-lg-7 col-md-10 mx-auto">
-				 	<!-- <div class="spacing"></div> -->
-			<h1>{{ page.title }}</h1>	 		 		
+				<!-- <div class="spacing"></div> -->
 					{{ content }}	
 			 	</div>
 			 	
-			 	<div class="col-lg-5 col-md-10 mx-auto">
+			 	<div class="col-lg-5 col-md-10 mx-auto project-details">
 				 	<div class="spacing"></div>
-			 		<h4>Project Details</h4>
+			 		<h3>Project Details</h3>
 			 		<div class="hline"></div>
-			 		<p><b>Date:</b> April 18, 2014</p>
+			 		<p><b>Date:</b>{{ page.date | date: ' %B %d'}} {{ page.date | date: ', %Y' | replace_first: '1', '2' }}</p>
 			 		<p><b>Author:</b> Marcel Newman</p>
 			 		<p><b>Categories:</b> Illustration, Web Design, Wordpress</p>
 			 		<p><b>Tagged:</b> Flat, UI, Development</p>

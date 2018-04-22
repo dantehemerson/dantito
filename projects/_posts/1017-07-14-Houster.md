@@ -9,7 +9,7 @@ permalink: /portfolio/:title/
 ---
 Una Calculadora simple, con las funciónes básicas.
 
-#### Operaciones Disponibles
+### Operaciones Disponibles
 - Suma
 - Resta
 - Multiplicación
