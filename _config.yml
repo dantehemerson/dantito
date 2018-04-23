@@ -28,7 +28,8 @@ sass:
   style: :compressed  # Change to :expanded for debugging
 
 
-url: https://dantehemerson.github.io/
+url: http://dantecalderon.com/
+url_gh_pages: http://dantecalderon.com
 
 debug: false
 
