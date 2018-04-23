@@ -3,15 +3,43 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-
    <title>
     {% if page.title == "Home" %}
-      {{ site.data.settings.title }} | {{ site.data.settings.tagline }}
+      {{ site.data.settings.title }}
     {% else %}
       {{ page.title }} | {{ site.data.settings.title }}
     {% endif %}
   </title>
       
+
+
+    <!-- Twitter cards -->
+        <meta name="twitter:card"       content="summary_large_image">
+        <meta name="twitter:site"       content="@{{ site.data.authors.primary.twitter }}">
+        <meta name="twitter:creator"    content="@{{ site.data.authors.primary.twitter }}">    
+        <meta name="twitter:title" 
+            content="{% if page.title == 'Home' %}
+                        {{ site.data.settings.title }}
+                    {% else %}
+                        {{ page.title }} | {{ site.data.settings.title }}
+                    {% endif %}">
+
+        {% if page.image.feature %}
+            <meta property="twitter:image:src" content="{{ site.baseurl }}/assets/images/{{ page.image.feature }}">
+        {% elsif page.feature %}
+            <meta property="twitter:image:src" content="{{ page.feature }}">
+        {% else %}
+            <meta property="twitter:image:src" content="{{ site.baseurl }}/assets/images/thumb01.jpg">            
+        {% endif %}
+
+        <meta name="twitter:description" 
+            content="{% if page.description %}
+                        {{ page.description | strip_html | strip_newlines | truncate: 160 }}
+                    {% else %}
+                        {{ site.description }}
+                    {% endif %}">
+
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css">
 
@@ -36,17 +64,11 @@
     <!-- For change color of google-chrome on android -->
     <meta name="theme-color" content="#350040">
 
-
-  
-   
     <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
-
     
     <!-- Redifución Web -->
     <link rel="alternate" type="application/atom+xml" title=" Dante Calderón - Atom feed" href="{{ site.baseurl }}/feed.xml" />
 
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico" />
-
-
     
   </head>

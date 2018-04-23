@@ -9,9 +9,7 @@ comments: true
 <body>	
 	<div class="container-background">
 		{% include navbar.html %}	
-	
 		<div class="container post-container">
-
 			{% if page.image.feature %}
 				<img width="100%" src="{{ site.baseurl }}/assets/images/{{ page.image.feature }}" alt="">				
 			{% elsif page.feature %}
@@ -19,14 +17,13 @@ comments: true
 			{% else %}
 				<img src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
 			{% endif %}			
-			
 			<h1 class="title-post">{{ page.title }}</h1>	
-			
 			{% if page.subtitle %}
 				<h2 class="subtitle-post">{{ page.subtitle }}</h2>
 			{% endif %}
-			
+
 			<hr class="post-hr-header">
+
 			<div class="post-author-date">
 				<span>
 					<a class="author" href="dantecalderon.com">DANTE CALDERON,</a>
@@ -36,13 +33,7 @@ comments: true
 				</span>
 				
 			</div>
-
 			{{ content }}	
-
-
-<!-- 			<p>SHARE: </p>
- -->			<!-- {% include social-sharing.html %} -->
-
 		</div>
 				
 		{% include suscribe.html %}
@@ -57,35 +48,6 @@ comments: true
 			<script id="dsq-count-scr" src="//dantecalderon.disqus.com/count.js" async></script>
 		{% endif %}
 		
-
 		{% include footer.html %}
 	</div>
 </body>
-
-<!-- 
-<script type="text/javascript">
-var disqus_config = function () {
-      this.page.url = document.location.href;
-      // this will make sure
-      // when url became /blog/2016/11/15/how-to-add-background-music-in-processing-3.0
-      // or /blog/2016/11/15/how-to-add-background-music-in-processing-3.0/
-      // or /blog/2016/11/15/how-to-add-background-music-in-processing-3.0.html
-      // will all back to /blog/2016/11/15/how-to-add-background-music-in-processing-3.0
-      // for disqus to recongize the post
-      var pathname = document.location.pathname;
-      var dividerList = pathname.split("/");
-      if(dividerList[dividerList.length - 1] == "") {
-        // there exist trailing "/", we should remove them
-        pathname = pathname.slice(0, -1)
-      }
-      // remove .html if any
-      pathname = pathname.replace(".html", "");
-      this.page.identifier = pathname;
-    };
-    (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = '//poanchen.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-   </script> -->

@@ -7,6 +7,7 @@ date:   2017-11-28 17:47:30 -0500
 categories: jekyll update
 image:
    feature: portfolio_06.jpg
+description: "Esta es la descripcion en el post que quiero compartir en twitter. Ademas estoy intentando muchas cosas antes de que esto quede mal. So vamonos"
 ---
 
 
