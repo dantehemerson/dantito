@@ -1,0 +1,53 @@
+$font-size-social-sharing: 40px;
+
+.social-sharing-row {
+    justify-content: center;
+}
+.social-sharing-row .social-sharing-container {
+    display: flex;
+}
+
+.fa.social-share-link {
+    padding: 7px;
+    background: #00000059;  
+    display: inline-block;
+    color: white;       
+    font-size: $font-size-social-sharing - 8px;
+    width: $font-size-social-sharing;
+    text-align: center;
+    box-sizing: content-box !important;     
+    transition: all .4s;
+    &:hover {       
+        color: white !important;
+        transform:  scale(1.1, 1.1);     
+    }
+}
+
+.share-on-container p {
+    margin: 0;
+}
+
+
+.social-sharing-row .social-sharing-container .fa.fa-twitter {
+  
+    background: $twitter-color !important;
+
+}
+
+.social-sharing-row .social-sharing-container .fa.fa-facebook {
+  
+    background: $facebook-color !important;
+  
+}
+
+.social-sharing-row .social-sharing-container .fa.fa-google-plus {
+  
+    background: $google-plus-color !important;
+  
+}
+
+.social-sharing-row .social-sharing-container .fa.fa-linkedin {
+  
+    background: $linkedin-color !important;
+  
+}

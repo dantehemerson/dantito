@@ -1,7 +1,18 @@
-<div class="post-share">
-	<div class="share-icons">
-		<a href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.github.url }}{{ page.url }}&amp;via={{ site.data.authors.primary.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-		<a href="https://www.facebook.com/sharer/sharer.php?u={{ site.github.url }}{{ page.url }}&amp;title={{ page.title }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-		<a href="https://plus.google.com/share?url={{ site.github.url }}{{ page.url }}" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+<div class="col-12" >
+	<div class="row">
+		<div class="col-12 share-on-container">			
+			<p style="text-align: center;">Share on:</p>
+		</div>
+	</div>
+	<div class="row social-sharing-row">
+	    <div class="social-sharing-container">
+	        
+	        {% for item in site.data.settings.social-sharing %}
+	        	<a class="fa fa-{{ item.icon }} link-no-border social-share-link" href="" title="Share on {{ item.title }}"></a> 
+			{% endfor %}	
+	        	       
+	    </div>
+		
 	</div>
 </div>
+
