@@ -12,16 +12,56 @@ Hay veces en las cuales tenemos ciertos pedazos de codigo que nos gustaria guard
 GithubGist [GithubGist](https://gist.github.com/ "
 Github gist") nos permite hacer eso, podemos llevar el control de version de un codigo (o archivo).
 
-## Versiones del gist fibo.py 
+## Syntaxis de github
+<script src="https://gist.github.com/dantehemerson/a405d340be6becd8696f4a4d49e2fb1f.js"></script>
 
-#### Primera version (o primer commit):
-<script src="https://gist.github.com/dantehemerson/bc3ed1acf529faa0036ba49d261e0114/b7c8d18a53c35550f4b0f3df0811d319ff75581f.js"></script>
-
-#### Segunda version:
-<script src="https://gist.github.com/dantehemerson/bc3ed1acf529faa0036ba49d261e0114/8a1f794e7b2d059057ce99a2a6770001ba5c470c.js"></script>
+### Mi sintaxys
 
 
-#### Tercera version:
-<script src="https://gist.github.com/dantehemerson/bc3ed1acf529faa0036ba49d261e0114.js"></script>
+```javascript
+'use strict';
+
+// No quiero ser un estorbo remix
+function holaMundo() {
+	console.log("Hola Mundo");
+}
+
+
+const http = require('http'),
+	options = {
+		host : 'dantecalderon.com',
+		port : 80,
+		path : '/blog'
+	};
+
+let htmlCode = '';
+
+function httpClient(res) {
+	console.log(`El sitio ${options.host} ha respondido. Código de Estado: ${res.statusCode}`);
+	res.on('data', data => {
+		htmlCode += data;
+		console.log( data, data.toString() );
+	});
+}
+
+function httpError(err) {
+	console.log(`El sitio ${options.host} no respondió. Código de Estado: ${err.code}. Error: ${err.message}`);
+}
+
+function webServer(req, res) {
+	res.writeHead(200, {'Content-Type':'text/html'});
+	res.end(htmlCode);
+}
+
+//instancia cliente de HTTP
+http
+	.get(options, httpClient)
+	.on('error', httpError);
+
+//instancia servidor de HTTP
+http
+	.createServer(webServer)
+	.listen( 3000, 'localhost', () => console.log('Servidor %% corriendo en http://localhost:3000/') );
+```
 
 
