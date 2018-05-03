@@ -46,6 +46,7 @@ comments: true
 
 plugins:
   - jekyll-paginate
+  - jemoji
 
 
 ## Pagination
