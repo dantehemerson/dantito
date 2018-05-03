@@ -32,6 +32,10 @@ p > img {
 	margin-right: auto;
 }
 
+p > img.emoji {
+	display: inline-block;
+}
+
 h2 {
 	opacity: 0.7;
 	margin-top: 40px;

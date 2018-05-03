@@ -65,5 +65,14 @@ http
 ```
 
 
-## Añdiendo gits con la gema jekyll-gist 
+## Añdiendo gits con la gema jekyll-gist :+1: 
+:smile: hola mundo :smile:
+ahora quiesiera estar rn :pe: pero aora que tod termino no quiersie  aslfj slore Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+:bowtie: quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure:sunglasses: dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
 {% gist 29b80b217f269f6ad43a712d52fd595e %}
