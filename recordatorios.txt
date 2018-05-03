@@ -27,4 +27,61 @@ background-image: url(https://cdn2.hubspot.net/hubfs/3314308/bg--hero-blog.svg);
 *** hace mi historia con emojis :)
 
 
+
+Tips:
+	* Logo y eslogan(frase inspiradora)
+	* Eslogan i create beautiful design, that makes difference
+	* Listar claramente sus servicios
+	* Agraga tu objetivo
+		Mi objetivo es construir sitios web rápidos y con capacidad para dispositivos móviles que se comuniquen claramente con los visitantes.
+	* Esto podria ir enc contacto, Construyamos juntos
+¿Tienes un proyecto que estás buscando para despegar? Me encantaría saber de ti. Envíe un mensaje a 	hello@michaelckappeler.com para comenzar a rodar la pelota.
+
+
 Inclui todo el contenido de font-wesome.css a bootstrap.css, con el proposito de mejorar la velocidad de la pagina. Con esto hara una llamada a la hoja de estilos de bootstrap.
+
+
+
+
+# 20 y/o JavaScript Developer 💻 React ✨ Node Instagram: 
+
+
+# Full Stack web developer in Bogota. I post highlights of pieces of information I find in books, podcasts, videos, etc.. Colombian.
+
+# Polímata en desarrollo. Dueño de un montón de sueños; los persigo día a día sin descansar hasta alcanzarlos. Birdman Astronaut. Metallica connoisseur.
+
+
+# 
+Hola, mi nombre es Chris Thurman. Soy un diseñador web, desarrollador de UI y consultor de negocios en línea con sede en Louisville, KY. También tengo grandes habilidades en branding, motion graphics, video y diseño de impresión. Si tiene un proyecto o una necesidad creativa con la que pueda ayudar, 
+
+
+¡Hola! Soy Dante Calderon. Soy Desarrollador Front-end, aficionado al desarrollo de videojuegos, a la musica y a 7mo arte, soy fan del cine clasico y el humor negro.
+
+
+
+####
+Estoy obsesionado con hacer cosas y aún más obsesionado con hacer las cosas mejor. He estado en el negocio de la creación desde que colgué mi primer cuadro en el refrigerador cuando tenía 3. Después de graduarme de la Universidad de Kentucky, he participado activamente en la comunidad de diseño web durante los últimos 10 años. Diseñé sitios web para pequeñas empresas, corporaciones, organizaciones sin fines de lucro, iglesias, músicos y más. También comencé un blog de diseño, Visual Swirl , donde comparto inspiración, tutoriales y recursos.
+
+Mi especialidad es la estrategia, el diseño y el desarrollo de sitios web completos, hacer magia de píxeles en photoshop y convertirla en un hermoso HTML semántico y CSS. Mis intereses, sin embargo, se extienden más allá de la web y me encanta ayudar a las personas con la marca, el diseño de impresión y la estrategia de marketing. Incluso me encanta hacer que los diseños se muevan mediante la creación de gráficos en movimiento y video profesionales .
+
+Cuando no estoy diseñando, probablemente estoy saliendo con mi esposa, entreteniéndome con nuestra increíble niña de 5 años, viendo baloncesto universitario, jugando golf o jugando con algo inspirado en Steve Jobs.
+
+
+
+#Si desea realizar una consulta, no dude en ponerse en contacto con nosotros y le responderemos lo antes posible.
+
+Si prefiere contactarme directamente, envíe su correo electrónico a: adam@adamhartwig.co.uk
+
+Sígueme en Twitter @ImAdamTM
+
+
+
+
+
+
+###
+Hola, soy Scott Tolinski.
+
+Soy desarrollador web senior para Team Detroit y anteriormente desarrollador de aplicaciones web para la Universidad de Michigan y desarrollador sénior en Q LTD  en Ann Arbor, MI. También realizo diseño y desarrollo web independiente para proyectos que me parecen interesantes, desafiantes o emocionantes, y ofrezco capacitación o consultoría privada en varios temas web. En 2012, creé Level Up Tuts  con el desarrollador web Ben Schaaf . Con Level Up Tutorials, he llevado nuestro conocimiento de las tecnologías web a YouTube para proporcionar capacitación gratuita a los desarrolladores que buscan aprender algo nuevo. También he creado paquetes de tutoriales premium para Packt Publishing .
+También disfruto de bboying también conocido como breakdancing, y he estado bailando durante más de 8 años haciendo shows para equipos profesionales de la NFL y la NBA. Me inspiro en una taza de té verde, música excelente y películas de kung fu de Shaw Bros.
+Por favor contáctame si te gustaría trabajar en un proyecto juntos, o solo quieres chatear.
