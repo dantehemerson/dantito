@@ -122,7 +122,7 @@ a:hover, a:focus {
     padding-left: 30px;
     padding-right: 30px;
     transition: .4s;
-    font-family: $avenir-heavy;
+    
     font-size: 1.05rem;
     cursor: pointer;
     &:hover {
@@ -136,7 +136,7 @@ a:hover, a:focus {
     color: $primary-color !important;    
     &:hover {
       border-color: $primary-color !important;
-      background: $primary-color !important;
+      background: #5fd3fa30 !important;
       color: white !important;
     }
 

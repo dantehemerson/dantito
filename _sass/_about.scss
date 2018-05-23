@@ -17,9 +17,10 @@ $hr-about-color: $titles-color;
 }
 
 .about-hr {
-	background-color: $hr-about-color;
-	width: 33px;
+	background-color: $navbar-font-color;
+	width: 75px;
 	height: 4px;
 	border: none;	
 	margin-top: 7px;
+	box-shadow: 0 0 8px $navbar-font-color;
 }

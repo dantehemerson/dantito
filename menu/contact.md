@@ -42,19 +42,15 @@ permalink: /contact/
 			 				<hr class="contact-subtitle-hr">
 				 			<form role="form">
 							  <div class="form-group">
-							    <label for="InputName1" style="display: none;">Your Name</label>
 							    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" required>
 							  </div>
 							  <div class="form-group">
-							    <label for="InputEmail1" style="display: none;">Email address</label>
 							    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
 							  </div>
 							  <div class="form-group">
-							    <label for="InputSubject1" style="display: none;">Subject</label>
 							    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Subject">
 							  </div>
 							  <div class="form-group">
-							  	<label for="message1" style="display: none;">Message</label>
 							  	<textarea class="form-control" id="message1" rows="6" placeholder="Your Message here" required></textarea>
 							  </div>
 							  <button type="submit" class="btn btn-primary">Send Message</button>
