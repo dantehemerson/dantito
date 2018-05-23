@@ -111,7 +111,9 @@ a:hover, a:focus {
 
   input[type=text], input[type=email], textarea {
     padding: 10px 12px 6px !important;
-    border: 1px solid #ccc !important;
+    border: 1px solid black !important;
+    background: #ffffff0d !important;
+    color: white !important;
   }
 
   .btn {
@@ -197,8 +199,9 @@ a:hover, a:focus {
 
 
 .form-control:focus {
-  border-color: #939090;
-  box-shadow: 0 0 0 0.2rem transparentize($primary-color, 0.80);
+  border-color: $navbar-font-color !important;
+  color: white !important;
+  box-shadow: 0 0 0 1px $navbar-font-color !important;
 }
 
 
