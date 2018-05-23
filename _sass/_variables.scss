@@ -13,6 +13,13 @@
 	$avenir-obl: 'Avenir LT Std 55 Oblique', sans-serif;
 
 
+
+/** Colors **/
+$background-color: #000d16;
+$navbar-font-color: #5fd3fa;
+
+
+
 /** Global Colors **/
 	// For h*
 	$titles-color: #0D2B29;
@@ -38,7 +45,7 @@ $hover-default-color: #00b3fe;
 
 
 // Navbar colors
-		$navlink-color: #2b2b2b;
+		$navlink-color: $navbar-font-color;
 
 $padding-navbar: 0.4rem;
 

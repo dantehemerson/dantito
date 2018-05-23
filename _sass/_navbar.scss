@@ -17,9 +17,12 @@
 
 .navbar-custom .navbar-nav .nav-link {
     color: $navlink-color;
+    text-shadow: 0 0 8px $navlink-color;
+    font-family: 'Audiowide', cursive;  
     position: relative;
     margin-left: 4px;
     margin-right: 4px;
+    text-transform: uppercase;
 }
 
 .navbar-custom .navbar-nav .nav-link:before {
@@ -29,7 +32,7 @@
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: $navlink-color;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -55,7 +58,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: $navlink-color;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

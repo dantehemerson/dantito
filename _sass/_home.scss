@@ -1,7 +1,8 @@
+@import 'variables';
 .headerwrap {    
   padding-bottom: 0px;
   text-align: center; 
-  background-color: #252627;  
+  background-color: $background-color;  
   background-position: top left !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;

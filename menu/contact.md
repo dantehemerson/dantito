@@ -24,7 +24,7 @@ permalink: /contact/
 			
 		</div>    
 
-		<div class="container-full white-background">
+		<div class="container-full">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-8 follow-me-container">					
