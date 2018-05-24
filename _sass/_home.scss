@@ -41,13 +41,13 @@
   font-size: 7.3rem;
   margin-top: -0.6rem !important;
   /* BACKGROUND GRADIENT */
-  background: -moz-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* ff3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(164,27,239,1)), color-stop(33%, rgba(164,27,239,1)), color-stop(68%, rgba(254,0,114,1)), color-stop(100%, rgba(254,0,114,1))); /* safari4+,chrome */
-  background: -webkit-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* opera 11.10+ */
-  background: -ms-linear-gradient(43deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* ie10+ */
-  background: linear-gradient(47deg, rgba(164,27,239,1) 0%, rgba(164,27,239,1) 33%, rgba(254,0,114,1) 68%, rgba(254,0,114,1) 100%); /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a41bef', endColorstr='#fe0072',GradientType=1 ); /* ie6-9 */
+  background: -moz-linear-gradient(43deg, $gradient-main-color-1 0%, $gradient-main-color-1 33%, $gradient-main-color-2 68%, $gradient-main-color-2 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, $gradient-main-color-1), color-stop(33%, $gradient-main-color-1), color-stop(68%, $gradient-main-color-2), color-stop(100%, $gradient-main-color-2)); /* safari4+,chrome */
+  background: -webkit-linear-gradient(43deg, $gradient-main-color-1 0%, $gradient-main-color-1 33%, $gradient-main-color-2 68%, $gradient-main-color-2 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(43deg, $gradient-main-color-1 0%, $gradient-main-color-1 33%, $gradient-main-color-2 68%, $gradient-main-color-2 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(43deg, $gradient-main-color-1 0%, $gradient-main-color-1 33%, $gradient-main-color-2 68%, $gradient-main-color-2 100%); /* ie10+ */
+  background: linear-gradient(47deg, $gradient-main-color-1 0%, $gradient-main-color-1 33%, $gradient-main-color-2 68%, $gradient-main-color-2 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#{$gradient-main-color-1}, endColorstr=#{$gradient-main-color-2},GradientType=1 ); /* ie6-9 */
 
 
 
@@ -60,7 +60,7 @@
 .headerwrap .title-container .lastname {  
   font-size: 3rem;
   margin-top: -11px;
-  padding-left: 0.4rem;
+  padding-left: 0.4em;
   letter-spacing: 1.3rem;
 }
 .headerwrap .title-container .username {
