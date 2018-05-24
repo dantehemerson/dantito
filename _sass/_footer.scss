@@ -9,6 +9,8 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
   padding-bottom: $padding-footer;
   background-image: url("../assets/images/img-bg-footer.png");
   color: $font-footer-color;
+  border-top: 2px solid #091721;
+    box-shadow: 0 0 4px #000000;
 }
 
 .footerwrap p {
