@@ -146,8 +146,8 @@ a:hover, a:focus {
     background: $primary-color;
     border-color: $primary-color;   
     &:hover {
-      background: darken($primary-color, 10% );
-      border-color: darken($primary-color, 10%);
+      background: #5fd3fa30 !important;
+      border-color: $primary-color !important;
     }
     &:active {
       background: $primary-color !important;
