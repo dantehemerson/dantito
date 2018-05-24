@@ -55,7 +55,7 @@ Inclui todo el contenido de font-wesome.css a bootstrap.css, con el proposito de
 Hola, mi nombre es Chris Thurman. Soy un diseñador web, desarrollador de UI y consultor de negocios en línea con sede en Louisville, KY. También tengo grandes habilidades en branding, motion graphics, video y diseño de impresión. Si tiene un proyecto o una necesidad creativa con la que pueda ayudar, 
 
 
-¡Hola! Soy Dante Calderon. Soy Desarrollador Web Front-end, 
+¡Hola! Soy Dante Calderon. Soy Programador en Javascript, Go & Python.
 
 aficionado al desarrollo de videojuegos, a la musica y a 7mo arte, soy fan del cine clasico y el humor negro.
 

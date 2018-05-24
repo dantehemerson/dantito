@@ -16,7 +16,8 @@ scripts:
               <div class="col-md-8">                
                 <h3 class="greeting">Hello, I am</h3>
                 <h1 class="name">Dante</h1>
-                <h2 class="lastname">Calderón</h2>                
+                <h2 class="lastname">Calderón</h2> 
+                <h3 class="slogan">Javascript / Go / Python &#183; Developer</h3>               
               </div>
             </div>
       </div>
