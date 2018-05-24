@@ -5,7 +5,7 @@ scripts:
  - index
 ---
 <body itemscope="http://schema.org/Person" itemtype="http://schema.org/Blog">
-  <header class="headerwrap">
+  <header class="headerwrap" >
     <div class="header-image">      
       {% include navbar.html %}      
       <div class="container">        
