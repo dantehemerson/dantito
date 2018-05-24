@@ -122,6 +122,7 @@ a:hover, a:focus {
     padding-left: 30px;
     padding-right: 30px;
     transition: .4s;
+    border-radius: 0 !important;
     
     font-size: 1.05rem;
     cursor: pointer;
@@ -197,7 +198,9 @@ a:hover, a:focus {
     }
   }
 
-
+.form-control {
+  border-radius: 0 !important;
+}
 .form-control:focus {
   border-color: $navbar-font-color !important;
   color: white !important;
