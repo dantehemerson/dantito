@@ -24,15 +24,6 @@ permalink: /contact/
 			
 		</div>    
 
-		<div class="container-full">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-8 follow-me-container">					
-						{% include socials.html %}
-				 	</div>	
-				</div>
-			</div>
-		</div>
 
 
 		<div class="container">
@@ -41,12 +32,14 @@ permalink: /contact/
 			 				<h3 class="title-section">Send Me a message</h3>
 			 				<hr class="contact-subtitle-hr">
 				 			<form role="form">
-							  <div class="form-group">
-							    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" required>
-							  </div>
-							  <div class="form-group">
-							    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
-							  </div>
+				 				<div class="row">
+								  <div class="form-group col-12 col-sm-6">
+								    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" required>
+								  </div>
+								  <div class="form-group col-12 col-sm-6">
+								    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
+								  </div>				 					
+				 				</div>
 							  <div class="form-group">
 							    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Subject">
 							  </div>
