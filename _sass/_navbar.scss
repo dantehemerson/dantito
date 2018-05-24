@@ -42,11 +42,15 @@
 
 .navbar-custom .navbar-nav .nav-link:hover {
     color: $navlink-color;
+    text-shadow: 0 0 8px $navlink-color;
+    
 
 }
 
 .navbar-custom .navbar-nav .nav-link:hover:before {
   visibility: visible;
+    text-shadow: 0 0 8px $navlink-color;
+
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
@@ -62,6 +66,8 @@
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+    text-shadow: 0 0 8px $navlink-color;
+
 }
 
 
