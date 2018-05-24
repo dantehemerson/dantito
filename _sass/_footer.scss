@@ -59,9 +59,11 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
     margin: 5px 2px;
     border-radius: 50%;
     box-sizing: content-box !important;
+    border: 2px solid #142028;
 
     &:hover {
-      border-bottom: 0;
+      border: 2px solid #5fd3fa;
+      box-shadow: 0 0 5px #5fd3fa;
     }
   }
 
