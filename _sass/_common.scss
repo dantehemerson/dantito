@@ -133,7 +133,7 @@ a:hover, a:focus {
   .btn.btn-inverted {
     background-color: transparent !important;
     border-width: 2px;
-    
+
     color: $primary-color !important;    
     &:hover {
       border-color: $primary-color !important;
@@ -321,6 +321,14 @@ $padding-xxl: 200px;
       }
 
 
+
+
+
+.section-futurist {
+  background: #08151d;
+    padding: 60px 16px;
+    border: 1px solid #00ff8d;
+}
 
 
 
