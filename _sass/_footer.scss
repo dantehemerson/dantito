@@ -48,7 +48,7 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
   }
 
   .footerwrap .footer-social-container .fa {
-    background: #00000059;  
+    
     display: inline-block;  
     color: $font-footer-color;
     padding: 10px;
@@ -59,54 +59,56 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
     margin: 5px 2px;
     border-radius: 50%;
     box-sizing: content-box !important;
-    border: 2px solid #142028;
+    border: 2px solid #0d171e;
 
     &:hover {
+      //background: #123341;
+      color: white !important;
       border: 2px solid #5fd3fa;
       box-shadow: 0 0 5px #5fd3fa;
     }
   }
 
-  .footerwrap .footer-social-container .fa.fa-github {
-    transition: all .4s;    
-    &:hover {
-      color: white !important;
-      background: $github-color !important;
-    }
-  }
+  // .footerwrap .footer-social-container .fa.fa-github {
+  //   transition: all .4s;    
+  //   &:hover {
+  //     color: white !important;
+  //     background: $github-color !important;
+  //   }
+  // }
 
-  .footerwrap .footer-social-container .fa.fa-twitter {
-    transition: all .4s;
-    &:hover {
-      color: white !important;
-      background: $twitter-color !important;
-    }
-  }
+  // .footerwrap .footer-social-container .fa.fa-twitter {
+  //   transition: all .4s;
+  //   &:hover {
+  //     color: white !important;
+  //     background: $twitter-color !important;
+  //   }
+  // }
 
-  .footerwrap .footer-social-container .fa.fa-instagram {
-    transition: all .4s;
-    &:hover {
-      color: white !important;
-      background: $instagram-color !important;
+  // .footerwrap .footer-social-container .fa.fa-instagram {
+  //   transition: all .4s;
+  //   &:hover {
+  //     color: white !important;
+  //     background: $instagram-color !important;
 
-    }
-  }
+  //   }
+  // }
 
-  .footerwrap .footer-social-container .fa.fa-facebook {
-    transition: all .4s;
-    &:hover {
-      color: white !important;
-      background: $facebook-color !important;
-    }
-  }
+  // .footerwrap .footer-social-container .fa.fa-facebook {
+  //   transition: all .4s;
+  //   &:hover {
+  //     color: white !important;
+  //     background: $facebook-color !important;
+  //   }
+  // }
 
-  .footerwrap .footer-social-container .fa.fa-linkedin {
-    transition: all .4s;
-    &:hover {
-      color: white !important;
-      background: $linkedin-color !important;
-    }
-  }
+  // .footerwrap .footer-social-container .fa.fa-linkedin {
+  //   transition: all .4s;
+  //   &:hover {
+  //     color: white !important;
+  //     background: $linkedin-color !important;
+  //   }
+  // }
 
   .footerwrap a {
     &:hover {
@@ -184,8 +186,7 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
     font-size: 14px;
   }
 
-  .footer-love a .author {
-    font-weight: bold;
+  .footer-love a .author {    
     color: $font-footer-color;
   }
 
