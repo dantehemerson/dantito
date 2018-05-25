@@ -19,7 +19,7 @@
 				<a class="post-title" href="{{ post.url }}">
 					{{ post.title }}
 				</a>
-				
+
 				<!-- Metas -->
 				<!-- Fecha de publicación -->
 				<span class="post-date">
@@ -33,7 +33,7 @@
 				<!-- description -->
 				<p class="description">{{ post.content | strip_html | truncate: 170 }}</p>
 				
-				<a href="{{ post.url }}">Read More</a>
+				<a class="link-to-post" href="{{ post.url }}">Read More</a>
 			</div>
 		</div>
 	</article>
