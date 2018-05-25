@@ -6,7 +6,7 @@
 
 // BLOG ITEM (POST) 
   .container-post {
-    padding: 0;
+    padding: 15px 0px;
     margin-bottom: 20px;
     
   }
@@ -55,14 +55,28 @@
 
 
 .posts-container {
-  background: #eaeaea;
-  box-shadow: 0 0 35px black;
+  //background: #eaeaea;
+  //box-shadow: 0 0 35px black;
 }
 
+.blog-item {
+  position: relative;
+}
+
+.blog-item + .blog-item:before {
+  content: '';
+  position: absolute;
+  width: calc(100% - 330px);
+  height: 2px;
+  top: -10px;
+  left: 330px;
+background: linear-gradient(47deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e 100%);
+
+}
 
 /* Diseño 2 **/
 .post-item2 {
-  background: white;
+  //background: white;
   .box-body {
     display: flex;
     
