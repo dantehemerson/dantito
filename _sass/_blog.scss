@@ -96,9 +96,24 @@
 
       .post-date {
         display: block;
+        font-family: "Avenir LT Std 65 Medium",sans-serif;
+        //font-family: 'Raleway'; 
+        //font-weight: 600;
+        font-size: 13px;
+        line-height: 27px;
+        text-align: right;
+        padding: 4px 0;
       }
 
       .description {
+        font-family: "Avenir LT Std 65 Medium",sans-serif;
+        font-family: 'Raleway'; 
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 27px;
+      }
+
+      .link-to-post {
         font-family: "Avenir LT Std 65 Medium",sans-serif;
         font-family: 'Raleway'; 
         font-weight: 600;
