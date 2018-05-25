@@ -54,6 +54,11 @@
   }
 
 
+
+
+
+
+/** Tema 2 **/
 .posts-container {
   //background: #eaeaea;
   //box-shadow: 0 0 35px black;
@@ -79,23 +84,30 @@ background: linear-gradient(47deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e
   //background: white;
   .box-body {
     display: flex;
-    
+     flex-flow: row wrap;
     .cover {      
-      
+      overflow: hidden;
+      width: 300px;
 
       img {
         width: 300px;
+        width: 100%;
         height: 236px;
         -o-object-fit: cover;
         -o-object-position: 50% 50%;
         object-fit: cover;
-        object-position: 50% 50%;
+        object-position: 50% 50%;        
+        transition: all .3s ease-in-out;
+
+        &:hover {
+          transform: scale(1.05);
+        }
       }
       
     }
 
     .box-info {
-      
+      flex: 1;
       padding: 5px 30px;
       background: rgba(255, 255, 255, 0.04);
 
