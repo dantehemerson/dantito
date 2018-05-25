@@ -15,6 +15,11 @@
 				</a>
 			</div>
 			<div class="box-info">
+				<!-- titulo -->
+				<a class="post-title" href="{{ post.url }}">
+					{{ post.title }}
+				</a>
+				
 				<!-- Metas -->
 				<!-- Fecha de publicación -->
 				<span class="post-date">
@@ -25,10 +30,6 @@
 					{% include read-time.html %}
 				</span>
 
-				<!-- titulo -->
-				<a class="post-title" href="{{ post.url }}">
-					{{ post.title }}
-				</a>
 				<!-- description -->
 				<p class="description">{{ post.content | strip_html | truncate: 170 }}</p>
 				
