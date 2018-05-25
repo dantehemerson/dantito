@@ -42,20 +42,20 @@ $separator-button-color: rgba(160,160,160,0.2);
 				transform: translateY(47px);
 
 				.portfolio-item-info {
-					background: #F5F5F5;
+					//background: #F5F5F5;
 					padding: 15px 10px;
 
 					.name {
 						margin-top: 0;
 						margin-bottom: 0;
-						color: #3E4452;
+						color: white;
 						text-overflow: ellipsis;
 					}
 
 				}
 
 				.view-portfolio-item {
-					background: #E47601;					
+					background: #3ca740;					
 					height: 50px;
 					display: flex;
     				align-items: center;
@@ -74,7 +74,7 @@ $separator-button-color: rgba(160,160,160,0.2);
 	}
 }
 .portfolio-item .box-body .cover img {
-	height: 280px;
+	height: 300px;
 	transition: all .3s ease-in-out;
 	
 }
