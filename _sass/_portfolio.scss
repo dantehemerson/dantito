@@ -8,6 +8,15 @@ $to-color:  rgba(0,0,0,0.65);
 // font-family: 'Poppins', sans-serif;
 // font-family: 'Raleway', sans-serif;
 
+.portfolio-item {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.container-portfolio-item {
+	padding: 0;
+}
+
 .portfolio-item .box-body .cover {
 	overflow: hidden;
 	position: relative;
