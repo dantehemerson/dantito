@@ -97,6 +97,7 @@ background: linear-gradient(47deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e
     .box-info {
       
       padding: 5px 30px;
+      background: rgba(255, 255, 255, 0.04);
 
 
       .post-title {
@@ -106,6 +107,13 @@ background: linear-gradient(47deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e
         font-size: 20px;
         text-transform: capitalize;
         color: #f1f1f1;
+        border: none;
+
+        &:hover {
+        border: none;
+
+        color: #03e27e;
+        }
         
       }
 
