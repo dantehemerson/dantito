@@ -88,16 +88,34 @@
   }
 }
 
+
+.blog-item {
+  @include breakpoint(sm) {
+    &:nth-child(2):before{
+      display: none;
+    }
+  }
+  @include breakpoint(md) {
+    &:nth-child(2):before{
+      display: block;
+    }
+  }
+}
 .blog-item + .blog-item:before {
   content: '';
   position: absolute;
-  width: calc(100% - 330px);
+  width: 94%;
   height: 2px;
   top: -10px;
-  left: 330px;
+  left: 3%;
 background: linear-gradient(47deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e 100%);
-
+    
+  @include breakpoint(md) {
+    width: calc(100% - 345px);
+    left: 345px;
+  }
 }
+
 
 /* Diseño 2 **/
 .post-item2 {
