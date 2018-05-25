@@ -133,12 +133,8 @@ background: linear-gradient(47deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e
       width: 100%;
 
       @include breakpoint(md) {
-        width: 300px;
-      }
-
-      @include breakpoint(lg) {
         width: 330px;
-      }
+      }    
 
       img {
         width: 300px;
