@@ -66,6 +66,26 @@
 
 .blog-item {
   position: relative;
+
+  @include breakpoint(sm) {
+    &:nth-child(odd) {      
+      padding-right: 5px;
+    }    
+    &:nth-child(even) {
+      padding-left: 5px;
+    }
+
+
+  }
+
+  @include breakpoint(md) {
+    &:nth-child(odd) {      
+      padding-right: 0;
+    }    
+    &:nth-child(even) {
+      padding-left: 0;
+    }
+  }
 }
 
 .blog-item + .blog-item:before {
@@ -82,6 +102,20 @@ background: linear-gradient(47deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e
 /* Diseño 2 **/
 .post-item2 {
   //background: white;
+
+  @include breakpoint(sm) {
+    height: 100%;
+
+    .box-body {
+      height: 100%;
+      .cover {
+
+      }
+      .box-info {
+        
+      }      
+    }
+  }
   .box-body {
     display: flex;
      flex-flow: row wrap;
