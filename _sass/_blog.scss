@@ -6,7 +6,9 @@
 
 // BLOG ITEM (POST) 
   .container-post {
-    padding: 15px 0px;
+    padding-top: 15px;
+    padding-left: 0;
+    padding-right: 0;
     margin-bottom: 20px;
     
   }
@@ -89,30 +91,19 @@
 }
 
 
-.blog-item {
-  @include breakpoint(sm) {
-    &:nth-child(2):before{
-      display: none;
-    }
-  }
-  @include breakpoint(md) {
-    &:nth-child(2):before{
-      display: block;
-    }
-  }
-}
-.blog-item + .blog-item:before {
+
+.blog-item:before {
   content: '';
   position: absolute;
-  width: 94%;
+  width: calc(100% - 5px);
   height: 2px;
-  top: -10px;
-  left: 3%;
+  bottom: 0;
+  
 background: linear-gradient(47deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e 100%);
     
   @include breakpoint(md) {
-    width: calc(100% - 345px);
-    left: 345px;
+    width: calc(100% - 330px);
+    left: 330px;
   }
 }
 
