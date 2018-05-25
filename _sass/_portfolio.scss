@@ -31,13 +31,10 @@ $separator-button-color: rgba(160,160,160,0.2);
 	display: block;
 	transition: all .3s;
 
-	&:hover{
-		 box-shadow: 0 0 0 2px #5fd3fa;
-	}
-
 	&:hover img {
 			transform: scale(1.05);
 	}
+
 
 
 	.info-portfolio-item-container {		
@@ -47,10 +44,9 @@ $separator-button-color: rgba(160,160,160,0.2);
 		width: 100%;
 		height: 100%;
 		transition: all .3s;
-
-		&:hover {
-
-			background: rgba(0, 0, 0, 0.4196078431372549);
+		
+		&:hover .info-portfolio-item-cont-relative .info-portfolio-item  {
+			transform: translateY(0px);
 		}
 
 		.info-portfolio-item-cont-relative {
@@ -63,6 +59,8 @@ $separator-button-color: rgba(160,160,160,0.2);
 				bottom: 0;
 				left: 0;
 				width: 100%;
+				transition: all .4s;
+				transform: translateY(47px);
 
 				.portfolio-item-info {
 					background: #F5F5F5;
@@ -78,8 +76,8 @@ $separator-button-color: rgba(160,160,160,0.2);
 				}
 
 				.view-portfolio-item {
-					background: green;
-					padding: 15px 10px;
+					background: #E47601;					
+					height: 50px;
 					.view-project {
 						margin-top: 0;
 						margin-bottom: 0;
