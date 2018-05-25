@@ -108,8 +108,11 @@ background: linear-gradient(47deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e
 
     .box-body {
       height: 100%;
+      align-content: baseline;
       .cover {
-
+        height: 190px;
+        img {
+        }
       }
       .box-info {
         
