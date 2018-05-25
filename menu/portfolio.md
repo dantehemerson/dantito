@@ -12,6 +12,14 @@ permalink: /portfolio/
 	    {% include navbar.html %}
 		
 		<div class="container container-full pt pb-md">
+			<div class="row">
+				<div class="col-12">
+					<h1  class="title-page">
+						Portfolio
+					
+					</h1>					
+				</div>
+			</div>
 			<div class="row">					
 			     {% for post in site.categories.projects %}		     			     
 				 	{% include portfolio-item.html %}
