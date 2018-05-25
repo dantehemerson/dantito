@@ -5,15 +5,16 @@
 @import "variables";
 
 // BLOG ITEM (POST) 
-  .post-item {
-    height: 100%;
-    background: white;
-  }
   .container-post {
     padding: 0;
     margin-bottom: 20px;
     
   }
+
+    .post-item {
+      height: 100%;
+      background: white;
+    }
 
   .middotDivider:after {
       content: '\00B7';
@@ -56,4 +57,31 @@
 .posts-container {
   background: #eaeaea;
   box-shadow: 0 0 35px black;
+}
+
+
+/* Diseño 2 **/
+.post-item2 {
+
+  .box-body {
+    display: block;
+    .cover {
+      display: inline-block;
+
+      img {
+        
+        //-o-object-fit: cover;
+        //-o-object-position: 50% 50%;
+        //object-fit: cover;
+        //object-position: 50% 50%;
+        //height: 236px;
+      }
+      
+    }
+
+    .box-info {
+      
+    }
+    
+  }
 }
