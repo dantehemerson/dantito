@@ -66,3 +66,35 @@ $youtube-color: #cd201f;
 $google-plus-color: #dd4b39;
 $whatsapp-color: #25D366;
 $github-color: #333;
+
+
+
+
+
+/** Mixin responsive **/
+
+@mixin breakpoint($class) {
+  @if $class == xs {
+    @media (max-width: 575px) { @content; }
+  }
+ 
+  @else if $class == sm {
+    @media (min-width: 576px) { @content; }
+  }
+ 
+  @else if $class == md {
+    @media (min-width: 768px) { @content; }
+  }
+ 
+  @else if $class == lg {
+    @media (min-width: 992px) { @content; }
+  }
+  
+  @else if $class == xl {
+    @media (min-width: 1140px) { @content; }
+  }
+ 
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
+  }
+}
