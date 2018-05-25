@@ -2,6 +2,7 @@
 // La altura de la imagen es fija :(
 @import "suscribe";
 @import "portblog-item";
+@import "variables";
 
 // BLOG ITEM (POST) 
   .post-item {
@@ -51,4 +52,7 @@
   }
 
 
-
+.posts-container {
+  background: #eaeaea;
+  box-shadow: 0 0 35px black;
+}
