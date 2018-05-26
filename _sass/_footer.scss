@@ -1,16 +1,16 @@
 
 $icons-footer-size: 25px;
-$padding-footer: 30px;
+$padding-footer: 25px;
 $font-footer-color:  rgba(191, 191, 191, 0.51);
 
 
 .footerwrap {  
-  padding-top: $padding-footer + 20px;
+  padding-top: $padding-footer;
   padding-bottom: $padding-footer;
   background-image: url("../assets/images/img-bg-footer.png");
   color: $font-footer-color;
   border-top: 2px solid #101010;
-    box-shadow: 0 0 4px #000000;
+  box-shadow: 0 0 4px #000;
 }
 
 .footerwrap p {

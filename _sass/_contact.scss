@@ -132,6 +132,8 @@ $font-size-socials: 70px;
 
 .title-contact {
 	margin-bottom: 40px;
+	padding: 0;
+    text-align: left;
 }
 
 .header-contact hr {
@@ -166,4 +168,12 @@ $font-size-socials: 70px;
 	.fa.social-styled {									
 		margin: 0 5px;
 	}
+}
+
+
+.section-background-form {
+	background: #da5022;
+	margin: 40px 0;
+    box-shadow: 0 0 90px black;
+
 }

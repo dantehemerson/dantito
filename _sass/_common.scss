@@ -146,9 +146,14 @@ a:hover, a:focus {
 
   .btn.btn-primary {    
     background: $primary-color;
+background: linear-gradient(47deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e 100%);
+
     border-color: $primary-color;   
     &:hover {
       background: #5fd3fa30 !important;
+background: linear-gradient(47deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e 100%)!important;
+
+
       border-color: $primary-color !important;
     }
     &:active {
@@ -339,7 +344,6 @@ $padding-xxl: 200px;
   text-transform: uppercase;
   font-family: 'Poppins';
   font-weight: 900;
-  text-shadow: 0 0 7px;
   font-size: 80px;
   text-align: center;
   padding: 100px 0 30px 0;
