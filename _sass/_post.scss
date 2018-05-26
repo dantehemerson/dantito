@@ -80,19 +80,24 @@ $hr-post-color: #00BAB7;
 /**Estilos para el post ----------------------------- **/
 .theme-light-post {
 	background: #f7f7f7;	
-	font-family: "Avenir LT Std 65 Medium",sans-serif;		
 	color: #33475b	;
 
-	h2, h3, h4, h5, h6 {
-		font-family: 'Raleway';
-		font-family: 'Poppins';
-		font-family: $avenir-roman;
-		font-weight: 500;
-		font-weight: 600;
-		font-weight: 700;
-		font-weight: 800;
+}
 
-		font-weight: 900;
+.theme-dark-post {
+	background: transparent;	
+	color: #a0a0a0;
+
+}
+
+.theme-post {
+	font-family: "Avenir LT Std 65 Medium",sans-serif;		
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+
+	h2, h3, h4, h5, h6 {	
+		font-family: $avenir-heavy;	
 	}
 }
 
