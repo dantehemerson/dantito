@@ -4,7 +4,7 @@ title: "Home"
 scripts:
  - index
 ---
-<body itemscope="http://schema.org/Person" itemtype="http://schema.org/Blog" style="background-image: url('{{ site.baseurl }}/assets/images/bg--hero-blog.svg');">
+<body itemscope="http://schema.org/Person" itemtype="http://schema.org/Blog">
   <header class="headerwrap" >
     <div class="header-image">      
       {% include navbar.html %}      
