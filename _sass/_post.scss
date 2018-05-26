@@ -81,12 +81,20 @@ $hr-post-color: #00BAB7;
 .theme-light-post {
 	background: #f7f7f7;	
 	color: #33475b	;
-
+	box-shadow: 0 0 90px #000000;
 }
 
 .theme-dark-post {
-	background: transparent;	
+	background: #0d1922;	
 	color: #a0a0a0;
+
+	.post-container {
+		.title-post {
+			color: white;
+		}
+		
+	} 
+
 
 }
 
@@ -95,7 +103,6 @@ $hr-post-color: #00BAB7;
 	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 0 0 90px #000000;
 	position: relative;
 	margin-top: -50px;
 
