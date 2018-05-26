@@ -1,7 +1,13 @@
 .suscribe-container {
 	text-align: center;
-	padding-top: 55px;
-	padding-bottom: 55px + 45px; // 45px altura del input
+	padding-top: 100px;
+	padding-bottom: 120px; // 45px altura del input
+   background: -webkit-linear-gradient(317deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e 100%);
+   background: -o-linear-gradient(317deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e 100%);
+   background: linear-gradient(47deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e 100%);
+
+	    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 
@@ -14,7 +20,7 @@
 	line-height: 38px;
 	margin-bottom: 30px;
 	margin-top: 0;
-	color: #395f58 !important;
+	color: white !important;
 }
 
 .suscribe-container .email {
@@ -34,7 +40,7 @@
 	border-top-left-radius: 0;
     border-bottom-left-radius: 0;    
     right: 0;
-    position: absolute;
+    	position: absolute;
      min-height: 38px !important;
     height: 44px !important;
     padding: 0;

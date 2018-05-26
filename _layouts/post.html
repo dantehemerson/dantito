@@ -16,7 +16,7 @@ comments: true
 		{% else %}
 			<img src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
 		{% endif %}			
-	<div class="theme-post theme-dark-post">
+	<div class="theme-post theme-light-post">
 			
 		
 		
@@ -43,19 +43,18 @@ comments: true
 			{% include social-sharing.html %}			
 		</div>
 				
+		{% include suscribe.html %}
+		
+		<div class="container post-container pb-md">
+			<div id="disqus_thread"></div>
+		</div>
 	</div>
 
-	{% include suscribe.html %}
-	
-	<div class="container post-container pb-md">
-		<div id="disqus_thread"></div>
-	</div>
+	{% include footer.html %}
 
 	<!-- DISQUS --->
 	{% if layout.comments %}
 		<script src="{{ site.baseurl }}/assets/scripts/disqus.js"></script>
 		<script id="dsq-count-scr" src="//dantecalderon.disqus.com/count.js" async></script>
 	{% endif %}
-	
-	{% include footer.html %}
 </body>
