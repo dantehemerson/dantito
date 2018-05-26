@@ -7,16 +7,20 @@ comments: true
 ---
 
 <body>	
-	<div class="container-background">
-		{% include navbar.html %}	
+	{% include navbar.html %}			
+
+	<div class="theme-light-post">
+		{% if page.image.feature %}
+			<img class="post-image-full" width="100%" src="{{ site.baseurl }}/assets/images/{{ page.image.feature }}" alt="">				
+		{% elsif page.feature %}
+			<img class="post-image-full" width="100%" src="{{ page.feature }}" alt="">				
+		{% else %}
+			<img src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
+		{% endif %}			
+			
+		
+		
 		<div class="container post-container">
-			{% if page.image.feature %}
-				<img width="100%" src="{{ site.baseurl }}/assets/images/{{ page.image.feature }}" alt="">				
-			{% elsif page.feature %}
-				<img width="100%" src="{{ page.feature }}" alt="">				
-			{% else %}
-				<img src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
-			{% endif %}			
 			<h1 class="title-post">{{ page.title }}</h1>	
 			{% if page.subtitle %}
 				<h2 class="subtitle-post">{{ page.subtitle }}</h2>
@@ -39,18 +43,19 @@ comments: true
 			{% include social-sharing.html %}			
 		</div>
 				
-		{% include suscribe.html %}
-		
-		<div class="container post-container pb-md">
-			<div id="disqus_thread"></div>
-		</div>
-
-		<!-- DISQUS --->
-		{% if layout.comments %}
-			<script src="{{ site.baseurl }}/assets/scripts/disqus.js"></script>
-			<script id="dsq-count-scr" src="//dantecalderon.disqus.com/count.js" async></script>
-		{% endif %}
-		
-		{% include footer.html %}
 	</div>
+
+	{% include suscribe.html %}
+	
+	<div class="container post-container pb-md">
+		<div id="disqus_thread"></div>
+	</div>
+
+	<!-- DISQUS --->
+	{% if layout.comments %}
+		<script src="{{ site.baseurl }}/assets/scripts/disqus.js"></script>
+		<script id="dsq-count-scr" src="//dantecalderon.disqus.com/count.js" async></script>
+	{% endif %}
+	
+	{% include footer.html %}
 </body>
