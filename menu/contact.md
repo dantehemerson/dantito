@@ -29,7 +29,7 @@ permalink: /contact/
 			<div class="container">
 				<div class="row shadownable">
 					<div class="col-lg-7 form-contact-container">
-				 				<h3 class="title-section">Send Me a message</h3>
+				 				<h3 class="title-section send-message">Send Me a message</h3>
 					 			<form role="form">
 					 				<div class="row">
 									  <div class="form-group col-12 col-sm-6">
