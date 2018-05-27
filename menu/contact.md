@@ -50,36 +50,39 @@ permalink: /contact/
 								  <button type="submit" class="btn btn-primary">Send Message</button>
 								</form>
 					</div>
-					<div class="col-lg-5 info-contact-container">
-						<h3>Mis redes sociales</h3>
+					<div class="col-lg-5 info-contact-container" style="background: url({{ site.baseurl }}/assets/images/Social_Media_Background.jpg);">
+						<div class="content">
+							<h3>Mis redes sociales</h3>
 
-						<div class="info-contact-section-title">
-							<p><i class="link-no-border fa fa-envelope"></i>Email</p>
-							<ul>
-								<li>
-									<a href="">dantehemerson@gmail.com</a>
-								</li>
-								<li>
-									<a href="">dc@dantecalderon.com</a>
-								</li>
-								<li>
-									<a href="">info@dantecalderon.com</a>
-								</li>
-							</ul>
-						</div>
-						<div class="info-contact-section-title">
-							<p><i class="link-no-border fa fa-whatsapp"></i>Phone</p>
-							<ul>
-								<li>
-									<p>+51 949290182</p>
-								</li>
-								<li>
-									<p>+51 959029292</p>
-								</li>								
-							</ul>
-						</div>
+							<div class="info-contact-section-title">
+								<p><i class="link-no-border fa fa-envelope"></i>Email</p>
+								<ul>
+									<li>
+										<a href="">dantehemerson@gmail.com</a>
+									</li>
+									<li>
+										<a href="">dc@dantecalderon.com</a>
+									</li>
+									<li>
+										<a href="">info@dantecalderon.com</a>
+									</li>
+								</ul>
+							</div>
+							<div class="info-contact-section-title">
+								<p><i class="link-no-border fa fa-whatsapp"></i>Phone</p>
+								<ul>
+									<li>
+										<p>+51 949290182</p>
+									</li>
+									<li>
+										<p>+51 959029292</p>
+									</li>								
+								</ul>
+							</div>
 
-						{% include socials.html %}
+							{% include socials.html %}
+
+						</div>
 					</div>
 				</div>			 		
 			</div>

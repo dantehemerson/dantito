@@ -197,8 +197,16 @@ $font-size-socials: 70px;
 	margin-bottom: 60px;
 }
 
-.info-contact-container {
-	padding: 50px 50px;
+.info-contact-container {	
+	background-size: cover;
+   background-position: center;
+   padding: 0;
+
+   .content {   	
+		padding: 50px 50px;
+		background: rgba(16, 16, 16, 0.9);
+    	height: 100%;
+   }
 
 	.info-contact-section-title {
 		p {
