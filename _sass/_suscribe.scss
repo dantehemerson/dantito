@@ -16,11 +16,18 @@
 }
 
 .suscribe-container .title-suscribe{
-	font-size: 36px;
+	font-size: 38px;
 	line-height: 38px;
 	margin-bottom: 30px;
 	margin-top: 0;
 	color: white !important;
+
+	text-transform: capitalize;
+	font-family: 'Poppins';
+		font-weight: 500 !important;
+		font-weight: 600 !important;
+
+	font-family: $avenir-heavy;
 }
 
 .suscribe-container .email {
