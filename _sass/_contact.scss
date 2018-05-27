@@ -124,6 +124,13 @@ $hr-contact-color: $titles-color;
 // font-family: $avenir-medium;
 // font-family: $avenir-roman;
 // font-family: 'Raleway';
+	// font-family: 'Poppins';
+	// font-weight: 300 !important;
+	// font-weight: 500 !important;
+	// font-weight: 600 !important;
+	// font-weight: 700 !important;
+	// font-weight: 800 !important;
+	// font-weight: 900 !important;
 
 .help-contact {
 
@@ -143,12 +150,28 @@ $hr-contact-color: $titles-color;
 .section-background-form {
 	margin-top: 20px;
 	margin-bottom: 100px;
+
+
+	font-family: $avenir-medium;
+	font-family: 'Poppins';
+	
+	font-weight: 600 !important;
+
+
+	   .title-section {
+			  font-family: 'Poppins';
+			  font-weight: 500 !important;
+			 
+	   }
+	
 }
 
 .info-contact-container {	
 	background-size: cover;
    background-position: center;
    padding: 0;
+
+
 
    .content {   	
 		padding: 50px 50px;
@@ -193,3 +216,13 @@ $hr-contact-color: $titles-color;
 .shadownable {
 	box-shadow: 0 0 90px black;
 }
+
+
+/** 
+titulos formulario
+
+	font-family: 'Poppins';
+    font-weight: 300 !important;
+
+
+**/

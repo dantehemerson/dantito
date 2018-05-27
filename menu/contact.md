@@ -51,7 +51,7 @@ permalink: /contact/
 					</div>
 					<div class="col-lg-5 info-contact-container" style="background: url({{ site.baseurl }}/assets/images/Social_Media_Background.jpg);">
 						<div class="content">
-							<h3>Mis redes sociales</h3>
+							<h3 class="title-section socials">Mis redes sociales</h3>
 
 							<hr class="contact-subtitle-hr">
 							<div class="info-contact-section-title">
