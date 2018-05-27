@@ -28,7 +28,7 @@ permalink: /contact/
 		<div class="section-background-form">
 			
 			<div class="container">
-				<div class="row ">
+				<div class="row shadownable">
 					<div class="col-lg-7 form-contact-container">
 				 				<h3 class="title-section">Send Me a message</h3>
 				 				<hr class="contact-subtitle-hr">
