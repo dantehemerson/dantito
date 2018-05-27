@@ -63,9 +63,7 @@ permalink: /contact/
 									<li>
 										<a href="">dc@dantecalderon.com</a>
 									</li>
-									<li>
-										<a href="">info@dantecalderon.com</a>
-									</li>
+									
 								</ul>
 							</div>
 							<div class="info-contact-section-title">
