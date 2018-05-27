@@ -54,6 +54,7 @@ permalink: /contact/
 						<div class="content">
 							<h3>Mis redes sociales</h3>
 
+							<hr class="contact-subtitle-hr">
 							<div class="info-contact-section-title">
 								<p><i class="link-no-border fa fa-envelope"></i>Email</p>
 								<ul>
