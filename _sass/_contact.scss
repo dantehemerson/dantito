@@ -16,6 +16,29 @@ $hr-contact-color: $titles-color;
 }
 	.container-social {				
 		margin-top: 50px;
+
+
+		.fa {
+		    
+		    display: inline-block;  
+		    color: white;
+		    padding: 10px;
+		    font-size: 30px;  
+		    width: 30px;
+		    text-align: center;
+		    text-decoration: none;
+		    margin: 5px 2px;
+		    border-radius: 50%;
+		    box-sizing: content-box !important;
+		    border: 2px solid #0d171e;
+
+		    &:hover {
+		      //background: #123341;
+		      color: white !important;
+		      border: 2px solid #5fd3fa;
+		      box-shadow: 0 0 5px #5fd3fa;
+		    }
+		  }
 	}
 	
 	.container-social > div {
@@ -23,10 +46,6 @@ $hr-contact-color: $titles-color;
 		align-items: center;
 		justify-content: center;
 	}
-	.container-social > div > div {		
-		display: inline-block;
-	}
-
 	
 	.container-social a, .container-social .info {
 		color: $font-color;
