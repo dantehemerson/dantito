@@ -66,11 +66,8 @@ permalink: /contact/
 								<p><i class="link-no-border fa fa-whatsapp"></i>Phone</p>
 								<ul>
 									<li>
-										<p>+51 949290182</p>
+										<p>+51 928124770</p>
 									</li>
-									<li>
-										<p>+51 959029292</p>
-									</li>								
 								</ul>
 							</div>
 
