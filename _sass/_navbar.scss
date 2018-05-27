@@ -1,7 +1,7 @@
 @import "variables";
 
 .navbar {  
-  background: transparent;
+  background: #101010;
   padding-top: $padding-navbar;
   padding-bottom: $padding-navbar;  
 }
@@ -120,7 +120,7 @@
 
 @media (max-width: 576px){
   .navbar {
-    background: white;
+    ///background: white;
   }   
 }
 
