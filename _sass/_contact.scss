@@ -194,20 +194,39 @@ $font-size-socials: 70px;
 
 .section-background-form {
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 60px;
 }
 
 .info-contact-container {
+	padding: 50px 50px;
 
 	.info-contact-section-title {
 		p {
 			color: white;
-			font-size: 1.1rem;
+			font-size: 1rem;
     		text-transform: uppercase;
+    		margin-bottom: 5px;
 			
 			i {
     			margin-right: 18px;
     			color: #00f1b3;
+
+    			&.fa-whatsapp {
+					font-size: 24px;
+    			}
+			}
+		}
+
+		ul {
+			list-style: none;
+			padding-left: 18px;
+			li {
+				min-height: 24px;
+				a, p {
+		    		margin-bottom: 0;
+					color: #efefef;
+    				font-size: 13px;
+				}
 			}
 		}
 	}

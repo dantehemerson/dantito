@@ -58,9 +58,24 @@ permalink: /contact/
 							<ul>
 								<li>
 									<a href="">dantehemerson@gmail.com</a>
+								</li>
+								<li>
 									<a href="">dc@dantecalderon.com</a>
+								</li>
+								<li>
 									<a href="">info@dantecalderon.com</a>
 								</li>
+							</ul>
+						</div>
+						<div class="info-contact-section-title">
+							<p><i class="link-no-border fa fa-whatsapp"></i>Phone</p>
+							<ul>
+								<li>
+									<p>+51 949290182</p>
+								</li>
+								<li>
+									<p>+51 959029292</p>
+								</li>								
 							</ul>
 						</div>
 
