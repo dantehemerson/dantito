@@ -29,7 +29,7 @@ permalink: /contact/
 			
 			<div class="container">
 				<div class="row ">
-					<div class="col-lg-8 form-contact-container">
+					<div class="col-lg-7 form-contact-container">
 				 				<h3 class="title-section">Send Me a message</h3>
 				 				<hr class="contact-subtitle-hr">
 					 			<form role="form">
@@ -50,8 +50,21 @@ permalink: /contact/
 								  <button type="submit" class="btn btn-primary">Send Message</button>
 								</form>
 					</div>
-					<div class="col-lg-4 info-contact-container">
+					<div class="col-lg-5 info-contact-container">
 						<h3>Mis redes sociales</h3>
+
+						<div class="info-contact-section-title">
+							<p><i class="link-no-border fa fa-envelope"></i>Email</p>
+							<ul>
+								<li>
+									<a href="">dantehemerson@gmail.com</a>
+									<a href="">dc@dantecalderon.com</a>
+									<a href="">info@dantecalderon.com</a>
+								</li>
+							</ul>
+						</div>
+
+						{% include socials.html %}
 					</div>
 				</div>			 		
 			</div>

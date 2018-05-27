@@ -193,6 +193,23 @@ $font-size-socials: 70px;
 
 
 .section-background-form {
-	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.info-contact-container {
+
+	.info-contact-section-title {
+		p {
+			color: white;
+			font-size: 1.1rem;
+    		text-transform: uppercase;
+			
+			i {
+    			margin-right: 18px;
+    			color: #00f1b3;
+			}
+		}
+	}
+	
 }
