@@ -11,15 +11,21 @@ body {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   min-height: 0;  
+
+
+
 }
 
 
-.headerwrap .greeting, 
+
+
 .headerwrap .name, 
 .headerwrap .lastname {  
-  text-transform: uppercase;
+    text-transform: uppercase;
+
   line-height: 1;
   color: white;
+  font-family: 'Audiowide', cursive;
 }
 
 
@@ -36,8 +42,13 @@ body {
 }
 
 .headerwrap .title-container .greeting {
-  font-size: 1.6rem;
-  margin-bottom: 20px;  
+  font-size: 1.6rem;  
+  text-transform: uppercase;
+  line-height: 1;
+  color: white;
+  font-family: 'Poppins';
+  font-weight: 500 !important;
+  font-family: $avenir-light;
 }
 
 .headerwrap .title-container .name {
@@ -155,6 +166,9 @@ body {
 
 
 .slogan {
-    font-size: 14px;
-    color: #4e575d;
+    font-size: 16px;
+    color: #8e8e8e;
+
+    font-family: 'Poppins';
+    font-weight: 500 !important;
 }
