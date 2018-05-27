@@ -1,20 +1,23 @@
 
 $icons-footer-size: 25px;
 $padding-footer: 25px;
-$font-footer-color:  rgba(191, 191, 191, 0.51);
+$font-footer-color:  rgb(127, 127, 127);
 
 
 .footerwrap {  
   padding-top: $padding-footer;
   padding-bottom: $padding-footer;
+  background: #0e0e0e;
   background-image: url("../assets/images/img-bg-footer.png");
   color: $font-footer-color;
-  border-top: 2px solid #101010;
+  border-top: 2px solid #0e0e0e;
   box-shadow: 0 0 4px #000;
 }
 
 .footerwrap p {
+ 
   margin-bottom: 0 !important;
+  color: $font-footer-color;
 }
 
 .footerwrap .container > div:nth-child(2) {
@@ -164,7 +167,6 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
 
 
 
-
 /** Footer love **/
   .footer-love { 
     text-align: center; 
@@ -172,7 +174,7 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
   }
 
   .footer-love a {
-    color: white; 
+    color: $font-footer-color; 
     transition: $transition-hover;
   }
 
@@ -187,7 +189,7 @@ $font-footer-color:  rgba(191, 191, 191, 0.51);
   }
 
   .footer-love a .author {    
-    color: $font-footer-color;
+    //color: $font-footer-color;
   }
 
 @media (min-width: 768px) { 
