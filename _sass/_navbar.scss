@@ -17,12 +17,13 @@
 
 .navbar-custom .navbar-nav .nav-link {
     color: $navlink-color !important;
-    text-shadow: 0 0 8px $navlink-color;
-    font-family: 'Audiowide', cursive;  
+    //text-shadow: 0 0 8px $navlink-color;
     position: relative;
     margin-left: 4px;
     margin-right: 4px;
     text-transform: uppercase;
+    
+    font-family: $avenir-heavy;
 }
 
 .navbar-custom .navbar-nav .nav-link:before {
@@ -42,7 +43,7 @@
 
 .navbar-custom .navbar-nav .nav-link:hover {
     color: $navlink-color;
-    text-shadow: 0 0 8px $navlink-color;
+    //text-shadow: 0 0 8px $navlink-color;
     
 
 }

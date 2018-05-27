@@ -8,7 +8,7 @@ scripts:
   <header class="headerwrap" >
     <div class="header-image">      
       {% include navbar.html %}      
-      <div class="container">        
+      <div class="container pt-md">        
             <div class="row title-container">
               <div class="col-md-4">
                 <img class="avatar" src="{{ site.baseurl }}/{{ site.data.authors.primary.avatar }}" alt="">
