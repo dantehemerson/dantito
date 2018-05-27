@@ -50,26 +50,29 @@ permalink: /contact/
 					</div>
 					<div class="col-lg-5 info-contact-container" style="background: url({{ site.baseurl }}/assets/images/Social_Media_Background.jpg);">
 						<div class="content">
-							<h3 class="title-section socials">Mis redes sociales</h3>
+							<h3 class="title-section socials">Mis Datos</h3>
 
-							<div class="info-contact-section-title">
-								<p><i class="link-no-border fa fa-envelope"></i>Email</p>
-								<ul>
-									<li>
-										<a href="">dantehemerson@gmail.com</a>
-									</li>									
-								</ul>
-							</div>
-							<div class="info-contact-section-title">
-								<p><i class="link-no-border fa fa-whatsapp"></i>Phone</p>
-								<ul>
-									<li>
-										<p>+51 928124770</p>
-									</li>
-								</ul>
-							</div>
+							<div class="info-contact">
+								<div class="info-contact-section-title">
+									<p><i class="link-no-border fa fa-envelope"></i>Email</p>
+									<ul>
+										<li>
+											<a href="">dantehemerson@gmail.com</a>
+										</li>									
+									</ul>
+								</div>
+								<div class="info-contact-section-title">
+									<p><i class="link-no-border fa fa-whatsapp"></i>Phone</p>
+									<ul>
+										<li>
+											<p>+51 928124770</p>
+										</li>
+									</ul>
+								</div>
 
-							{% include socials.html %}
+								{% include socials.html %}
+
+							</div>
 
 						</div>
 					</div>

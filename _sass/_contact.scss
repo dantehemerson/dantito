@@ -6,7 +6,8 @@ $hr-contact-color: $titles-color;
   
 }
 .social-network {
-  text-align: center;    
+  text-align: center;
+	margin-top: 25px;    
 }	
 
 
@@ -15,7 +16,7 @@ $hr-contact-color: $titles-color;
 	margin-bottom: 0 !important;
 }
 	.container-social {				
-		margin-top: 50px;
+		margin-top: 25px;
 
 
 		.fa {
@@ -27,7 +28,7 @@ $hr-contact-color: $titles-color;
 		    width: 30px;
 		    text-align: center;
 		    text-decoration: none;
-		    margin: 5px 2px;
+		    margin: 5px 5px;
 		    border-radius: 50%;
 		    box-sizing: content-box !important;
 		    border: 2px solid #171717;
@@ -161,6 +162,7 @@ $hr-contact-color: $titles-color;
 	   .title-section {
 			  font-family: 'Poppins';
 			  font-weight: 500 !important;
+
 			 
 	   }
 	
@@ -171,7 +173,9 @@ $hr-contact-color: $titles-color;
    background-position: center;
    padding: 0;
 
-
+	.info-contact {
+		margin-top: 60px;
+	}
 
    .content {   	
 		padding: 50px 50px;
@@ -198,13 +202,15 @@ $hr-contact-color: $titles-color;
 
 		ul {
 			list-style: none;
-			padding-left: 18px;
+			padding-left: 35px;
 			li {
 				min-height: 24px;
 				a, p {
 		    		margin-bottom: 0;
 					color: #efefef;
-    				font-size: 13px;
+    				font-size: 15px;
+    					font-family: 'Poppins';
+    					font-weight: 500 !important;
 				}
 			}
 		}
