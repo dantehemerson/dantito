@@ -49,7 +49,10 @@ permalink: /contact/
 								  </div>
 								  <button type="submit" class="btn btn-primary">Send Message</button>
 								</form>
-						</div>
+					</div>
+					<div class="col-lg-4 info-contact-container">
+						<h3>Mis redes sociales</h3>
+					</div>
 				</div>			 		
 			</div>
 		</div>
