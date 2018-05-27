@@ -16,6 +16,17 @@ $hr-about-color: $titles-color;
 
 .about-title {
 	margin-bottom: 0;
+	padding-top: 20px;
+	color: black;
+   text-align: left;
+	.me {
+		display: block;
+		margin-top: -31px;
+    	line-height: 1;
+    	color: #00c18f;
+    	margin-left: 241px;
+	}
+
 }
 
 .about-hr {
@@ -24,5 +35,4 @@ $hr-about-color: $titles-color;
 	height: 4px;
 	border: none;	
 	margin-top: 7px;
-	box-shadow: 0 0 8px $navbar-font-color;
 }
