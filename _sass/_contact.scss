@@ -51,27 +51,6 @@ $font-size-socials: 70px;
 		}
 	}
 	
-	.fa.fa-instagram.social-styled {
-		// 3
-		background: #d6249f;
-		background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-		font-size: $font-size-socials - 12px;
-		width: $font-size-socials - 12px;
-		padding: 3px;
-		border-radius: 15px;
-	}
-
-	.fa.fa-twitter.social-styled {
-		background: transparent;
-		color: $twitter-color;
-		
-	
-    	
-		&:hover {
-			color: $twitter-color !important;			
-		}
-	}
-
 	.fa.fa-github.social-styled {
 		background: transparent;
 		color: $github-color;
