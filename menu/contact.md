@@ -59,11 +59,7 @@ permalink: /contact/
 								<ul>
 									<li>
 										<a href="">dantehemerson@gmail.com</a>
-									</li>
-									<li>
-										<a href="">dc@dantecalderon.com</a>
-									</li>
-									
+									</li>									
 								</ul>
 							</div>
 							<div class="info-contact-section-title">
