@@ -8,8 +8,8 @@ permalink: /portfolio/
 
 
 <body itemscope="" itemtype="http://schema.org/Blog">
+	{% include navbar.html %}
 	<div class="container-background">
-	    {% include navbar.html %}
 		
 		<div class="container container-full pt pb-md">
 			<div class="row">

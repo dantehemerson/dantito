@@ -104,17 +104,15 @@ $font-size-socials: 70px;
 	text-align: center;
 	margin-top: 35px;
 	margin-bottom: 45px;
-}
-
-.contact-header p {
-	padding-top: 10px;
-	font-size: 18px;
+	margin-top: 150px;
 }
 
 .form-contact-container {
-	text-align: center;
-	margin-top: 55px;
-	margin-bottom: 88px;
+	 text-align: center;
+   margin-top: 55px;
+    background: #00f1b3;
+    margin-bottom: 88px;
+    padding: 50px 50px;
 }
 .form-contact-container h3 {
 	margin-bottom: 0;
@@ -130,12 +128,37 @@ $font-size-socials: 70px;
 	padding-bottom: 55px;
 }
 
-.title-contact {
-	margin-bottom: 40px;
+.title-contact {	
 	padding: 0;
-    text-align: left;
+   text-align: left;
 }
 
+
+// font-family: $avenir-black-obl;
+// font-family: $avenir-book-obl;
+// font-family: $avenir-heavy-obl;
+// font-family: $avenir-light-obl;
+// font-family: $avenir-medium-obl;
+// font-family: $avenir-obl;
+// font-family: $avenir-black;
+// font-family: $avenir-book;
+// font-family: $avenir-heavy;
+// font-family: $avenir-light;
+// font-family: $avenir-medium;
+// font-family: $avenir-roman;
+// font-family: 'Raleway';
+
+.help-contact {
+
+	font-family: $avenir-roman;
+
+	padding-top: 10px;
+   font-weight: 500;
+   font-family: 'Poppins';
+   font-size: 18px;
+   color: #6f6f6f;
+   text-align: left;
+}
 .header-contact hr {
 	margin-top: 0;
 }
@@ -172,8 +195,7 @@ $font-size-socials: 70px;
 
 
 .section-background-form {
-	background: #da5022;
-	margin: 40px 0;
-    box-shadow: 0 0 90px black;
+
+   box-shadow: 0 0 90px black;
 
 }
