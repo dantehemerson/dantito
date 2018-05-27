@@ -15,7 +15,6 @@ permalink: /contact/
 			<div class="row">
 				<header class="col-lg-8 contact-header">
 					<h1 class="title-page title-contact">Contactame</h1>
-		 			<!-- <hr class="contact-subtitle-hr background-gradient"> -->
 		 			<p class="help-contact">Si tienes una pregunta, quieres que trabajemos juntos o quieres dejarme unas palabras. Me encantaría escucharte.</p>
 				</header>				
 				
