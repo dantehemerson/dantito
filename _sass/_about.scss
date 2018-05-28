@@ -20,12 +20,13 @@ $hr-about-color: $titles-color;
 
 .title-page-container  {
 	text-align: left;
+	margin-top: 30px;
+	margin-bottom: 100px;
 	.about-title {
 		margin-bottom: 0;
 		color: black;
 	   text-align: left;
 	   display: inline-block;
-	   position: relative;
 		.me {
 			position: absolute;
 			left: 90%;

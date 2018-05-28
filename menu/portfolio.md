@@ -14,7 +14,7 @@ permalink: /portfolio/
 		<div class="container container-full pt pb-md">
 			<div class="row">
 				<div class="col-12">
-					<h1  class="title-page">
+					<h1  class="title-page portfolio-title">
 						Portafolio
 					
 					</h1>					
