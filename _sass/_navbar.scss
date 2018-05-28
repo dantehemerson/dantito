@@ -54,8 +54,13 @@
      height: 2px;
      width: 30px;  
      border-radius: 0;  
-     background-color: rgba(255, 255, 255, 0.95);
+     background-color: white;
   }
+
+  .b-a-expanded {
+   transition: all .25s;
+   top: 0;
+}
   .navbar-toggler {
 
     border-radius: 0;
@@ -70,18 +75,21 @@
       outline-width: 0;
     }
 
-    &:hover {      
+    &.collapsed {      
 
       .burger-menu-toggler {   
-         top: 8px;
-
+        background: transparent;
+        transition: all .25s;
+         
          &:after {
-           @extend .b-a;
-           top: -8px;
+           @extend .b-a-expanded;           
+            transform: rotate(45deg);
+
          }
          &:before {
-           @extend .b-a;
-           top: 8px;
+           @extend .b-a-expanded;           
+          transform: rotate(-45deg);
+
          }
        }
     }
