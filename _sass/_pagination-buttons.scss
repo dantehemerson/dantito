@@ -1,16 +1,21 @@
 .pagination {
-
+	
 	.page-item {
 		
+		&.marginer {
+			width: 62px;
+		}
 		&.previous {
 			.page-link {
 				border-radius: 24px 3px 3px 24px;
+				margin-right: 20px;
 			}
 		}
 
 		&.next {
 			.page-link {
 				border-radius: 3px 24px 24px 3px;
+				margin-left: 20px;
 			}
 		}
 		
@@ -18,7 +23,7 @@
 	    	border-width: 0;
 			margin: 0 5px;
    		 border-radius: 50%;
-			color: $primary-color;
+			color: #101010;
 			text-align: center;
 			border: 1px solid #29292921;
 			&:hover {
@@ -27,6 +32,8 @@
 
 			&.number {
 				width: 38px;
+					font-family: 'Poppins';
+					font-weight: 600 !important;
 			}
 		}
 		
