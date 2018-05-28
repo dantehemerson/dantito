@@ -3,7 +3,7 @@
 
 		<!-- PREVIOUS -->
     	<li class="page-item {% if paginator.previous_page == nil %}disabled{% endif %}">
-      		<a class="page-link" href="{{ paginator.previous_page_path }}" tabindex="-1">Previous</a>
+      		<a class="page-link" href="{{ paginator.previous_page_path }}" tabindex="-1">Anterior</a>
     	</li>
 		
 		{% for index in (1..paginator.total_pages) %}
@@ -26,7 +26,7 @@
 
     	<!-- NEXT -->
     	<li class="page-item {% if paginator.next_page == nil %}disabled{% endif %}">
-      		<a class="page-link" href="{{ paginator.next_page_path }}">Next</a>
+      		<a class="page-link" href="{{ paginator.next_page_path }}">Siguiente</a>
     	</li>
   	</ul>  	
 </nav>
