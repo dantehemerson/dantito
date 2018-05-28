@@ -1,11 +1,15 @@
 @import "variables";
 
 .navbar {  
-  background: gray;
+  
   padding-top: $padding-navbar;
   padding-bottom: $padding-navbar;  
   
-   transition: top 0.2s ease-in-out;
+   transition: top 0.2s ease-in-out, background .4s;
+
+  &.no-topbar {
+    background: #101010;
+  }
 }
 
 .nav-up {
