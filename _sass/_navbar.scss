@@ -9,6 +9,13 @@
 
   &.no-topbar {
     background: #101010;
+    box-shadow: 1px 0 8px #101010;box-shadow: 1px 0 8px #101010;
+  }
+
+  .navbar-nav {
+    @include breakpoint(xs) {
+      text-align: center;
+    }
   }
 }
 
