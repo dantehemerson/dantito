@@ -111,7 +111,11 @@ $hr-contact-color: $titles-color;
 
 .title-contact {	
 	padding: 0;
+
    text-align: left;
+   @include breakpoint(xs) {
+   	color: blue;
+   }
 }
 
 
