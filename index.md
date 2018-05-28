@@ -13,11 +13,13 @@ scripts:
               <div class="col-md-4 col-lg-5 col-xl-3">
                 <img class="avatar" src="{{ site.baseurl }}/{{ site.data.authors.primary.avatar }}" alt="">
               </div>
-              <div class="col-md-8 col-lg-7 col-xl-7">                
-                <h3 class="greeting">¡Hola!, soy</h3>
-                <h1 class="name">Dante</h1>
-                <h2 class="lastname">Calderón</h2> 
-                <h3 class="slogan">Javascript / Go / Python &#183; Developer</h3>               
+              <div class="col-md-8 col-lg-7 col-xl-7 general-info">                
+                <div>
+                  <h3 class="greeting">¡Hola!, soy</h3>
+                  <h1 class="name">Dante</h1>
+                  <h2 class="lastname">Calderón</h2> 
+                  <h3 class="slogan">Javascript / Go / Python &#183; Developer</h3>               
+                </div>
               </div>
             </div>
       </div>

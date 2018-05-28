@@ -17,7 +17,11 @@ body {
 }
 
 
-
+.general-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .headerwrap .name, 
 .headerwrap .lastname {  
@@ -148,7 +152,7 @@ body {
 @media (max-width: 400px) { 
 
   .headerwrap .title-container .greeting {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       margin-bottom: 10px;
 
   }
