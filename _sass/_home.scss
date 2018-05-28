@@ -69,6 +69,10 @@ body {
   margin: 0 auto;
   color: transparent;
   -webkit-background-clip: text;
+
+  font-family: 'Poppins';
+  font-weight: 300 !important;
+  font-weight: 900 !important;
 }
 
 .headerwrap .title-container .lastname {  
@@ -76,6 +80,10 @@ body {
   margin-top: -11px;
   padding-left: 0.4em;
   letter-spacing: 1.3rem;
+
+  font-family: 'Poppins';
+  font-weight: 300 !important;
+  font-weight: 900 !important;
 }
 .headerwrap .title-container .username {
   text-transform: lowercase;
