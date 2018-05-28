@@ -1,9 +1,17 @@
+@import 'variables';
+
 .project-container {
 	max-width: 992px;
-	font-size: 1.05rem;
+	font-size: $fs-blog;
 	line-height: 1.5;
 	letter-spacing: 0;	
 	background: #f3f3f3;
+	box-shadow: 0 0 90px #000000;
+	margin-bottom: 50px;
+	font-family: "Avenir LT Std 65 Medium",sans-serif;	
+	h2, h3, h4, h5, h6 {	
+		font-family: $avenir-heavy;	
+	}
 }
 
 .post-container .title-project {
