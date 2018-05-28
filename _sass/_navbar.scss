@@ -21,31 +21,94 @@
   }
 }
 
-   .burger-menu-toggler {      
-      position: relative;
-      border: 0;
-      width: 32px;
-      height: 18px;
+//    .burger-menu-toggler {      
+//       position: relative;
+//       border: 0;
+//       width: 32px;
+//       height: 18px;
 
-      &:focus {
-        outline-width: 0;
-      }
-//      vertical-align: middle;
+//       &:focus {
+//         outline-width: 0;
+//       }
+// //      vertical-align: middle;
+//       &:before {
+//           content: "";
+//           position: absolute;
+//           display: block;
+//           left: 0;
+//           top: 0;
+//           width: 100%;
+//           height: 2px;
+//           background: white;
+//           box-shadow: 
+//             0 8px 0 0 white,
+//             0 16px 0 0 white;
+//       }
+//     }
+  
+  .b-a {
+     transition: all .25s; 
+     position: absolute;
+     content: "";
+     left: 0;           
+     height: 2px;
+     width: 30px;  
+     border-radius: 0;  
+     background-color: rgba(255, 255, 255, 0.95);
+  }
+  .navbar-toggler {
 
-      &:before {
-          content: "";
-          position: absolute;
-          display: block;
-          left: 0;
-          top: 0;
-          width: 100%;
-          height: 2px;
-          background: white;
-          box-shadow: 
-            0 8px 0 0 white,
-            0 16px 0 0 white;
-      }
+    border-radius: 0;
+    padding: 0;
+    border: 0;
+    width: 30px;
+    height: 18px;
+    position: relative;
+
+    &:focus {
+      border: 0;        
+      outline-width: 0;
     }
+
+    &:hover {      
+
+      .burger-menu-toggler {   
+         top: 8px;
+
+         &:after {
+           @extend .b-a;
+           top: -8px;
+         }
+         &:before {
+           @extend .b-a;
+           top: 8px;
+         }
+       }
+    }
+
+    .burger-menu-toggler {   
+       @extend .b-a;       
+       top: 8px;
+
+      
+       &:after {
+         @extend .b-a;
+         content: ""; 
+         position: absolute;
+         top: -8px;
+         left: 0;
+       }
+       &:before {
+         @extend .b-a;
+         content: ""; 
+         position: absolute;
+         top: 8px;
+         left: 0;
+       }
+     }
+
+  }
+   
 
 .nav-up {
     top: -82px;
