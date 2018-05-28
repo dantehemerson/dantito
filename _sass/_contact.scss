@@ -74,6 +74,10 @@ $hr-contact-color: $titles-color;
     background: #00f1b3;
     padding: 50px 50px;
 
+	 @include breakpoint(xs) {
+    padding: 50px 25px;
+
+	 }
  //   .form-control:focus {
  //  		border-color: #0e0e0e !important;
  //  		color: #6d6d6d !important;
