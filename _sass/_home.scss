@@ -42,13 +42,13 @@ body {
 }
 
 .headerwrap .title-container .greeting {
-  font-size: 1.6rem;  
+  font-size: 1.1rem;  
   text-transform: uppercase;
   line-height: 1;
   color: white;
+  margin-bottom: 0;
   font-family: 'Poppins';
   font-weight: 500 !important;
-  font-family: $avenir-light;
 }
 
 .headerwrap .title-container .name {
@@ -100,11 +100,11 @@ body {
 @media (max-width: 767px) {
   .headerwrap .title-container {
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 45px;
   }
 
   .headerwrap .title-container .greeting {
-    margin-top: 10px;
+    margin-top: 25px;
   }
 
   .headerwrap .title-container .lastname {  
