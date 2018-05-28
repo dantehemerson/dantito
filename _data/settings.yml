@@ -5,19 +5,19 @@ tagline: Programmer
 # Elementos en el navbar
 menu:
   - {name: 'Blog',        path: '', url: 'blog'}
-  - {name: 'Contact',     path: '', url: 'contact'}
-  - {name: 'Portfolio',   path: '', url: 'portfolio'}
+  - {name: 'Contacto',     path: '', url: 'contact'}
+  - {name: 'Portafolio',   path: '', url: 'portfolio'}
 
 menu_home:
   - {name: 'Blog',        path: '', url: 'blog'}
-  - {name: 'Contact',     path: '', url: 'contact'}
-  - {name: 'Portfolio',   path: '', url: 'portfolio'}
+  - {name: 'Contacto',     path: '', url: 'contact'}
+  - {name: 'Portafolio',   path: '', url: 'portfolio'}
 
 menu_footer:
-  - {name: 'Home',        path: '', url: ''}
+  - {name: 'Inicio',        path: '', url: ''}
   - {name: 'Blog',        path: '', url: 'blog'}
-  - {name: 'Contact',     path: '', url: 'contact'}
-  - {name: 'Portfolio',   path: '', url: 'portfolio'}
+  - {name: 'Contacto',     path: '', url: 'contact'}
+  - {name: 'Portafolio',   path: '', url: 'portfolio'}
 
 social:
   - {title: 'Github',     icon: 'github',    link: 'https://www.github.com/dantehemerson'}

@@ -29,23 +29,23 @@ permalink: /contact/
 			<div class="container">
 				<div class="row shadownable">
 					<div class="col-lg-7 form-contact-container">
-				 				<h3 class="title-section send-message">Send Me a message</h3>
+				 				<h3 class="title-section send-message">Eviame un mensaje</h3>
 					 			<form role="form">
 					 				<div class="row">
 									  <div class="form-group col-12 col-sm-6">
-									    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" required>
+									    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Tu Nombre" required>
 									  </div>
 									  <div class="form-group col-12 col-sm-6">
 									    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
 									  </div>				 					
 					 				</div>
 								  <div class="form-group">
-								    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Subject">
+								    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Asunto">
 								  </div>
 								  <div class="form-group">
-								  	<textarea class="form-control" id="message1" rows="6" placeholder="Your Message here" required></textarea>
+								  	<textarea class="form-control" id="message1" rows="6" placeholder="Tu mensaje aquí" required></textarea>
 								  </div>
-								  <button type="submit" class="btn btn-primary">Send Message</button>
+								  <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
 								</form>
 					</div>
 					<div class="col-lg-5 info-contact-container" style="background: url({{ site.baseurl }}/assets/images/Social_Media_Background.jpg);">
@@ -62,7 +62,7 @@ permalink: /contact/
 									</ul>
 								</div>
 								<div class="info-contact-section-title">
-									<p><i class="link-no-border fa fa-whatsapp"></i>Phone</p>
+									<p><i class="link-no-border fa fa-whatsapp"></i>Celular</p>
 									<ul>
 										<li>
 											<p>+51 928124770</p>
