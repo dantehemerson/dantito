@@ -92,7 +92,7 @@
 }
 
 .logo {
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   
   /* BACKGROUND GRADIENT */
   background: -moz-linear-gradient(43deg, $gradient-main-color-1 0%, $gradient-main-color-1 33%, $gradient-main-color-2 68%, $gradient-main-color-2 100%); /* ff3.6+ */
@@ -110,24 +110,10 @@
   -webkit-background-clip: text;
   display: inline-block;
 
-  font-family: $avenir-black-obl;
-font-family: $avenir-book-obl;
-font-family: $avenir-heavy-obl;
-font-family: $avenir-light-obl;
-font-family: $avenir-medium-obl;
-font-family: $avenir-obl;
-font-family: $avenir-black;
-font-family: $avenir-book;
-font-family: $avenir-heavy;
-font-family: $avenir-light;
-font-family: $avenir-medium;
-font-family: $avenir-roman;
+  
+  font-family: 'Audiowide';
   font-family: 'Poppins';
   font-weight: 300 !important;
-  font-weight: 500 !important;
-  font-weight: 600 !important;
-  font-weight: 700 !important;
-  font-weight: 800 !important;
   font-weight: 900 !important;
 
 
