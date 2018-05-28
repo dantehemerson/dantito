@@ -46,6 +46,19 @@
 //       }
 //     }
   
+  /** Clase para cuando la navbar este abierta en xs **/
+  .navbar-open {
+    height: 100vh;
+    background: rgba(16, 16, 16, 0.88);
+
+    .container {
+      height: 100%;
+      display: flex;
+      align-items: baseline;
+    }
+  }
+
+
   .b-a {
      transition: all .25s; 
      position: absolute;
