@@ -7,35 +7,34 @@ var scroll;
 
 
 $(window).scroll(function(event){
-    var st = $(this).scrollTop();
-   
-    if(st >= 70) {
-        $('nav').addClass('no-topbar');
-    }else {
-        $('nav').removeClass('no-topbar').removeClass('nav-up');
-    }
+    hasScrolled();   
 
-    didScroll = true;
+  //  didScroll = true;
 });
 
-setInterval(function() {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-}, 250);
+// setInterval(function() {
+//     if (didScroll) {
+//         hasScrolled();
+//         didScroll = false;
+//     }
+// }, 250);
 
 
 
 
 function hasScrolled() {
     var st = $(this).scrollTop();
-    
+
+    if(st >= 70) {
+        $('nav').addClass('no-topbar');
+    }else {
+        $('nav').removeClass('no-topbar').removeClass('nav-up');
+    }
 
     if(st >= 200) {        
-        // Make sure they scroll more than delta
-        if(Math.abs(lastScrollTop - st) <= delta)
-            return;
+        // // Make sure they scroll more than delta
+        // if(Math.abs(lastScrollTop - st) <= delta)
+        //     return;
         
         // If they scrolled down and are past the navbar, add class .nav-up.
         // This is necessary so you never see what is "behind" the navbar.
