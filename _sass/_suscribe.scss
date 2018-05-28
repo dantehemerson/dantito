@@ -15,10 +15,22 @@
 	position: relative;
 }
 
+
+.suscribe-container {
+	.slogan-blog {
+		padding-bottom: 35px;
+		color: rgba(0, 0, 0, 0.4588235294117647);
+    	font-size: 17px;
+    	font-family: $avenir-book;
+    		font-family: 'Poppins';
+    		font-weight: 500 !important;
+
+	}
+}
 .suscribe-container .title-suscribe{
 	font-size: 38px;
 	line-height: 38px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	margin-top: 0;
 	color: white !important;
 
