@@ -1,10 +1,17 @@
 @import "variables";
 
 .navbar {  
- // background: #101010;
+  background: gray;
   padding-top: $padding-navbar;
   padding-bottom: $padding-navbar;  
+  
+   transition: top 0.2s ease-in-out;
 }
+
+.nav-up {
+    top: -82px;
+}
+
 
 .navbar-collapse {
   flex-grow: 0;
