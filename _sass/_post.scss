@@ -16,6 +16,17 @@ $hr-post-color: #00BAB7;
   object-position: 50% 50%;
 
   }
+
+  &.image-background {
+  		@media (max-width: 960px) { 
+			height: 90px;
+			-o-object-fit: cover;
+			  -o-object-position: 50% 50%;
+			  object-fit: cover;
+			  object-position: 50% 50%;
+				
+		}
+  }
 }
 
 .post-container {
