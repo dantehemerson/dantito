@@ -18,19 +18,25 @@ $hr-about-color: $titles-color;
 	color: #383838;
 }
 
-.about-title {
-	margin-bottom: 0;
-	padding-top: 20px;
-	color: black;
-   text-align: left;
-	.me {
-		display: block;
-		margin-top: -31px;
-    	line-height: 1;
-    	color: #00c18f;
-    	margin-left: 241px;
-	}
+.title-page-container  {
+	text-align: left;
+	.about-title {
+		margin-bottom: 0;
+		color: black;
+	   text-align: left;
+	   display: inline-block;
+	   position: relative;
+		.me {
+			position: absolute;
+			left: 90%;
+			top: 72%;
+	    	line-height: 1;
+	    	color: #00c18f;
+	    	
+		}
 
+	}
+	
 }
 
 .about-hr {
