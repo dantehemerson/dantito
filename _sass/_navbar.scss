@@ -4,61 +4,34 @@
   
   padding-top: $padding-navbar;
   padding-bottom: $padding-navbar;  
-  
-   transition: top 0.2s ease-in-out, background .4s;
+  transition: top 0.2s ease-in-out, background .4s;
 
   &.no-topbar {
     background: #101010;
-    box-shadow: 1px 0 8px #101010;box-shadow: 1px 0 8px #101010;
+    box-shadow: 1px 0 8px #101010;
   }
 
   .navbar-nav {
     @include breakpoint(xs) {
       text-align: center;
     }
-
-
   }
+
+  
 }
-
-//    .burger-menu-toggler {      
-//       position: relative;
-//       border: 0;
-//       width: 32px;
-//       height: 18px;
-
-//       &:focus {
-//         outline-width: 0;
-//       }
-// //      vertical-align: middle;
-//       &:before {
-//           content: "";
-//           position: absolute;
-//           display: block;
-//           left: 0;
-//           top: 0;
-//           width: 100%;
-//           height: 2px;
-//           background: white;
-//           box-shadow: 
-//             0 8px 0 0 white,
-//             0 16px 0 0 white;
-//       }
-//     }
   
   /** Clase para cuando la navbar este abierta en xs **/
   .navbar-open {
     
+    &.nav-up {
+      top: 0px;
+    }
+
     background: rgba(16, 16, 16, 0.88) !important;
 
     .container {
-      // height: 100%;
-      // display: flex;
-      // align-items: baseline;
-
       .navbar-collapse {
         display: initial;
-
         height: calc(100vh - 82px);
       }
 
