@@ -72,6 +72,22 @@
       opacity: 0;
       transform: scaleY(0.8);
       margin-top: -33px;
+
+      max-width: 300px;
+          margin-left: auto;
+          margin-right: auto;
+
+      li {
+        .nav-link {
+          padding: 1rem 1rem;
+          margin-top: 1px;
+        }
+      }
+      li + li {
+         .nav-link {
+            box-shadow: 0 -1px 0 0 #232323;
+        }
+      }
     }
   }
   
