@@ -40,10 +40,10 @@ $('#navbarToggler').on('click', function() {
     
     if($('nav').hasClass('navbar-open')) {
         navbarNav.removeClass('hide');        
-        $('#mainWrapper').addClass('blur');
+       // $('#mainWrapper').addClass('blur');
     }
     else {
-        $('#mainWrapper').removeClass('blur');
+      //  $('#mainWrapper').removeClass('blur');
         setTimeout(function() {
             navbarNav.addClass('hide');
         }, 400);
