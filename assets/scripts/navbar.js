@@ -5,6 +5,13 @@ var delta = 5;
 var navbarHeight = $('nav').outerHeight();
 var scroll;
 
+$('#navbarNav').on('show.bs.collapse', function() {
+    $('nav').addClass('navbar-open');
+});
+
+$('#navbarNav').on('hidden.bs.collapse', function() {
+    $('nav').removeClass('navbar-open');
+});
 
 $(window).scroll(function(event){
     hasScrolled();   
