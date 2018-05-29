@@ -35,7 +35,9 @@ let navbarNav = $('#navbarNav');
 var lastScrollTop = 0;
 var navbarHeight = $('nav').outerHeight();
 
-$('#navbarToggler').on('click', function() {
+$('#navbarToggler').on('click', function() {    
+    
+
     $('nav').toggleClass('navbar-open');
     
     if($('nav').hasClass('navbar-open')) {

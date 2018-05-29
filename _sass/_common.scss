@@ -351,11 +351,12 @@ $padding-xxl: 200px;
 
 }
 .main-wrapper {
-  -moz-filter: blur(0em);
-  -webkit-filter: blur(0em);
-  -ms-filter: blur(0em);
-  filter: blur(0em);
-  transition: all .4s;
+  // Ya no lo pongo por que funciona lento en mi movil.
+  // -moz-filter: blur(0em);
+  // -webkit-filter: blur(0em);
+  // -ms-filter: blur(0em);
+  // filter: blur(0em);
+  // transition: all .4s;
 }
 .blur {
   -moz-filter: blur(.5em);
