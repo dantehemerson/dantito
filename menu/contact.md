@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: "Contact"
+title: "Contacto"
 scripts:
  - index
 permalink: /contact/

@@ -4,11 +4,13 @@ tagline: Programmer
 
 # Elementos en el navbar
 menu:
+  - {name: 'Inicio',        path: '', url: ''}
   - {name: 'Blog',        path: '', url: 'blog'}
   - {name: 'Contacto',     path: '', url: 'contact'}
   - {name: 'Portafolio',   path: '', url: 'portfolio'}
 
 menu_home:
+  - {name: 'Inicio',        path: '', url: ''}
   - {name: 'Blog',        path: '', url: 'blog'}
   - {name: 'Contacto',     path: '', url: 'contact'}
   - {name: 'Portafolio',   path: '', url: 'portfolio'}
