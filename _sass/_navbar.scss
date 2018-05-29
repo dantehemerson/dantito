@@ -31,7 +31,9 @@
 
     .container {
       .navbar-collapse {
-        height: calc(100vh - 82px);
+        height: calc(100vh - 82px);        
+        transition: max-height 0s ease-out; 
+        max-height: 800px;
       }
 
       .burger-menu-toggler {   
@@ -56,8 +58,9 @@
 .navbar-collapse {
   overflow: hidden;
   display: flex;
-  height: 0;
-
+  max-height: 0;
+  height: calc(100vh - 82px);  
+  transition: max-height .4s ease-out; 
   .navbar-nav {
     width: 100%;
     margin-top: -33px;
