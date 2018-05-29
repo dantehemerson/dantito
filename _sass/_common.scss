@@ -332,6 +332,10 @@ $padding-xxl: 200px;
   text-align: center;
   padding: 0;
   color: white;
+    overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  direction: rtl;
      position: relative;     
 
 
