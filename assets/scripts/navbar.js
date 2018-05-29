@@ -1,3 +1,24 @@
+var stateManager = (function () {  
+    var resizePage = function () {
+        if ($('body').width() < 576) {
+          
+        }
+        else {
+           $('nav').removeClass('navbar-open');
+        }
+    }; 
+
+  return {
+    init: function () {
+      resizePage();
+      $(window).on('resize', resizePage);
+    }
+  };
+} ());
+stateManager.init();
+
+
+
 // Hide Navbar on scroll down
 var didScroll;
 var lastScrollTop = 0;
@@ -5,13 +26,18 @@ var delta = 5;
 var navbarHeight = $('nav').outerHeight();
 var scroll;
 
-$('#navbarNav').on('show.bs.collapse', function() {
-    $('nav').addClass('navbar-open');
+$('#navbarToggler').on('click', function() {
+    $('nav').toggleClass('navbar-open');
 });
 
 $('#navbarNav').on('hidden.bs.collapse', function() {
     $('nav').removeClass('navbar-open');
 });
+
+
+
+
+
 
 $(window).scroll(function(event){
     hasScrolled();   

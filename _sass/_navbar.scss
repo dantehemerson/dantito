@@ -48,14 +48,19 @@
   
   /** Clase para cuando la navbar este abierta en xs **/
   .navbar-open {
-    height: 100vh;
+    
     background: rgba(16, 16, 16, 0.88) !important;
 
     .container {
-      height: 100%;
-      display: flex;
-      align-items: baseline;
+      // height: 100%;
+      // display: flex;
+      // align-items: baseline;
 
+      .navbar-collapse {
+        display: initial;
+
+        height: calc(100vh - 82px);
+      }
 
       .burger-menu-toggler {   
         background: transparent;
@@ -75,6 +80,10 @@
     }
   }
 
+
+.navbar-collapse {
+  display: none;
+}
 
   .b-a {
      transition: all .25s; 

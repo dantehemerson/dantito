@@ -80,6 +80,21 @@ a:hover, a:focus {
 
 /** Bootstrap clases sobreescribiendo **/
 
+/** Deshabilita la transicion del navbar-nav **/
+.collapsing {
+    -webkit-transition: none !important;
+    transition: none !important;
+    -webkit-transition-delay: 0s !important;
+    transition-delay: 0s !important;
+    display: none !important;
+}
+
+.collapse.show {
+    -webkit-transition-delay: 0s !important;
+    transition-delay: 0s !important;
+}
+
+
 .form-control {
   border-radius: 0 !important;
 }
