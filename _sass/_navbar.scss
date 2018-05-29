@@ -32,13 +32,13 @@
     .container {
        .navbar-collapse {
          display: flex;
-        &.xs {
-          .navbar-nav {
-            transition: all .5s !important;
-            transform: scaleY(1);
-            opacity: 1;
+          &.xs {
+            .navbar-nav {
+              transition: all .5s !important;
+              transform: scaleY(1);
+              opacity: 1;
+            }
           }
-        }
 
       }
 
@@ -72,11 +72,14 @@
       opacity: 0;
       transform: scaleY(0.8);
       margin-top: -33px;
-
       max-width: 300px;
           margin-left: auto;
           margin-right: auto;
 
+      
+    }
+
+    .navbar-nav {
       li {
         .nav-link {
           padding: 1rem 1rem;
