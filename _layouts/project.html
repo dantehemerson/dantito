@@ -6,42 +6,45 @@ style:
 ---
 
 <body>
-	<div class="container-background">
-		{% include navbar.html %}
-		<div class="container post-container project-container" style="padding: 0; margin-bottom: 0;">
-			{% if page.image.feature %}
-				<img class="img-main-post img-project"  src="{{ site.baseurl }}/assets/images/{{ page.image.feature }}" alt="">
-			{% else %}
-				<img class="img-main-post img-project"  src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
-			{% endif %}
-		</div>
-
-		<div class="container post-container project-container pb-lg pt-md">
-			<div class="row">
-				<div class="col-12">
-					<h1 class="title-post title-project">{{ page.title }}</h1>	 		 		
-					<h2 class="subtitle-post subtitle-project">Un buena forma de pasar el tiempo cuando estas solo</h2>
-					<hr class="post-hr-header">
-				</div>				
+	{% include navbar.html %}
+	<div class="main-wrapper" id="mainWrapper">
+		<div class="container-background">
+			<div class="container post-container project-container" style="padding: 0; margin-bottom: 0;">
+				{% if page.image.feature %}
+					<img class="img-main-post img-project"  src="{{ site.baseurl }}/assets/images/{{ page.image.feature }}" alt="">
+				{% else %}
+					<img class="img-main-post img-project"  src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
+				{% endif %}
 			</div>
-			<div class="row">
-			 	<div class="col-md-7 col-sm-10 mx-auto project-data">
-					{{ content }}	
-			 	</div>
-			 	
-			 	<div class="col-md-5 col-sm-10 mx-auto project-details">				 	
-			 		<h3>Project Details</h3>
-			 		<hr class="hline"></hr>
-			 		<p><b>Date:</b>{{ page.date | date: ' %B %d'}}{{ page.date | date: ', %Y' | replace_first: '1', '2' }}</p>
-			 		<p><b>Author:</b> Marcel Newman</p>
-			 		<p><b>Categories:</b> Illustration, Web Design, Wordpress</p>
-			 		<p><b>Tagged:</b> Flat, UI, Development</p>
-			 		<p><b>Client:</b> Wonder Corp.</p>			 		
-			 	</div>		
-			</div>
-		</div>
 
-		{% include footer.html %}
+			<div class="container post-container project-container pb-lg pt-md">
+				<div class="row">
+					<div class="col-12">
+						<h1 class="title-post title-project">{{ page.title }}</h1>	 		 		
+						<h2 class="subtitle-post subtitle-project">Un buena forma de pasar el tiempo cuando estas solo</h2>
+						<hr class="post-hr-header">
+					</div>				
+				</div>
+				<div class="row">
+				 	<div class="col-md-7 col-sm-10 mx-auto project-data">
+						{{ content }}	
+				 	</div>
+				 	
+				 	<div class="col-md-5 col-sm-10 mx-auto project-details">				 	
+				 		<h3>Project Details</h3>
+				 		<hr class="hline"></hr>
+				 		<p><b>Date:</b>{{ page.date | date: ' %B %d'}}{{ page.date | date: ', %Y' | replace_first: '1', '2' }}</p>
+				 		<p><b>Author:</b> Marcel Newman</p>
+				 		<p><b>Categories:</b> Illustration, Web Design, Wordpress</p>
+				 		<p><b>Tagged:</b> Flat, UI, Development</p>
+				 		<p><b>Client:</b> Wonder Corp.</p>			 		
+				 	</div>		
+				</div>
+			</div>
+
+			{% include footer.html %}
+		</div>
+		
 	</div>
 
 </body>

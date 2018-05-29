@@ -6,7 +6,7 @@ scripts:
 ---
 <body itemscope="http://schema.org/Person" itemtype="http://schema.org/Blog">
   {% include navbar.html %}      
-  <div class="" id="mainWrapper">
+  <div class="main-wrapper" id="mainWrapper">
     <header class="headerwrap" >
       <div class="header-image">      
         <div class="container pt-md">        
