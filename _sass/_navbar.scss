@@ -31,7 +31,6 @@
 
     .container {
       .navbar-collapse {
-        display: initial;
         height: calc(100vh - 82px);
       }
 
@@ -55,7 +54,8 @@
 
 
 .navbar-collapse {
-  display: none;
+  overflow: hidden;
+  height: 0;
 }
 
   .b-a {
