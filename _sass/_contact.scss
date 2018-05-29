@@ -113,8 +113,8 @@ $hr-contact-color: $titles-color;
 	padding: 0;
 
    text-align: left;
-   @include breakpoint(xs) {
-   	color: blue;
+   @include breakpoint(xs) {   	
+   	font-size: 44px;
    }
 }
 
