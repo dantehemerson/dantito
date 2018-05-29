@@ -1,10 +1,11 @@
 var stateManager = (function () {  
     var resizePage = function () {
-        if ($('body').width() < 576) {
-          
+        if (window.innerWidth < 576) {           
+           $('#navbarNav').addClass('xs');                                 
         }
         else {
-           $('nav').removeClass('navbar-open');
+           $('nav').removeClass('navbar-open');           
+           $('#navbarNav').removeClass('xs');           
         }
     }; 
 
@@ -21,27 +22,25 @@ stateManager.init();
 let navbarNav = $('#navbarNav');
 
 
-
-// Hide Navbar on scroll down
-var didScroll;
 var lastScrollTop = 0;
-var delta = 5;
 var navbarHeight = $('nav').outerHeight();
-var scroll;
 
 $('#navbarToggler').on('click', function() {
     $('nav').toggleClass('navbar-open');
+    
+    if($('nav').hasClass('navbar-open')) {
+        navbarNav.removeClass('hide');        
+    }
+    else {
+        setTimeout(function() {
+            navbarNav.addClass('hide');
+        }, 400);
+    }
 });
-
-
-
-
 
 
 $(window).scroll(function(event){
     hasScrolled();   
-
-  //  didScroll = true;
 });
 
 

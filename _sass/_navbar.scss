@@ -30,9 +30,10 @@
     background: rgba(16, 16, 16, 0.88) !important;
 
     .container {
-      .navbar-collapse {
-        display: flex;
-      }
+       .navbar-collapse {
+         display: flex;
+          
+       }
 
       .burger-menu-toggler {   
         background: transparent;
@@ -53,9 +54,12 @@
   }
 
 .navbar-collapse {
-  display: none;  
-  height: calc(100vh - 82px);        
+  display: flex;    
 
+  &.xs {
+      height: calc(100vh - 82px);      
+  }
+  
   .navbar-nav {
     width: 100%;
     margin-top: -33px;
