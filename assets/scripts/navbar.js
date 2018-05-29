@@ -18,6 +18,9 @@ var stateManager = (function () {
 stateManager.init();
 
 
+let navbarNav = $('#navbarNav');
+
+
 
 // Hide Navbar on scroll down
 var didScroll;
@@ -30,10 +33,6 @@ $('#navbarToggler').on('click', function() {
     $('nav').toggleClass('navbar-open');
 });
 
-$('#navbarNav').on('hidden.bs.collapse', function() {
-    $('nav').removeClass('navbar-open');
-});
-
 
 
 
@@ -44,14 +43,6 @@ $(window).scroll(function(event){
 
   //  didScroll = true;
 });
-
-// setInterval(function() {
-//     if (didScroll) {
-//         hasScrolled();
-//         didScroll = false;
-//     }
-// }, 250);
-
 
 
 
