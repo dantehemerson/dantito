@@ -1,10 +1,15 @@
 <nav class="navbar navbar-expand-sm fixed-top navbar-dark navbar-custom">
 	<div class="container">
 		
-		<a class="navbar-brand link-no-border" href="{{ site.baseurl }}/">
+		<a class="navbar-brand link-no-border" href='{{ site.baseurl }}/{% if page.title == "Blog" %}blog{% endif %}'>
 			<div>
 				<span class="logo va-middle">Dante</span> 								
+				{% if page.title == "Blog" %}
+					<span class="logo-blog">Blog</span>
+				{% endif %}
+
 			</div>
+
 			<!-- {% unless page.title == "Home" %} -->
 			<!-- {% endunless %} -->
 		</a>
