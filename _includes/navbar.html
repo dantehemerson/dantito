@@ -26,7 +26,7 @@
 		<div class="navbar-collapse hide" id="navbarNav">
 			<ul class="navbar-nav">				
 				{% for item in site.data.settings.menu %}
-					<li class="nav-item {% if item.name == page.title %}active{% elsif layout.title == page.title %}active{% endif %}">
+					<li class="nav-item {% if item.name == page.title %}active{% elsif layout.title == item.name %}active{% endif %}">
 						{% if item.path == "" %}
 							<a class="nav-link link-no-border" href="{{ site.baseurl }}/{{ item.url}}">{{ item.name }} 
 								{% if item.name == page.title %}<span class="sr-only">(current)</span>{% endif %}
