@@ -1,11 +1,22 @@
 var stateManager = (function () {  
+    let state = null;
     var resizePage = function () {
         if (window.innerWidth < 576) {           
-           $('#navbarNav').addClass('xs');                                 
+           $('#navbarNav').addClass('xs'); 
+           if(state !== "mobile") { 
+                // Entra por por primera vez en mobile
+                state = "mobile";        
+
+           }                                 
         }
         else {
            $('nav').removeClass('navbar-open');           
-           $('#navbarNav').removeClass('xs');           
+           $('#navbarNav').removeClass('xs');  
+            $('#navbarNav').addClass('hide'); 
+           if(state !== "no-mobile") {
+                // Ya no esta en monbile
+                state = "no-mobile";
+           }
         }
     }; 
 
