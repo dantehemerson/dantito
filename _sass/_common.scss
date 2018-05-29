@@ -351,7 +351,13 @@ $padding-xxl: 200px;
 
 }
 
+.blur {
+  -moz-filter: blur(.5em);
+  -webkit-filter: blur(.5em);
+  -ms-filter: blur(.5em);
+  filter: blur(.5em);
 
+}
 .hide {
   display: none !important;
 }
