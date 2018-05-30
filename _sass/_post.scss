@@ -8,6 +8,13 @@ $hr-post-color: #00BAB7;
 	
 	position: absolute;
 	top: 0;
+
+	&.image-background {
+		  -moz-filter: blur(.3em);
+		  -webkit-filter: blur(.3em);
+		  -ms-filter: blur(.3em);
+		  filter: blur(.3em);
+	}
   @include breakpoint(md)  {
 	height: 480px;
 	-o-object-fit: cover;
@@ -34,9 +41,7 @@ $hr-post-color: #00BAB7;
   font-size: $fs-blog;
   line-height: 1.58;
   letter-spacing: -.004em;
-  &.padding-post {
-  	margin-top: 100px;  	
-  }
+ 
 }
 
 .post-container .title-post {
