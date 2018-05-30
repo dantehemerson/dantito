@@ -293,7 +293,7 @@
 /// PROGRESS BAR 
 
 .progress-bar {
-   position: absolute;
+   position: fixed;
    left: 0;
    right: 0;  
    bottom: 0; 
@@ -323,19 +323,11 @@
    background-color: #ccc;
 }
  .progress-bar .time-completed, .progress-bar .time-remaining {
-   color: yellow;
+   color: blue;
 }
  .progress-bar .time-completed {
    float: left;
 }
  .progress-bar .time-remaining {
    float: right;
-}
-
-.icon-clock, .icon-calendar {
-    width: rem(15px);
-    height: rem(15px);
-    fill: darken(lightGray,30%);
-    vertical-align: middle;
-    margin-right: rem(3px);
 }

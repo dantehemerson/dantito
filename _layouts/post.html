@@ -23,6 +23,7 @@ comments: true
 		</div>
 
 		<div class="theme-post theme-light-post">
+			
 			<div>
 				{% if page.image.feature %}
 					<img class="post-image-full" width="100%" src="{{ site.baseurl }}/assets/images/{{ page.image.feature }}" alt="">				
@@ -33,30 +34,33 @@ comments: true
 				{% endif %}			
 			</div>
 			
-			<div class="container post-container">
-				<h1 class="title-post">{{ page.title }}</h1>	
-				{% if page.subtitle %}
-					<h2 class="subtitle-post">{{ page.subtitle }}</h2>
-				{% endif %}
+			<div class="post-content">
+				<div class="container post-container">
 
-				<hr class="post-hr-header">
+					<h1 class="title-post">{{ page.title }}</h1>	
+					{% if page.subtitle %}
+						<h2 class="subtitle-post">{{ page.subtitle }}</h2>
+					{% endif %}
 
-				<div class="post-author-date">
-					<span>
-						<a class="author" href="dantecalderon.com">DANTE CALDERON,</a>
-						<span class="date">
-						{{ page.date | date: '%B %d, %Y' }}
-						</span>
-					</span>				
+					<hr class="post-hr-header">
+
+					<div class="post-author-date">
+						<span>
+							<a class="author" href="dantecalderon.com">DANTE CALDERON,</a>
+							<span class="date">
+							{{ page.date | date: '%B %d, %Y' }}
+							</span>
+						</span>				
+					</div>
+
+					{% include social-sharing.html %}
+					<hr>
+					{{ content }}	
+					<hr>
+					{% include social-sharing.html %}			
 				</div>
-				{% include social-sharing.html %}
-				<hr>
-				{{ content }}	
-				<hr>
-				{% include social-sharing.html %}			
 			</div>
-
-			<!-- crazy here  -->
+			
 					
 			{% include suscribe.html %}
 			
@@ -69,6 +73,7 @@ comments: true
 
 	</div>
 
+	<script src="{{ site.baseurl }}/assets/scripts/progress-bar.js"></script>
 	<!-- DISQUS --->
 	{% if layout.comments %}
 		<script src="{{ site.baseurl }}/assets/scripts/disqus.js"></script>
