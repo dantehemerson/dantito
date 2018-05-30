@@ -291,6 +291,7 @@
 
 
 /// PROGRESS BAR 
+$height-bar: 4px;
 
 .progress-bar {
    position: fixed;
@@ -300,26 +301,26 @@
    display: flex;
    align-items: center;
    width: 100%;
-   background-color: black;
-   border-top: 1px solid #f2f2f2;
+   background-color: black;   
 
    .bar {
       display: block;
       width: 100%;           
+       background: linear-gradient(47deg, #127caf 0%, #127caf 33%, #16ad2f 68%, #16ad2f 100%);
    }
 
    .completed {
       float: left;
       display: block;
-      height: 8px;
-      background-color: red;
+      height: $height-bar;
+      background-color: transparent;
    }
 
    .remaining {
       float: left;
       display: block;
-      height: 8px;
-      background-color: #ccc;
+      height: $height-bar;
+      background-color: #f3f3f3;
    }
   
   .time {
@@ -329,6 +330,7 @@
     text-align: center;   
     font-family: "Courier New", Courier, monospace;
     font-family: "Lucida Console", Monaco, monospace;
+    display: none;
 
     &.time-completed {
     }
