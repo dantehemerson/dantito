@@ -1,6 +1,13 @@
 <nav class="navbar navbar-expand-sm fixed-top navbar-dark navbar-custom">
-	<div class="container">
-		
+	<div class="progress-bar" data-minutes="{{ totalMinutes }}">
+	    <span class="time-completed"></span>
+	    <span class="time-remaining"></span>
+	    <div class="bar">
+	        <span class="completed" style="width:0%;"></span>
+	        <span class="remaining" style="width:100%;"></span>
+	    </div>
+	</div>
+	<div class="container">		
 		<a class="navbar-brand link-no-border" href='{{ site.baseurl }}/{% if page.title == "Blog" %}blog{% elsif layout.title == "Blog" %}blog{% endif %}'>
 			<div>
 				<span class="logo va-middle">Dante</span> 								
