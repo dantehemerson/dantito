@@ -202,7 +202,7 @@
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: $navlink-color;
+  background-color: #f53d00;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -218,9 +218,7 @@
 }
 
 .navbar-custom .navbar-nav .nav-link:hover:before {
-  visibility: visible;
-    text-shadow: 0 0 8px $navlink-color;
-
+  visibility: visible;    
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
@@ -232,7 +230,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: $navlink-color;
+  background-color: #f53d00;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
