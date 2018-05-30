@@ -3,12 +3,8 @@
 			<div class="row justify-content-center">
 					<div class="col-12 col-lg-10">
 						{% for skill in site.data.authors.skills %}
-							<img src="https://icongr.am/devicon/{{skill.icon-name}}-{{ skill.version }}.svg?size=100">
+							<img width="100px" src="{{ site.baseurl }}/assets/icons/{{skill.icon-name}}/{{skill.icon-name}}-{{ skill.version }}.svg">
 						{% endfor %}
-					</div>
-						
-					<div>
-						<p style="font-family: devicon;">&#xe600;</p>
 					</div>
 			</div>		
 	</div>

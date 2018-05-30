@@ -15,14 +15,14 @@ skills:
   - { name: "Git", icon-name: "git", version: "original"}
   - { name: "Python", icon-name: "python", version: "original"}
   - { name: "Babel", icon-name: "babel", version: "original"}
-  - { name: "Bootstrap", icon-name: "bootstrap", version: "original"}
+  - { name: "Bootstrap", icon-name: "bootstrap", version: "plain"}
   - { name: "Bower", icon-name: "bower", version: "original"}
   - { name: "C", icon-name: "c", version: "original"}
   - { name: "Debian", icon-name: "debian", version: "original"}
   - { name: "Foundation", icon-name: "foundation", version: "original"}
   - { name: "Gitlab", icon-name: "gitlab", version: "original"}
   - { name: "Grunt", icon-name: "grunt", version: "original"}
-  - { name: "Gulp", icon-name: "gulp", version: "original"}
+  - { name: "Gulp", icon-name: "gulp", version: "plain"}
   - { name: "Java", icon-name: "java", version: "original"}
 
   - { name: "JQuery", icon-name: "jquery", version: "original"}
