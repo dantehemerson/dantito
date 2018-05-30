@@ -25,8 +25,8 @@
 		{% endfor %}
 
     	<!-- NEXT -->
-    	<li class="page-item next {% if paginator.next_page == nil %}marginer{% endif %}">
-      		<a class="page-link {% if paginator.next_page == nil %}hide{% endif %}" href="{{ paginator.next_page_path }}"><i class="fa fa-chevron-right"></i></a>
+    	<li class="page-item next">
+      		<a class="page-link {% if paginator.next_page == nil %}no-visible{% endif %}" href="{{ paginator.next_page_path }}"><i class="fa fa-chevron-right"></i></a>
     	</li>
   	</ul>  	
 </nav>
