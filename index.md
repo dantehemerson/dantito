@@ -28,6 +28,7 @@ scripts:
       </div>
     </header>      
     {% include about.html %}  
+    {% include skills.html %}  
     {% include footer.html %}        
   </div>
 
