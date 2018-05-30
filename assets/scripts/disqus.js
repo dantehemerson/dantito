@@ -11,8 +11,8 @@ var disqus_config = function () {
 	this.page.url = document.location.href;  
 	this.page.identifier = pathname;
 
-	console.log("URL : " + this.page.url);
-	console.log("ID  : " + this.page.identifier);
+	// console.log("URL : " + this.page.url);
+	// console.log("ID  : " + this.page.identifier);
 };
 
 (function() { 
