@@ -4,4 +4,10 @@ primary:
   twitter: "dantehemerson"
   avatar: "assets/images/avatar2018_2.png"
   about: "¡Hola! :smiley: Soy Dante Calderon. Soy Programador en Javascript, Go & Python"
+
+
+skills:
+  - { name: "Html 5", icon-name: "html5", version: "original"}
+  - { name: "Html 5", icon-name: "html5", version: "original"}
+  - { name: "Html 5", icon-name: "html5", version: "original"}
   

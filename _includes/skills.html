@@ -2,12 +2,9 @@
 	<div class="container">		
 			<div class="row justify-content-center">
 					<div class="col-12 col-lg-10">
-						<div class="title-page-container">
-							<h2 class="title-page about-title">Habil<span class="me">idades</span></h2>
-						</div>
-						<p class="about-description">
-						{{site.data.authors.primary.about}} 						
-						</p>
+						{% for skill in site.data.authors.skills %}
+							<img src="https://icongr.am/devicon/{{skill.icon-name}}-{{ skill.version }}.svg?size=100">
+						{% endfor %}
 					</div>
 						
 			</div>		
