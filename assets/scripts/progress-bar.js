@@ -16,11 +16,11 @@
         document.addEventListener('scroll', function() {
             var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-            if (scrollTop > lastScrollTop) {
-                progressBar.style.bottom = '0%';
-            } else {
-                progressBar.style.bottom = '-100%';
-            }
+            // if (scrollTop > lastScrollTop) {
+            //     progressBar.style.bottom = '0%';
+            // } else {
+            //     progressBar.style.bottom = '-100%';
+            // }
 
             if (scrollTop <= maxScrollTop) {
                 var percentage = scrollTop/maxScrollTop;

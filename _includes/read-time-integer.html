@@ -1,0 +1,1 @@
+{% if post.layout == post %}{% assign words = content | number_of_words %}{% if words < 180 %}1{% elsif words < 360 %}1{% else %}{{ words | divided_by:180 }}{% endif %}{% endif %}
