@@ -6,8 +6,12 @@ $hr-about-color: $titles-color;
   padding: 60px 0;
   background: #dedede;
    box-shadow: 0 0 80px black;
-   margin-bottom: 50px;
+
+	&:nth-child(3) {
+		margin-bottom: 50px !important;   	
+	}
 }
+
 
 .about .about-description {
 	font-size: 18px;
