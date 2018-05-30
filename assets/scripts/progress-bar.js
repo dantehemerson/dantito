@@ -4,6 +4,9 @@
     var post = document.querySelector('.post-content');
     var progressBar = document.querySelector('.progress-bar');
 
+    let distanceTop;
+    let containerOffset;
+
     if (post && progressBar) {
         var lastScrollTop = 0;
         var maxScrollTop = post.scrollHeight;
@@ -16,11 +19,21 @@
         document.addEventListener('scroll', function() {
             var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-            // if (scrollTop > lastScrollTop) {
-            //     progressBar.style.bottom = '0%';
-            // } else {
-            //     progressBar.style.bottom = '-100%';
-            // }
+            // Distancia del contenedor al top
+            containerOffset = $('.post-content').offset().top;
+
+            distanceTop = (scrollTop - containerOffset);
+
+            if(distanceTop < 0) {
+                distanceTop = 0;
+            }
+            // Basicamente scrollTop empezara a aumentar a partir de el contenedor
+            scrollTop = distanceTop;
+
+            // console.log("scrollTop: " + scrollTop);
+            // console.log("containerOffset: " + containerOffset);
+            // console.log("distance: " + distanceTop);
+            // console.log("-----------------");
 
             if (scrollTop <= maxScrollTop) {
                 var percentage = scrollTop/maxScrollTop;
