@@ -8,7 +8,7 @@
 
   &.no-topbar {
     background: #101010;
-    box-shadow: 1px 0 8px #101010;
+    box-shadow: 1px 0 15px #101010;
   }
 
   .navbar-nav {
@@ -307,7 +307,7 @@ $height-bar: 4px;
       display: block;
       width: 100%;           
        background: linear-gradient(47deg, #127caf 0%, #127caf 33%, #16ad2f 68%, #16ad2f 100%);
-        box-shadow: 1px 0 8px #101010;
+        box-shadow: 1px 0 15px #101010;
 
    }
 

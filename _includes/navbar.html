@@ -1,12 +1,15 @@
 <nav class="navbar navbar-expand-sm fixed-top navbar-dark navbar-custom">
-	<div class="progress-bar" data-minutes="{%include read-time-integer.html%}">
-	    <span class="time time-completed"></span>
-	    <div class="bar">
-	        <span class="completed" style="width:0%;"></span>
-	        <span class="remaining" style="width:100%;"></span>
-	    </div>
-	    <span class="time time-remaining"></span>
-	</div>
+	{% if layout.title == "Blog" %}
+		<div class="progress-bar" data-minutes="{%include read-time-integer.html%}">
+		    <span class="time time-completed"></span>
+		    <div class="bar">
+		        <span class="completed" style="width:0%;"></span>
+		        <span class="remaining" style="width:100%;"></span>
+		    </div>
+		    <span class="time time-remaining"></span>
+		</div>
+	{% endif %}
+
 	<div class="container">		
 		<a class="navbar-brand link-no-border" href='{{ site.baseurl }}/{% if page.title == "Blog" %}blog{% elsif layout.title == "Blog" %}blog{% endif %}'>
 			<div>
