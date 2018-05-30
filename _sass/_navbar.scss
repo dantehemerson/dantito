@@ -297,7 +297,7 @@ $height-bar: 4px;
    position: fixed;
    left: 0;
    right: 0;  
-   bottom: 0; 
+   top: 0; 
    display: flex;
    align-items: center;
    width: 100%;
@@ -307,6 +307,8 @@ $height-bar: 4px;
       display: block;
       width: 100%;           
        background: linear-gradient(47deg, #127caf 0%, #127caf 33%, #16ad2f 68%, #16ad2f 100%);
+        box-shadow: 1px 0 8px #101010;
+
    }
 
    .completed {
@@ -320,7 +322,7 @@ $height-bar: 4px;
       float: left;
       display: block;
       height: $height-bar;
-      background-color: #f3f3f3;
+      background-color: #101010;
    }
   
   .time {
