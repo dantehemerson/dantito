@@ -2,8 +2,8 @@
 	<ul class="pagination justify-content-center">
 
 		<!-- PREVIOUS -->
-    	<li class="page-item previous {% if paginator.previous_page == nil %}marginer{% endif %}">
-      		<a class="page-link {% if paginator.previous_page == nil %}hide{% endif %}" href="{{ paginator.previous_page_path }}" tabindex="-1"><i class="fa fa-chevron-left"></i></a>
+    	<li class="page-item previous">
+      		<a class="page-link {% if paginator.previous_page == nil %}no-visible{% endif %}" href="{{ paginator.previous_page_path }}" tabindex="-1"><i class="fa fa-chevron-left"></i></a>
     	</li>
 		
 		{% for index in (1..paginator.total_pages) %}
