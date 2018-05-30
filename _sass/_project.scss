@@ -12,6 +12,10 @@
 	h2, h3, h4, h5, h6 {	
 		font-family: $avenir-heavy;	
 	}
+
+	 &.padding-post {
+  		margin-top: 100px;  	
+  	}
 }
 
 .post-container .title-project {

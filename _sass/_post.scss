@@ -34,6 +34,9 @@ $hr-post-color: #00BAB7;
   font-size: $fs-blog;
   line-height: 1.58;
   letter-spacing: -.004em;
+  &.padding-post {
+  	margin-top: 100px;  	
+  }
 }
 
 .post-container .title-post {
