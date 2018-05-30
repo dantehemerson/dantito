@@ -7,7 +7,29 @@ primary:
 
 
 skills:
-  - { name: "Html 5", icon-name: "html5", version: "original"}
-  - { name: "Html 5", icon-name: "html5", version: "original"}
-  - { name: "Html 5", icon-name: "html5", version: "original"}
-  
+  - { name: "Html5", icon-name: "html5", version: "original"}
+  - { name: "CSS3", icon-name: "css3", version: "original"}
+  - { name: "Javascript", icon-name: "javascript", version: "original"}
+  - { name: "C++", icon-name: "cplusplus", version: "original"}
+  - { name: "Github", icon-name: "github", version: "original"}
+  - { name: "Git", icon-name: "git", version: "original"}
+  - { name: "Python", icon-name: "python", version: "original"}
+  - { name: "Babel", icon-name: "babel", version: "original"}
+  - { name: "Bootstrap", icon-name: "bootstrap", version: "original"}
+  - { name: "Bower", icon-name: "bower", version: "original"}
+  - { name: "C", icon-name: "c", version: "original"}
+  - { name: "Debian", icon-name: "debian", version: "original"}
+  - { name: "Foundation", icon-name: "foundation", version: "original"}
+  - { name: "Gitlab", icon-name: "gitlab", version: "original"}
+  - { name: "Grunt", icon-name: "grunt", version: "original"}
+  - { name: "Gulp", icon-name: "gulp", version: "original"}
+  - { name: "Java", icon-name: "java", version: "original"}
+
+  - { name: "JQuery", icon-name: "jquery", version: "original"}
+  - { name: "Linux", icon-name: "linux", version: "original"}
+  - { name: "MySql", icon-name: "mysql", version: "original"}
+  - { name: "NodeJs", icon-name: "nodejs", version: "original"}
+  - { name: "React", icon-name: "react", version: "original"}
+  - { name: "Sass", icon-name: "sass", version: "original"}
+  - { name: "VueJs", icon-name: "vuejs", version: "original"}
+  - { name: "Webpack", icon-name: "webpack", version: "original"}
