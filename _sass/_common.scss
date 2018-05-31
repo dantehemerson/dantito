@@ -336,7 +336,23 @@ $padding-xxl: 200px;
   word-wrap: break-word;
   hyphens: auto;
   direction: rtl;
-     position: relative;     
+     position: relative;   
+
+  &.title {
+    margin-bottom: 0;
+    color: black;
+     text-align: left;
+     display: inline-block;
+    .sub {
+      position: absolute;
+      left: 90%;
+      top: 72%;
+        line-height: 1;
+        color: #00c18f;
+        
+    }
+
+  }  
 
 
 

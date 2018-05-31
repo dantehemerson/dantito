@@ -1,15 +1,17 @@
-<section class="about">
+<section class="skills">
 	<div class="container">		
 			<div class="row justify-content-center">
+				<div class="col-12 col-lg-10">
+					<div class="title-page-container">
+						<h2 class="title-page title">Habil<span class="sub">idades</span></h2>
+					</div>
+				</div>
 					<div class="col-12 col-lg-10">
 						{% for skill in site.data.authors.skills %}
-							<img width="100px" src="{{ site.baseurl }}/assets/icons/{{skill.icon-name}}/{{skill.icon-name}}-{{ skill.version }}.svg">
+							<img title="{{ skill.name }}" width="50px" src="{{ site.baseurl }}/assets/icons/{{skill.icon-name}}/{{skill.icon-name}}-{{ skill.version }}.svg">
 						{% endfor %}
 					</div>
-						
-					<div>
-						<text style="font-family: 'devicons';">&#xe600;  &#xe602; @</text>
-					</div>
+					
 			</div>		
 	</div>
 </section>
