@@ -66,12 +66,12 @@ $font-footer-color:  #393939;
     text-decoration: none;
     margin: 5px 2px;
     box-sizing: content-box !important;
-    border: 2px solid #151515;
+    border: 1px solid #151515;
 
     &:hover {
       //background: #123341;
       color: white !important;
-      border: 2px solid #00f1b3;      
+      border: 1px solid white;      
     }
   }
 
