@@ -31,7 +31,7 @@ body {
     background: #749476;
   }
     &.body-portfolio {
-    background: #c8b0a3;
+    background: #b38d8d;
   }
 
 
@@ -159,32 +159,32 @@ a:hover, a:focus {
     background-color: transparent !important;
     border-width: 2px;
 
-    color: $primary-color !important;    
+    color: #232323 !important;    
     &:hover {
-      border-color: $primary-color !important;
-      background: #d23400 !important;
+      border-color: #232323 !important;
+      background: #232323 !important;
       color: white !important;
     }
 
   }
 
   .btn.btn-primary {    
-    background: $primary-color;
+    background: #232323;
 
-    border-color: $primary-color;   
+    border-color: #232323;   
     &:hover {
-      background: #d23400 !important;
+      background: #3c3c3b !important;
 
 
-      border-color: #d23400 !important;
+      border-color: #3c3c3b !important;
     }
     &:active {
-      background: $primary-color !important;
-      border-color: darken($primary-color, 2%) !important;
-      box-shadow: 0 0 0 0.2rem rgba($primary-color, .5) !important;
+      background: #232323 !important;
+      border-color: darken(#232323, 2%) !important;
+      box-shadow: 0 0 0 0.2rem rgba(#232323, .5) !important;
     }
     &:focus {
-      box-shadow: 0 0 0 0.2rem rgba($primary-color, .5);
+      box-shadow: 0 0 0 0.2rem rgba(#232323, .5);
     }
   }
 

@@ -71,7 +71,7 @@ $hr-contact-color: $titles-color;
 
 .form-contact-container {
 	 text-align: center;
-    background: #00f1b3;
+    background: #e0cf7e;
     padding: 50px 50px;
 
 	 @include breakpoint(xs) {
@@ -148,7 +148,7 @@ $hr-contact-color: $titles-color;
    font-weight: 500;
    font-family: 'Poppins';
    font-size: 18px;
-   color: #8e8e8e;
+   color: #232323;
    text-align: left;
 }
 .header-contact hr {
@@ -231,7 +231,7 @@ $hr-contact-color: $titles-color;
 
 
 .shadownable {
-	box-shadow: 0 0 90px black;
+	box-shadow: 0 0 90px rgba(64, 63, 63, 0.11);
 }
 
 
