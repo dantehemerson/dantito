@@ -1,17 +1,17 @@
 
-$icons-footer-size: 25px;
+$icons-footer-size: 22px;
 $padding-footer: 25px;
-$font-footer-color:  rgb(127, 127, 127);
+$font-footer-color:  #393939;
 
 
 .footerwrap {  
   padding-top: $padding-footer;
-  padding-bottom: $padding-footer;
-  background: #0e0e0e;
-  background-image: url("../assets/images/img-bg-footer.png");
+  padding-bottom: $padding-footer + 10px;
+ 
+ 
   color: $font-footer-color;
-  border-top: 2px solid #0e0e0e;
-  box-shadow: 0 0 4px #000;
+  border-top: 1px solid #131313;
+  
 }
 
 .footerwrap p {
@@ -65,9 +65,8 @@ $font-footer-color:  rgb(127, 127, 127);
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    border-radius: 50%;
     box-sizing: content-box !important;
-    border: 2px solid #171717;
+    border: 2px solid #151515;
 
     &:hover {
       //background: #123341;
@@ -188,7 +187,7 @@ $font-footer-color:  rgb(127, 127, 127);
   }
 
   .footer-love .a .fa-heart {
-    color: #e91e63;
+    color: #a55757;
     font-size: 14px;
   }
 

@@ -7,7 +7,7 @@ permalink: /contact/
 ---
 
 
-<body itemscope="" itemtype="http://schema.org/Blog">
+<body class="body-contact" itemscope="" itemtype="http://schema.org/Blog">
 	{% include navbar.html %}
 	<div class="main-wrapper" id="mainWrapper">
 		<div class="container-background">

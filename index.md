@@ -4,7 +4,7 @@ title: "Inicio"
 scripts:
  - index
 ---
-<body itemscope="http://schema.org/Person" itemtype="http://schema.org/Blog">
+<body class="body-home" itemscope="http://schema.org/Person" itemtype="http://schema.org/Blog">
   {% include navbar.html %}
   
   <div class="main-wrapper" id="mainWrapper">

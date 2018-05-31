@@ -14,6 +14,25 @@ body {
   margin: 0;  
   padding: 0;
 
+  &.body-post {
+    background: #c8edc9;
+  }
+
+  &.body-project {
+    background: red;
+  }
+  &.body-contact {
+    background: #8db796;
+  }
+  &.body-blog {
+    background: #8ca9bd;
+  }
+  &.body-home {
+    background: #749476;
+  }
+    &.body-portfolio {
+    background: #c8b0a3;
+  }
 
 
 }
