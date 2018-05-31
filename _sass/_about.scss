@@ -6,9 +6,13 @@ $hr-about-color: $titles-color;
   padding: 60px 0;
   background: #dedede;  
 
+}
+
+section {
 	&:nth-child(3) {
 		margin-bottom: 50px !important;   	
 	}
+	
 }
 
 
@@ -24,9 +28,7 @@ $hr-about-color: $titles-color;
 .title-page-container  {
 	text-align: left;
 	margin-top: 30px;
-	margin-bottom: 100px;
-	
-	
+	margin-bottom: 100px;	
 }
 
 .about-hr {
