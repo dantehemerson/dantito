@@ -36,8 +36,7 @@ $hr-contact-color: $titles-color;
 		    &:hover {
 		      //background: #123341;
 		      color: white !important;
-		      border: 2px solid #00f1b3;
-		      box-shadow: 0 0 5px #00f1b3;
+		      border: 2px solid #458f9a;		     
 		    }
 		  }
 	}
@@ -71,7 +70,7 @@ $hr-contact-color: $titles-color;
 
 .form-contact-container {
 	 text-align: center;
-    background: #e0cf7e;
+    background: #458f9a;
     padding: 50px 50px;
 
 	 @include breakpoint(xs) {
