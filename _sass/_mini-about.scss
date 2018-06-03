@@ -1,11 +1,31 @@
 .mini-about {
 	background: white;
-	.avatar {
+	background-image: url("../assets/images/textures/45-degree-fabric-dark.png");
+   background-image: url("../assets/images/textures/45-degree-fabric-light.png");
+   background-image: url("../assets/images/textures/asfalt-dark.png");
+   background-image: url("../assets/images/textures/asfalt-light.png");
+
+   background-image: url("../assets/images/textures/az-subtle.png");
+   background-image: url("../assets/images/textures/binding-dark.png");
+   background-image: url("../assets/images/textures/binding-light.png");
+
+   background-image: url("../assets/images/textures/batthern.png");
+   background-image: url("../assets/images/textures/bedge-grunge.png");
+   background-image: url("../assets/images/textures/bedge-paper.png");
+   background-image: url("../assets/images/textures/billie-holiday.png");
+   background-image: url("../assets/images/textures/blizzard.png");
+
+   background-image: url("../assets/images/textures/black-felt.png");
+   background-image: url("../assets/images/textures/connected.png");
+   background-image: url("../assets/images/textures/brick-wall.png");
+.avatar {
 		width: 100%;
 	}
 
 	.about-description {
-		margin-top: 1rem;
     	font-size: 14px;
+    	padding: 20px 10px;
+    	
 	}
 }
+

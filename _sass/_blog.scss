@@ -60,7 +60,13 @@ body {
 
 
 
-
+.padding-mini-about {
+  padding-left: 0;
+  @include breakpoint(lg) {    
+    padding-right: 0;
+    padding-left: 15px;
+  }
+}
 
 
 /** Tema 2 **/
