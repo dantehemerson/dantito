@@ -1,6 +1,8 @@
 $hr-contact-color: $titles-color;
 
-
+body {
+ 	background-image: url("../assets/images/textures/brick-wall.png");
+}
 .socials {
   text-align: center;
   
@@ -110,7 +112,7 @@ $hr-contact-color: $titles-color;
    font-weight: 500;
    font-family: 'Poppins';
    font-size: 18px;
-   color: #232323;
+   color: #5fc5d4;
    text-align: left;
 }
 .header-contact hr {

@@ -4,6 +4,10 @@
 @import "portblog-item";
 @import "variables";
 
+body {
+  background-image: url("../assets/images/textures/brick-wall.png");
+}
+
 // BLOG ITEM (POST) 
   .container-post {
     padding-top: 15px;
