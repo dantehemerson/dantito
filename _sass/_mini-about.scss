@@ -1,7 +1,13 @@
 .mini-about {
-	background: white;
-   background-image: url("../assets/images/textures/billie-holiday.png");
-.avatar {
+
+   .title {
+   	color: white;
+   	text-align: center;
+   	font-family: 'Patrick Hand', cursive;
+   	font-size: 28px;
+    line-height: 1;
+   }
+	.avatar {
 		width: 100%;
 	}
 
@@ -11,16 +17,28 @@
     	text-align: center;
     	position: relative;
 
+		background: white;
+		background-size: 100px 100px; 
+	   background-image: url("../assets/images/textures/billie-holiday.png");
     	.hi {
     		position: absolute;
 		    background: #70b78a;
 		    color: white;
-		    left: 0;
+		    left: -10px;
 		    top: -17px;
 		    font-family: 'Oswald';
 		    padding: 0 10px;
 		    font-size: 25px;
     	}
+	}
+
+	hr.style-eight {
+	    overflow: visible; /* For IE */
+	    padding: 0;
+	    border: none;
+	    border-top: medium double white;
+	    color: white;
+	    text-align: center;
 	}
 }
 
