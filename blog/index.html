@@ -11,21 +11,22 @@ scripts:
 	<div class="main-wrapper" id="mainWrapper">
 		<div class="container-background">		    
 			<div class="container container-full posts-container pt-xl">
-				<div class="row justify-content-center">
-					<!-- No se incluiran los projects por que tienen hidden:true -->
+				<div class="row">
 					<div class="col-lg-9">						
-				     	{% for post in paginator.posts %}		     			     	
-							{% include blog-item2.html %}			     	
-					 	{% endfor %}
-					</div>
+						<div class="row justify-content-center">
+						<!-- No se incluiran los projects por que tienen hidden:true -->
+					     	{% for post in paginator.posts %}		     			     	
+								{% include blog-item2.html %}			     	
+						 	{% endfor %}
+						</div>
+					</div>				
 					<div class="col-lg-3">
 						{% include mini-about.html %}
 					</div>
-				</div>				
-
-			    {% include pagination-buttons.html %}
+				</div>
 			</div>
 
+		    {% include pagination-buttons.html %}
 			
 			{% include suscribe.html %}
 			
