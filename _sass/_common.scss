@@ -5,7 +5,7 @@
 
 body { 
   background-size: 100px 100px !important;
-    background: black;
+    background: #0d0d0d;
     background-image: url("assets/images/textures/brick-wall.png");
   
   color: $font-color;
@@ -17,34 +17,34 @@ body {
   padding: 0;
 
 
-  &.body-post {
-    background: #819da0;
-  }
+  // &.body-post {
+  //   background: #819da0;
+  // }
 
-  &.body-project {
-    background: red;
-  }
-  &.body-contact {
-    background: #8db796;
-    background-image: url("assets/images/textures/45-degree-fabric-dark.png");
-    background-image: url("assets/images/textures/asfalt-dark.png");
-    background-image: url("assets/images/textures/binding-dark.png");
-    background-image: url("assets/images/textures/45-degree-fabric-light.png");
+  // &.body-project {
+  //   background: red;
+  // }
+  // &.body-contact {
+  //   background: #8db796;
+  //   background-image: url("assets/images/textures/45-degree-fabric-dark.png");
+  //   background-image: url("assets/images/textures/asfalt-dark.png");
+  //   background-image: url("assets/images/textures/binding-dark.png");
+  //   background-image: url("assets/images/textures/45-degree-fabric-light.png");
 
-    background-image: url("assets/images/textures/asfalt-light.png");
-    background-image: url("assets/images/textures/az-subtle.png");
-    background-image: url("assets/images/textures/batthern.png");
+  //   background-image: url("assets/images/textures/asfalt-light.png");
+  //   background-image: url("assets/images/textures/az-subtle.png");
+  //   background-image: url("assets/images/textures/batthern.png");
 
-    background-image: url("assets/images/textures/black-felt.png");
-    background-image: url("assets/images/textures/connected.png");
-    background-image: url("assets/images/textures/brick-wall.png");
-  }
-  &.body-blog {
-    background: #819da0;
-  }
-    &.body-portfolio {
-    background: #b38d8d;
-  }
+  //   background-image: url("assets/images/textures/black-felt.png");
+  //   background-image: url("assets/images/textures/connected.png");
+  //   background-image: url("assets/images/textures/brick-wall.png");
+  // }
+  // &.body-blog {
+  //   background: #819da0;
+  // }
+  //   &.body-portfolio {
+  //   background: #b38d8d;
+  // }
 
 
 }
