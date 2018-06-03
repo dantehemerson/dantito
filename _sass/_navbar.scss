@@ -5,16 +5,10 @@
   padding-top: $padding-navbar;
   padding-bottom: $padding-navbar;  
   transition: top 0.2s ease-in-out, background .4s;
-  
-
 
   &.no-topbar {
     background: #101010;
     box-shadow: 1px 0 15px #101010;
-
-    .navbar-nav .nav-link {
-      color: white !important;
-    }
   }
 
   .navbar-nav {
@@ -189,7 +183,7 @@
 }
 
 .navbar-custom .navbar-nav .nav-link {
-    color: #242424 !important;
+    color: white !important;
     //text-shadow: 0 0 8px $navlink-color;
     position: relative;
     margin-left: 4px;
