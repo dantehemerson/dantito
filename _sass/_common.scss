@@ -4,8 +4,8 @@
 @import "avenir-lt-std";
 
 body { 
-  background-color: $background-color;
-  background-color: #101010;
+  background-size: 100px 100px;
+  
   color: $font-color;
   font-family: 'Poppins';
   font-size: $font-size;
@@ -13,6 +13,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;  
   padding: 0;
+
+  background-image: url("assets/images/textures/3px-tile.png");
+  background-image: url("assets/images/textures/45-degree-fabric-dark.png");
+  background-image: url("assets/images/textures/asfalt-dark.png");
+  background-image: url("assets/images/textures/binding-dark.png");
+  background-image: url("assets/images/textures/45-degree-fabric-light.png");
+
+  background-image: url("assets/images/textures/asfalt-light.png");
+  background-image: url("assets/images/textures/az-subtle.png");
+  background-image: url("assets/images/textures/batthern.png");
+
+  background-image: url("assets/images/textures/black-felt.png");
+  background-image: url("assets/images/textures/brick-wall.png");
+  background-image: url("assets/images/textures/connected.png");
 
   &.body-post {
     background: #819da0;
