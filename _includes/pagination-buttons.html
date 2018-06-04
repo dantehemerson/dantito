@@ -13,15 +13,9 @@
 		    	</li>
 			{% else %}			
     			<li class="page-item"><a class="page-link number" href="
-					{% if forloop.index == 1 %}
-						/blog/
-					{% else %}
-						{{ '/blog/page' | append: forloop.index }}
-					{% endif %}
-    				">{{ index }}</a></li>
-
+					{% if forloop.index == 1 %}/blog/{% else %}{{ '/blog/page' | append: index }}{% endif %}">{{ index }}</a></li>
+    			<p>	</p>
     		{% endif %}
-    		
 		{% endfor %}
 
     	<!-- NEXT -->

@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Calculator in Javascript"
-date:   1018-07-14 17:47:30 -0500
+date:   1017-07-14 17:47:30 -0500
 category:
 image:
   feature: calculator_js.png
