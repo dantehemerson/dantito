@@ -1,4 +1,5 @@
 @import "portblog-item";
+@import "variables";
 
 $separator-button-color: rgba(160,160,160,0.2);
 
@@ -12,10 +13,28 @@ body {
 .portfolio-item {
 	padding-left: 0;
 	padding-right: 0;
+
+	margin-left: 0;
+	margin-right: 0;
+
 }
+
 
 .container-portfolio-item {
 	padding: 0;
+	@include breakpoint(md) {
+		&:nth-child(odd) {
+			.portfolio-item {
+				margin-right: 5px;				
+				
+			}
+		}
+		&:nth-child(even) {			
+			.portfolio-item  {
+				margin-left: 5px;		
+			}
+		}
+	}
 }
 
 .portfolio-item .box-body .cover {
