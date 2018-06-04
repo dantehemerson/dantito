@@ -4,7 +4,12 @@
 @import "avenir-lt-std";
 
 body { 
-  background-size: 100px 100px !important;
+  background-size: 110px 69px !important;
+  
+  @include breakpoint(xs) {
+    background-size: 110px 69px !important;
+  }
+
     background: #0d0d0d;
     background-image: url("assets/images/textures/brick-wall.png");
   
