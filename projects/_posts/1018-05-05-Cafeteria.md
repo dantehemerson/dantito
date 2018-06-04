@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Cafetería(Template)"
+title:  "Cafetería (Template)"
 date:   1018-05-05 07:45:00 -0500
 category:
 image:
