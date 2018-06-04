@@ -1,3 +1,7 @@
+Las imagenes deben ser preferenteemnte en 16:9 
+960 x 540
+1024 x 576
+
 h1
 	AvenirLTStd-Light sans serif
 
