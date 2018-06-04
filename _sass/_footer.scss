@@ -7,11 +7,11 @@ $font-footer-color:  white;
 .footerwrap {    
  
   color: $font-footer-color; 
+        border-top: 1px solid white;
 
   .container {
     padding-top: 20px;
         padding-bottom: 35px;
-        border-top: 1px solid white;
   
   }
 }
@@ -70,10 +70,10 @@ $font-footer-color:  white;
     border-radius: 50%;
     box-sizing: content-box !important;    
 
-    &:hover {
-      //background: #123341;
+    &:hover {      
       color: white !important;   
       border-bottom: 0px solid; 
+      box-shadow: 0 0 10px #0000005c;
     }
   }
 
@@ -173,6 +173,10 @@ $font-footer-color:  white;
 
 
 /** Footer love **/
+  .footer-love-container {
+    display: flex;
+    align-items: center;
+  }
   .footer-love { 
     text-align: center; 
     margin-top: 5px;
