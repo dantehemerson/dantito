@@ -1,17 +1,19 @@
 
 $icons-footer-size: 22px;
-$padding-footer: 25px;
-$font-footer-color:  black;
+$padding-footer: 20px;
+$font-footer-color:  white;
 
 
-.footerwrap {  
-  padding-top: $padding-footer;
-  padding-bottom: $padding-footer + 10px;
+.footerwrap {    
  
- 
-  color: $font-footer-color;
-  border-top: 1px solid #131313;
+  color: $font-footer-color; 
+
+  .container {
+    padding-top: 20px;
+        padding-bottom: 35px;
+        border-top: 1px solid white;
   
+  }
 }
 
 .footerwrap p {
@@ -64,57 +66,57 @@ $font-footer-color:  black;
     width: $icons-footer-size;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
-    box-sizing: content-box !important;
-    border: 1px solid #151515;
+    margin: 5px 0;
+    border-radius: 50%;
+    box-sizing: content-box !important;    
 
     &:hover {
       //background: #123341;
-      color: white !important;
-      border: 1px solid white;      
+      color: white !important;   
+      border-bottom: 0px solid; 
     }
   }
 
-  // .footerwrap .footer-social-container .fa.fa-github {
-  //   transition: all .4s;    
-  //   &:hover {
-  //     color: white !important;
-  //     background: $github-color !important;
-  //   }
-  // }
+  .footerwrap .footer-social-container .fa.fa-github {
+    transition: all .4s;    
+    &:hover {
+      color: white !important;
+      background: $github-color !important;
+    }
+  }
 
-  // .footerwrap .footer-social-container .fa.fa-twitter {
-  //   transition: all .4s;
-  //   &:hover {
-  //     color: white !important;
-  //     background: $twitter-color !important;
-  //   }
-  // }
+  .footerwrap .footer-social-container .fa.fa-twitter {
+    transition: all .4s;
+    &:hover {
+      color: white !important;
+      background: $twitter-color !important;
+    }
+  }
 
-  // .footerwrap .footer-social-container .fa.fa-instagram {
-  //   transition: all .4s;
-  //   &:hover {
-  //     color: white !important;
-  //     background: $instagram-color !important;
+  .footerwrap .footer-social-container .fa.fa-instagram {
+    transition: all .4s;
+    &:hover {
+      color: white !important;
+      background: $instagram-color !important;
 
-  //   }
-  // }
+    }
+  }
 
-  // .footerwrap .footer-social-container .fa.fa-facebook {
-  //   transition: all .4s;
-  //   &:hover {
-  //     color: white !important;
-  //     background: $facebook-color !important;
-  //   }
-  // }
+  .footerwrap .footer-social-container .fa.fa-facebook {
+    transition: all .4s;
+    &:hover {
+      color: white !important;
+      background: $facebook-color !important;
+    }
+  }
 
-  // .footerwrap .footer-social-container .fa.fa-linkedin {
-  //   transition: all .4s;
-  //   &:hover {
-  //     color: white !important;
-  //     background: $linkedin-color !important;
-  //   }
-  // }
+  .footerwrap .footer-social-container .fa.fa-linkedin {
+    transition: all .4s;
+    &:hover {
+      color: white !important;
+      background: $linkedin-color !important;
+    }
+  }
 
   .footerwrap a {
     &:hover {
@@ -173,7 +175,7 @@ $font-footer-color:  black;
 /** Footer love **/
   .footer-love { 
     text-align: center; 
-    margin-top: 20px;
+    margin-top: 5px;
   }
 
   .footer-love a {
