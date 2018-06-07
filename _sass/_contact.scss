@@ -1,4 +1,5 @@
 $hr-contact-color: $titles-color;
+$background-header: rgba(56, 101, 97, 0.84);
 
 body {
  	background-image: url("../assets/images/textures/brick-wall.png");
@@ -71,7 +72,7 @@ body {
 
 .form-contact-container {
 	 text-align: center;
-    background: #458f9a;
+    background: $background-header;
     padding: 50px 50px;
 
 	 @include breakpoint(xs) {
@@ -111,18 +112,19 @@ body {
    font-weight: 500;
    font-family: 'Poppins';
    font-size: 18px;
-   color: #5fc5d4;
+   color: white;
    text-align: left;
+}
+
+.header-contact {
+	background: $background-header;
 }
 .header-contact hr {
 	margin-top: 0;
 }
 
-.section-background-form {
-	margin-top: 20px;
+.section-background-form {	
 	margin-bottom: 100px;
-
-
 	font-family: $avenir-medium;
 	font-family: 'Poppins';
 	
@@ -135,7 +137,7 @@ body {
 				color: white;
 
 				&.send-message {
-					color: #4a4a4a;
+					color: white;
 				}
 			 
 	   }
@@ -189,7 +191,7 @@ body {
 
 
 .shadownable {
-	box-shadow: 0 0 90px rgba(64, 63, 63, 0.11);
+	//box-shadow: 0 0 90px rgba(64, 63, 63, 0.11);
 }
 
 
