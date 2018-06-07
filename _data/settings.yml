@@ -5,9 +5,9 @@ tagline: Programmer
 # Elementos en el navbar
 menu:
   - {name: 'Inicio',  icon: 'home',      path: '', url: ''}
-  - {name: 'Blog', icon: 'laptop',        path: '', url: 'blog'}
+  - {name: 'Blog', icon: 'computer',        path: '', url: 'blog'}
   - {name: 'Contacto', icon: 'user',    path: '', url: 'contact'}
-  - {name: 'Portafolio', icon: 'window-restore',  path: '', url: 'portfolio'}
+  - {name: 'Portafolio', icon: 'view-cards',  path: '', url: 'portfolio'}
 
 menu_home:
   - {name: 'Inicio', icon: 'home',       path: '', url: ''}
