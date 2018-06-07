@@ -186,11 +186,14 @@
     margin-left: 4px;
     margin-right: 4px;
     text-transform: uppercase;
-    
+    text-align: center;
     font-family: $avenir-heavy;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
-
+    .icon-item {
+      font-size: 20px !important;
+      padding-right: 4px;
+    }
 
     // &.inicio:before {
     //   background-color: #9d7fd8;

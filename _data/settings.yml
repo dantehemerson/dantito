@@ -4,22 +4,22 @@ tagline: Programmer
 
 # Elementos en el navbar
 menu:
-  - {name: 'Inicio',        path: '', url: ''}
-  - {name: 'Blog',        path: '', url: 'blog'}
-  - {name: 'Contacto',     path: '', url: 'contact'}
-  - {name: 'Portafolio',   path: '', url: 'portfolio'}
+  - {name: 'Inicio',  icon: 'home',      path: '', url: ''}
+  - {name: 'Blog', icon: 'laptop',        path: '', url: 'blog'}
+  - {name: 'Contacto', icon: 'user',    path: '', url: 'contact'}
+  - {name: 'Portafolio', icon: 'window-restore',  path: '', url: 'portfolio'}
 
 menu_home:
-  - {name: 'Inicio',        path: '', url: ''}
-  - {name: 'Blog',        path: '', url: 'blog'}
-  - {name: 'Contacto',     path: '', url: 'contact'}
-  - {name: 'Portafolio',   path: '', url: 'portfolio'}
+  - {name: 'Inicio', icon: 'home',       path: '', url: ''}
+  - {name: 'Blog',   icon: 'laptop',      path: '', url: 'blog'}
+  - {name: 'Contacto', icon: 'user',    path: '', url: 'contact'}
+  - {name: 'Portafolio', icon: 'window-restore',  path: '', url: 'portfolio'}
 
 menu_footer:
-  - {name: 'Inicio',        path: '', url: ''}
-  - {name: 'Blog',        path: '', url: 'blog'}
-  - {name: 'Contacto',     path: '', url: 'contact'}
-  - {name: 'Portafolio',   path: '', url: 'portfolio'}
+  - {name: 'Inicio',      icon: 'home',   path: '', url: ''}
+  - {name: 'Blog',        icon: 'laptop', path: '', url: 'blog'}
+  - {name: 'Contacto',    icon: 'user',  path: '', url: 'contact'}
+  - {name: 'Portafolio',  icon: 'window-restore',  path: '', url: 'portfolio'}
 
 social:
   - {title: 'Github',     icon: 'github',    link: 'https://www.github.com/dantehemerson'}
