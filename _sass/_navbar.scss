@@ -191,20 +191,21 @@
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
 
-    &.inicio:before {
-      background-color: #9d7fd8;
-    }
-    &.blog:before {
-        background-color: #70b78a;
+
+    // &.inicio:before {
+    //   background-color: #9d7fd8;
+    // }
+    // &.blog:before {
+    //     background-color: #70b78a;
       
-    }
-    &.contacto:before {
-      background-color: #458f9a;
+    // }
+    // &.contacto:before {
+    //   background-color: #458f9a;
       
-    }
-    &.portafolio:before {
-      background-color: #df793f;
-    }
+    // }
+    // &.portafolio:before {
+    //   background-color: #df793f;
+    // }
 }
 
 .navbar-custom .navbar-nav .nav-link:before {
@@ -214,7 +215,7 @@
   height: 4px;
   bottom: -4px;
   left: 0;
-  background-color: #f53d00;  
+  background-color: #b9b9b9;  
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
