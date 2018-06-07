@@ -27,7 +27,7 @@
 			text-align: center;
 			border: 1px solid #29292921;
 			&:hover {
-				color: $primary-color;
+				color: #70b78a;
 			}
 
 			&.number {
@@ -39,7 +39,7 @@
 		
 		&.active {
 			.page-link {
-				background-color: $primary-color;	    		
+				background-color: #70b78a;	    		
 	    		color: white;
 			}
 		}
