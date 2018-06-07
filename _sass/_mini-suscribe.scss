@@ -1,0 +1,18 @@
+.mini-suscribe-container {
+	.title-suscribe {
+		font-size: 18px;
+	}
+
+	.form-container {
+		text-align: center;
+		input {
+			margin: 3px 0;
+			font-size: 14px !important;
+		}
+
+		input[type="submit"] {
+			padding-top: 6px;
+			padding-bottom: 6px;
+		}
+	}
+}
