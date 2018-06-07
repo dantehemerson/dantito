@@ -40,11 +40,12 @@ body {
 .portfolio-item .box-body .cover {
 	overflow: hidden;
 	position: relative;
+	box-shadow: 0 0 10px black;
 	display: block;
 	transition: all .3s;
 
 	&:hover img {
-		transform: scale(1.05);
+		transform: scale(1.01);
 	}
 
 
@@ -124,7 +125,7 @@ body {
 }
 .portfolio-item .box-body .cover img {
 	height: 300px;
-	transition: all .3s ease-in-out;
+	transition: all .8s ease-in-out;
 	
 }
 
