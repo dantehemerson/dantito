@@ -2,10 +2,12 @@
 $hr-about-color: $titles-color;
 
 .about {
-  text-align: center;
+  text-align: left;
   padding: 60px 0;
   background: white;  
 	position: relative;
+	color: #383838;
+	font-family: $avenir-roman;	
   &:before {
 		position: absolute;
 		content: "";
@@ -16,6 +18,17 @@ $hr-about-color: $titles-color;
    	 height: 29px;
     	transform: rotate(180deg);
   }
+
+  .tite-interest {
+	
+  }
+	ul {
+
+	  li {
+			font-size: 10px;
+	  }
+		
+	}
 
 }
 
@@ -40,10 +53,7 @@ section {
 .about .about-description {
 	font-size: 18px;
 	margin-top: 45px;
-
-
-	font-family: $avenir-roman;
-	color: #383838;
+	
 }
 
 .title-page-container  {
