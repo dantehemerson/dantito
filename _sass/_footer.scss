@@ -57,18 +57,17 @@ $font-footer-color:  white;
     text-align: center;
   }
 
-  .footerwrap .footer-social-container .fa {
+  .footerwrap .footer-social-container .icon {
     
-    display: inline-block;  
-    color: $font-footer-color;
-    padding: 10px;
-    font-size: $icons-footer-size;  
-    width: $icons-footer-size;
-    text-align: center;
+    display: inline-block;      
+    padding: 10px;        
     text-decoration: none;
     margin: 5px 0;
-    border-radius: 50%;
-    box-sizing: content-box !important;    
+    border-radius: 50%;    
+    height: 42px;
+    img {
+      width: $icons-footer-size;
+    }
 
     &:hover {      
       color: white !important;   
@@ -77,7 +76,7 @@ $font-footer-color:  white;
     }
   }
 
-  .footerwrap .footer-social-container .fa.fa-github {
+  .footerwrap .footer-social-container .icon.icon-github {
     transition: all .4s;    
     &:hover {
       color: white !important;
@@ -85,7 +84,7 @@ $font-footer-color:  white;
     }
   }
 
-  .footerwrap .footer-social-container .fa.fa-twitter {
+  .footerwrap .footer-social-container .icon.icon-twitter {
     transition: all .4s;
     &:hover {
       color: white !important;
@@ -93,7 +92,7 @@ $font-footer-color:  white;
     }
   }
 
-  .footerwrap .footer-social-container .fa.fa-instagram {
+  .footerwrap .footer-social-container .icon.icon-instagram {
     transition: all .4s;
     &:hover {
       color: white !important;
@@ -102,7 +101,7 @@ $font-footer-color:  white;
     }
   }
 
-  .footerwrap .footer-social-container .fa.fa-facebook {
+  .footerwrap .footer-social-container .icon.icon-facebook {
     transition: all .4s;
     &:hover {
       color: white !important;
@@ -110,7 +109,7 @@ $font-footer-color:  white;
     }
   }
 
-  .footerwrap .footer-social-container .fa.fa-linkedin {
+  .footerwrap .footer-social-container .icon.icon-linkedin {
     transition: all .4s;
     &:hover {
       color: white !important;

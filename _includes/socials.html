@@ -6,7 +6,9 @@
 			<div>
 			{% for item in site.data.settings.social-net %}
 						
-				<a class="link-no-border fa fa-{{ item.icon }}" href="{{ item.link }}" title="{{ item.title }}" target="_blank"></a>		
+				<a class="link-no-border icon icon-{{ item.icon }}" href="{{ item.link }}" title="{{ item.title }}" target="_blank">
+					<img src="https://icongr.am/feather/{{ item.icon }}.svg?color=FFFFFF"  title="{{ item.title }}" />
+				</a>		
 						
 			{% endfor %}		
 			</div>
