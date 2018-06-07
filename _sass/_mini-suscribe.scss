@@ -1,16 +1,39 @@
 .mini-suscribe-container {
+	margin-top: 60px;
+	margin-bottom: 10px;
 	.title-suscribe {
-		font-size: 18px;
+		font-size: 24px;
+		text-align: center;
+		color: white;
+		    font-family: 'Patrick Hand', cursive;
+		    text-transform: uppercase;
+
 	}
 
+	.col-form-suscribe {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.slogan-blog {
+		color: white;
+		font-size: 15px;
+		text-align: center;
+	}
 	.form-container {
 		text-align: center;
 		input {
-			margin: 3px 0;
+			margin-top: 16px;
 			font-size: 14px !important;
 		}
+		input[type="email"] {
+			background-image: url(https://icongr.am/clarity/email.svg?size=23&color=474747) !important;
+			background-repeat: no-repeat !important;
+			background-position: right 5px center !important;
+			 padding-right: 32px !important;
 
+		}
 		input[type="submit"] {
+			margin-top: 14px;
 			padding-top: 6px;
 			padding-bottom: 6px;
 		}
