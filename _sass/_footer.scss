@@ -1,58 +1,49 @@
 $icons-footer-size: 28px;
-$font-footer-color:  black;
+$font-footer-color:  #282a2d;
 
 .Footer {    
   background: white;
   color: $font-footer-color; 
   border-top: 1px solid white;
-
-   p {   
-    margin-bottom: 0 !important;    
-    font-family: 'Poppins';
-    font-weight: 500 !important;  
-  }
+  font-family: 'Montserrat';
 
   .container {
-    padding-top: 20px;
-    padding-bottom: 35px;  
+    padding-top: 55px;
+    padding-bottom: 55px;  
   }
 
   &__social {
     text-align: center;
     &__icon {
-      padding: 0 10px;
+      margin: 0 .9375rem;
     }
   }
+
+  &__copytext {
+    text-align: center;
+    color: #848687;
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 600;
+
+    .fa-code {
+      font-weight: bold;
+      margin-right: 2px;
+      color: $font-footer-color;
+    }
+
+    .fa-heart {
+      color: #d43c67;
+      font-size: 14px;
+    }
+  }
+
+    &__author {
+      color: $font-footer-color;
+
+      &:hover {
+        color: $font-footer-color;        
+        border-bottom: 1px solid $font-footer-color;
+      }
+    }
 }
-
-
-
-/** Footer love **/
-  .footer-love-container {
-    display: flex;
-    align-items: center;
-  }
-  .footer-love { 
-    text-align: center; 
-    width: 100%;
-    margin-top: 5px;
-  }
-
-  .footer-love a {
-    color: $font-footer-color; 
-    transition: $transition-hover;
-  }
-
-  .footer-love .a .fa-code {
-    font-weight: bold;
-    margin-right: 2px;
-  }
-
-  .footer-love .a .fa-heart {
-    color: #a55757;
-    font-size: 14px;
-  }
-
-  .footer-love a .author {    
-    //color: $font-footer-color;
-  }
