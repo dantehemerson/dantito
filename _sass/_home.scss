@@ -3,13 +3,8 @@
 .headerwrap {    
   padding-bottom: 0px;
   text-align: center;   
-  background-position: top left !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
   min-height: 0;  
-
-
-
+  background: linear-gradient(rgba(#F9774C, .75), rgba(#802A0C, .85)), url('assets/images/background_home.jpg');
 }
 
 
@@ -189,8 +184,7 @@
 }
 
 
-section {
-  max-width: 1100px;
+section {  
   margin: 0 auto;
   tranform: rotate(30deg);
 }
