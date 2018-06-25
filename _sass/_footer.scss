@@ -1,173 +1,29 @@
-
-$icons-footer-size: 22px;
-$padding-footer: 20px;
+$icons-footer-size: 28px;
 $font-footer-color:  black;
 
-
-.footerwrap {    
+.Footer {    
   background: white;
   color: $font-footer-color; 
-        border-top: 1px solid white;
+  border-top: 1px solid white;
+
+   p {   
+    margin-bottom: 0 !important;    
+    font-family: 'Poppins';
+    font-weight: 500 !important;  
+  }
 
   .container {
     padding-top: 20px;
-        padding-bottom: 35px;
-  
+    padding-bottom: 35px;  
   }
-}
 
-.footerwrap p {
- 
-  margin-bottom: 0 !important;
-  color: $font-footer-color;
-
-  font-family: 'Poppins';
-  font-weight: 500 !important;
-  font-size: 15px;
-
-}
-
-.footerwrap .container > div:nth-child(2) {
-  margin-top: 40px;
-}
-
-.footer-hr {
-  background-color: $font-footer-color;
-  width: 50px;
-  height: 4px;
-  border: none; 
-  margin-top: 7px;
-  margin-left: 0;
-}
-
-
-.footer-nav .footer-hr {
-  margin-left: auto;
-}
-
-.footerwrap h4 {
-  color: black !important;
-  text-transform: uppercase;
-  font-size: 1.1em;
-}
-
-/** Social **/
-  .footer-social-container {
-    display: block;
+  &__social {
     text-align: center;
-  }
-
-  .footerwrap .footer-social-container .icon {
-    
-    display: inline-block;      
-    padding: 10px;        
-    text-decoration: none;
-    margin: 5px 0;
-    border-radius: 50%;    
-    height: 42px;
-    img {
-      width: $icons-footer-size;
-    }
-
-    &:hover {      
-      color: black !important;   
-      border-bottom: 0px solid; 
-      box-shadow: 0 0 10px #0000005c;
+    &__icon {
+      padding: 0 10px;
     }
   }
-
-  .footerwrap .footer-social-container .icon.icon-github {
-    transition: all .4s;    
-    &:hover {
-      color: black !important;
-      background: $github-color !important;
-    }
-  }
-
-  .footerwrap .footer-social-container .icon.icon-twitter {
-    transition: all .4s;
-    &:hover {
-      color: black !important;
-      background: $twitter-color !important;
-    }
-  }
-
-  .footerwrap .footer-social-container .icon.icon-instagram {
-    transition: all .4s;
-    &:hover {
-      color: black !important;
-      background: $instagram-color !important;
-
-    }
-  }
-
-  .footerwrap .footer-social-container .icon.icon-facebook {
-    transition: all .4s;
-    &:hover {
-      color: black !important;
-      background: $facebook-color !important;
-    }
-  }
-
-  .footerwrap .footer-social-container .icon.icon-linkedin {
-    transition: all .4s;
-    &:hover {
-      color: black !important;
-      background: $linkedin-color !important;
-    }
-  }
-
-  .footerwrap a {
-    &:hover {
-      border-bottom: 1px solid #bfbfbf;
-    }
-  }
-
-
-/** Footer nav **/
-
-  .footer-nav ul {
-    padding-left: 0;
-  }
-
-  .footer-nav ul li {
-    list-style: none;
-  }
-
-  .footer-nav ul li a {
-    color: $font-footer-color;
-    padding: 10px 0;
-    display: inline-block;
-    padding-top: 2px;
-    padding-bottom: 2px;    
-  }
-
-/** Footer Logo **/
-
-  .footer-col-logo .copyear {
-    font-family: "Courier New", Courier, monospace;   
-    line-height: 1;
-    font-size: 11px;
-    margin-top: -17px;
-    &::after, &::before {
-      content: '\00B7';
-      font-weight: bolder;
-      padding-left: 4px;
-      padding-right: 4px;
-    }
-  }
-
-  .footer-logo {
-    font-size: 8rem;
-    line-height: 1;
-    font-family: $avenir-black;        
-
-  }
-
-  .footer-col-logo .title-logo {
-    margin-top: 5px;
-    line-height: 1;
-  }
+}
 
 
 
@@ -200,9 +56,3 @@ $font-footer-color:  black;
   .footer-love a .author {    
     //color: $font-footer-color;
   }
-
-@media (min-width: 768px) { 
-  .footer-nav .footer-hr {
-    margin-left: 0;
-  }
-}
