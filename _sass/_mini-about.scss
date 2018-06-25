@@ -1,5 +1,7 @@
 .mini-about {
-
+	box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 0px 1px, rgba(0, 0, 0, 0.09) 0px 1px 4px;
+	border-radius: remcalc(4px);
+	padding-top: remcalc(20px);
    .title {
    	color: white;
    	text-align: center;

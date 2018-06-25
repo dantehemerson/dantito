@@ -147,7 +147,7 @@ a:hover, a:focus {
   border-radius: 0 !important;
 }
 .form-control:focus {
-  border-color: #0e0e0e !important;
+  border-color: #88cf8f !important;
   color: #6d6d6d !important;
   box-shadow: 0 0 0 0 #0e0e0e !important;
 }
@@ -161,6 +161,7 @@ a:hover, a:focus {
     border: 2px solid #f8f8f8 !important;
     background: white !important;
     color: #6d6d6d !important;
+    border-radius: .2rem  !important; 
   }
 
   .btn {
