@@ -1,11 +1,11 @@
 
 $icons-footer-size: 22px;
 $padding-footer: 20px;
-$font-footer-color:  white;
+$font-footer-color:  black;
 
 
 .footerwrap {    
- 
+  background: white;
   color: $font-footer-color; 
         border-top: 1px solid white;
 
@@ -46,7 +46,7 @@ $font-footer-color:  white;
 }
 
 .footerwrap h4 {
-  color: white !important;
+  color: black !important;
   text-transform: uppercase;
   font-size: 1.1em;
 }
@@ -70,7 +70,7 @@ $font-footer-color:  white;
     }
 
     &:hover {      
-      color: white !important;   
+      color: black !important;   
       border-bottom: 0px solid; 
       box-shadow: 0 0 10px #0000005c;
     }
@@ -79,7 +79,7 @@ $font-footer-color:  white;
   .footerwrap .footer-social-container .icon.icon-github {
     transition: all .4s;    
     &:hover {
-      color: white !important;
+      color: black !important;
       background: $github-color !important;
     }
   }
@@ -87,7 +87,7 @@ $font-footer-color:  white;
   .footerwrap .footer-social-container .icon.icon-twitter {
     transition: all .4s;
     &:hover {
-      color: white !important;
+      color: black !important;
       background: $twitter-color !important;
     }
   }
@@ -95,7 +95,7 @@ $font-footer-color:  white;
   .footerwrap .footer-social-container .icon.icon-instagram {
     transition: all .4s;
     &:hover {
-      color: white !important;
+      color: black !important;
       background: $instagram-color !important;
 
     }
@@ -104,7 +104,7 @@ $font-footer-color:  white;
   .footerwrap .footer-social-container .icon.icon-facebook {
     transition: all .4s;
     &:hover {
-      color: white !important;
+      color: black !important;
       background: $facebook-color !important;
     }
   }
@@ -112,7 +112,7 @@ $font-footer-color:  white;
   .footerwrap .footer-social-container .icon.icon-linkedin {
     transition: all .4s;
     &:hover {
-      color: white !important;
+      color: black !important;
       background: $linkedin-color !important;
     }
   }
