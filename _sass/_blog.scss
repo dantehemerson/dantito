@@ -104,11 +104,11 @@
       -o-object-position: 50% 50%;
       object-fit: cover;
       object-position: 50% 50%;        
-      transition: all .3s ease-in-out;
+      transition: all 1s ease-in-out;
 
-      &:hover {
-        transform: scale(1.05);
-      }
+      // &:hover {
+      //   transform: scale(1.03);
+      // }
     }
     
   }
@@ -139,6 +139,7 @@
     &:hover {
       border: none;
       //color: #70b78a;
+      color: #676767;
       text-decoration: underline;
     }      
   }
