@@ -5,7 +5,7 @@
 @import "variables";
 
 body {
-  
+    
 }
 
 // BLOG ITEM (POST) 
@@ -15,50 +15,6 @@ body {
     margin-bottom: 20px;
     
   }
-
-    .post-item {
-      height: 100%;
-      background: white;
-    }
-
-  .middotDivider:after {
-      content: '\00B7';
-      font-weight: bold;
-      padding: 0 2px;
-  }
- 
-  .post-item .box-body .box-info {
-    padding: 30px;
-    padding-top: 9px;
-    padding-bottom: 10px;
-  }
-
-  .post-item .box-body .box-info .post-title {
-    font-size: 24px;
-    font-family: $avenir-medium;
-    line-height: 30px;
-    color: #565656;
-    transition: .4s;
-    &:hover {
-      color: $link-color;
-    }
-  }
-
-  .post-item .box-body .box-info .description {
-    font-size: 18px;
-    line-height: 30px;
-    margin-top: 10px;
-  }
-
-  .post-item .box-body .box-info .post-date {
-      width: 100%;
-      display: block;
-      font-size: 13px;
-      text-align: right;
-      margin-bottom: 5px;
-  }
-
-
 
 .padding-mini-about {
   padding-left: 0;
@@ -101,140 +57,117 @@ body {
 
 
 
-.blog-item:before {
-  content: '';
-  position: absolute;
-  width: calc(100% - 5px);
-  height: 2px;
-  bottom: 0;
-  
-background: linear-gradient(47deg, $gradient-main-color-1 0%, $gradient-main-color-1 33%, $gradient-main-color-2 68%, $gradient-main-color-2 100%);
-background: white;
-    
-  @include breakpoint(md) {
-    width: calc(100% - 330px);
-    left: 330px;
-  }
-}
-
 
 /* Diseño 2 **/
-.post-item2 {
-  //background: white;
+.BlogItem {
+  overflow: hidden;
+  border-radius: remcalc(4px);  
+  transition: all .2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 0px 1px, rgba(0, 0, 0, 0.09) 0px 1px 4px;
+
+  &:hover {
+    // box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 1px, rgba(0, 0, 0, 0.08) 0px 0px 18px;
+  }
+
 
   @include breakpoint(sm) {
     height: 100%;
 
-    .box-body {
+    &__body {
       height: 100%;
       align-content: baseline;
-      .cover {
+    }
+      &__cover {
         height: 190px;        
       }
-    }
   }
 
   @include breakpoint(md) {
-    .box-body {
-      .cover {
-        height: 100%;
-      }
+    &__cover {
+      height: 100%;
     }
   }
 
+  &__cover {      
+    overflow: hidden;
+    width: 100%;
 
-  .box-body {
-    display: flex;
-     flex-flow: row wrap;
-      background: white;
-    .cover {      
-      overflow: hidden;
+    @include breakpoint(md) {
+      width: 330px;
+    }    
+
+    img {
+      width: 300px;
       width: 100%;
+      height: 236px;
+      height: 100%;
+      -o-object-fit: cover;
+      -o-object-position: 50% 50%;
+      object-fit: cover;
+      object-position: 50% 50%;        
+      transition: all .3s ease-in-out;
 
-      @include breakpoint(md) {
-        width: 330px;
-      }    
-
-      img {
-        width: 300px;
-        width: 100%;
-        height: 236px;
-        height: 100%;
-        -o-object-fit: cover;
-        -o-object-position: 50% 50%;
-        object-fit: cover;
-        object-position: 50% 50%;        
-        transition: all .3s ease-in-out;
-
-        &:hover {
-          transform: scale(1.05);
-        }
-      }
-      
-    }
-
-    .box-info {
-      flex: 1;
-      padding: 15px 20px;
-      @include breakpoint(md) {
-        min-height: 270px;
-      }
-
-
-      .post-title {
-
-        font-family: 'Oswald', sans-serif;
-        font-weight: 900;
-        font-size: 22px;
-        text-transform: capitalize;
-        color: #676767;
-        border: none;
-        transition: .3s;
-
-        &:hover {
-        border: none;
-
-        color: #70b78a;
-        }
-        
-      }
-
-      .post-date {
-        display: block;
-        font-family: "Avenir LT Std 65 Medium",sans-serif;        
-        font-size: 13px;
-        line-height: 27px;
-        text-align: right;
-        padding: 4px 0;
-         color: #6d6d6d;
-
-      }
-
-      .description {
-        font-family: "Avenir LT Std 65 Medium",sans-serif;
-     
-        font-size: 15px;
-        line-height: 27px;
-        color: #6d6d6d;
-
-     
-        font-family: $avenir-roman;
-          font-family: 'Poppins';
-         
-          font-weight: 500 !important;
-
-         
-
-        
-      }
-
-      .link-to-post {        
-        font-family: 'Raleway';
-        font-weight: 900;
-        font-size: 14px;
-        line-height: 27px;
+      &:hover {
+        transform: scale(1.05);
       }
     }
     
+  }
+
+  &__body {
+    display: flex;
+     flex-flow: row wrap;
+      background: white;    
+    
+  }
+
+  &__info {
+    flex: 1;
+    padding: 15px 20px;
+    @include breakpoint(md) {
+      min-height: 270px;
+    }    
+  }
+
+  &__title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #676767;
+    border: none;
+    transition: .3s;
+    &:hover {
+    border: none;
+    color: #70b78a;
+    }      
+  }
+
+  &__date {
+    display: block;
+    font-family: "Avenir LT Std 65 Medium",sans-serif;        
+    font-size: 13px;
+    line-height: 27px;
+    text-align: right;
+    padding: 4px 0;
+    color: #6d6d6d;
+
+  }
+
+  &__description {
+    font-family: "Avenir LT Std 65 Medium",sans-serif;
+    font-size: 15px;
+    line-height: 27px;
+    color: #6d6d6d;
+    font-family: $avenir-roman;
+    font-family: 'Poppins';
+    font-weight: 500 !important;
+  }
+
+  &__read {        
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 27px;
   }
 }

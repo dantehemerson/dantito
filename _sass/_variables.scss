@@ -98,3 +98,9 @@ $github-color: #333;
     @warn "Breakpoint mixin supports: xs, sm, md, lg";
   }
 }
+
+/* Deveuelve pixeles en rems */
+@function remcalc($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}

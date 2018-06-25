@@ -1,8 +1,8 @@
 <div class="col-sm-6 col-md-12 col-lg-12 col-xl-12 container-post blog-item">
-	<article class="post-item2" >
-		<div class="box-body">
+	<article class="BlogItem" >
+		<div class="BlogItem__body">
 			<!-- <span class="category">TECH</span> -->
-			<div class="cover"> 
+			<div class="BlogItem__cover"> 
 				<a href="{{ post.url }}">
 
 					{% if post.image.feature %}
@@ -14,15 +14,15 @@
 					{% endif %}		     					
 				</a>
 			</div>
-			<div class="box-info">
+			<div class="BlogItem__info">
 				<!-- titulo -->
-				<a class="post-title" href="{{ post.url }}">
+				<a class="BlogItem__title" href="{{ post.url }}">
 					{{ post.title }}
 				</a>
 
 				<!-- Metas -->
 				<!-- Fecha de publicación -->
-				<span class="post-date">
+				<span class="BlogItem__date">
 					<i class="fa fa-calendar" aria-hidden="true"></i>
 					{% include post-date.html %}
 				<span class="middotDivider"></span>
@@ -31,13 +31,12 @@
 				</span>
 
 				<!-- description -->
-				<p class="description">{{ post.content | strip_html | truncate: 170 }}</p>
+				<p class="BlogItem__description">{{ post.content | strip_html | truncate: 170 }}</p>
 				
-				<a class="link-to-post" href="{{ post.url }}"><i class="fa fa-book"></i>
+				<a class="BlogItem__read" href="{{ post.url }}"><i class="fa fa-book"></i>
+						Seguir Leyendo <i class="fa	 fa-angle-right"></i>
 
-Seguir Leyendo <i class="fa	 fa-angle-right"></i>
-
-</a>
+				</a>
 			</div>
 		</div>
 	</article>
