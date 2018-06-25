@@ -10,8 +10,7 @@ body {
     background-size: 110px 69px !important;
   }
 
-    background: #0d0d0d;
-    background-image: url("assets/images/textures/brick-wall.png");
+    background: $background-color;  
   
   color: $font-color;
   font-family: 'Poppins';
