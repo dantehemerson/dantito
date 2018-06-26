@@ -172,26 +172,22 @@ a:hover, a:focus {
    transition: border-color .3s;   
   }
 
-  .btn {
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 30px;
-    padding-right: 30px;
-    transition: .4s;
-    border-radius: 0 !important;
-    border-width: 2px;
-    font-size: 1.05rem;
-    cursor: pointer;
-
-    font-family: 'Poppins';
-    font-weight: 500 !important;
-    font-weight: 900 !important;
-
-
-    &:hover {
-      box-shadow: 0 0px 8px rgba(0, 0, 0, 0.25);
-    }
-  }
+.btn {
+   background: #e24f54;
+   border: 0;
+   border-radius: 2.4rem;
+   color: #fff;
+   cursor: pointer;   
+   outline: 0;
+   padding: remcalc(10px) remcalc(40px); 
+   position: relative;
+   text-align: center;
+   text-decoration: none; // for tag a
+   text-transform: uppercase;
+   width: auto;
+   font-size: 0.9rem;
+   font-weight: 600;
+}
 
   .btn.btn-inverted {
     background-color: transparent !important;
@@ -478,7 +474,8 @@ $padding-xxl: 200px;
 
 .Contact {     
    &__form {
-      position: relative;    
+      position: relative;   
+      padding-bottom: 50px; 
       .row {
          border-radius: 5px;
          overflow: hidden;         
@@ -492,6 +489,8 @@ $padding-xxl: 200px;
    .ContactForm {
       background: white;
       padding: 100px 40px;
+  box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 0px 1px, rgba(0, 0, 0, 0.09) 0px 1px 4px;
+      
 
       &__item {
          padding: 15px 0;
