@@ -142,18 +142,7 @@ a:hover, a:focus {
     transition-delay: 0s !important;
 }
 
-
-.form-control {
-  border-radius: 0 !important;
-}
-.form-control:focus {
-  border-color: #88cf8f !important;
-  color: #6d6d6d !important;
-  box-shadow: 0 0 0 0 #0e0e0e !important;
-}
-
-  input, textarea {
-    font-size: 18px !important;
+  input, textarea {    
     outline: none;
   }
 
@@ -167,9 +156,14 @@ a:hover, a:focus {
    width: 100%;   
    padding: remcalc(15px) 1.6rem;   
    padding-right: 4.7rem;
-   font-weight: 500;   
-   font-size: 1rem !important;
-   transition: border-color .3s;   
+   font-weight: 500;      
+   transition: border-color .3s; 
+
+    &:focus {
+      border-color: #88cf8f !important;
+      color: #6d6d6d !important;
+      box-shadow: 0 0 0 0 #0e0e0e !important;
+    } 
   }
 
 .btn {

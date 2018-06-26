@@ -9,19 +9,17 @@ comments: true
 
 <body class="body-post">	
 	{% include navbar.html %}			
-	<div class="main-wrapper" id="mainWrapper">
-		
+	<div class="main-wrapper" id="mainWrapper">		
+		<div>
+			{% if page.image.feature %}
+				<img class="post-image-full" width="100%" src="{{ site.baseurl }}/assets/images/{{ page.image.feature }}" alt="">				
+			{% elsif page.feature %}
+				<img class="post-image-full" width="100%" src="{{ page.feature }}" alt="">				
+			{% else %}
+				<img src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
+			{% endif %}			
+		</div>		
 		<div class="theme-post theme-light-post">
-			
-			<div>
-				{% if page.image.feature %}
-					<img class="post-image-full" width="100%" src="{{ site.baseurl }}/assets/images/{{ page.image.feature }}" alt="">				
-				{% elsif page.feature %}
-					<img class="post-image-full" width="100%" src="{{ page.feature }}" alt="">				
-				{% else %}
-					<img src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
-				{% endif %}			
-			</div>
 			
 			<div class="post-content">
 				<div class="container post-container">
@@ -48,10 +46,7 @@ comments: true
 				</div>
 			</div>
 			<hr>
-			{% include social-sharing.html %}			
-			
-					
-			
+			{% include social-sharing.html %}														
 			<div class="container post-container pb-md">
 				<div id="disqus_thread"></div>
 			</div>

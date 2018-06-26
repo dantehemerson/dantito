@@ -1,3 +1,5 @@
+@import 'variables';
+
 .suscribe-container {
 	background: white;
 	box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 0px 1px, rgba(0, 0, 0, 0.09) 0px 1px 4px;		
@@ -8,7 +10,7 @@
 	padding-bottom: 120px; // 45px altura del input
 	    margin-top: 40px;
     margin-bottom: 40px;
-    border-bottom: 10px solid #e24f54;
+    border-bottom: 5px solid #e24f54;
 }
 
 
@@ -27,6 +29,53 @@
     		font-weight: 500 !important;
 
 	}
+	.email {
+		width: 70%;
+		display: inline-block;
+		margin: 0;	
+	   left: 0;
+		position: absolute;	
+		font-weight: 500 !important;
+		height: 47px;
+		border-radius: 2.4rem 0 0 2.4rem;
+
+		&:focus {
+			border-right-width: 0;
+		}
+
+	}
+
+	.sign-in {
+		width: 30%;
+		margin-left: -1px;
+		display: inline-block;
+		margin: 0;
+		border-top-left-radius: 0;
+	    border-bottom-left-radius: 0;    
+	    right: 0;
+	    	position: absolute;     
+	    height: 47px !important;
+	    padding: 0;
+	}
+
+	@include breakpoint(xs) {
+		.email {
+			width: 100%;
+			border-radius: 2px;
+			position: relative;
+			&:focus {
+				border-right-width: 2px;
+			}
+		}
+		.sign-in {
+			position: relative;
+			border-radius: 2.4rem;
+			margin-top: 10px;
+			width: auto;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
 }
 .suscribe-container .title-suscribe{
 	font-size: 38px;
@@ -41,30 +90,4 @@
 		font-weight: 600 !important;
 
 	font-family: $avenir-heavy;
-}
-
-.suscribe-container .email {
-	width: 70%;
-	display: inline-block;
-	margin: 0;
-	border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    left: 0;
-	position: absolute;
-	font-family: 'Poppins';
-	font-weight: 500 !important;
-		
-
-}
-.suscribe-container .sign-in {
-	width: 30%;
-	margin-left: -1px;
-	display: inline-block;
-	margin: 0;
-	border-top-left-radius: 0;
-    border-bottom-left-radius: 0;    
-    right: 0;
-    	position: absolute;     
-    height: 47px !important;
-    padding: 0;
 }
