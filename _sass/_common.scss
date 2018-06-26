@@ -1,14 +1,8 @@
 @import "variables";
 
 body { 
-  background-size: 110px 69px !important;
-  
-  @include breakpoint(xs) {
-    background-size: 110px 69px !important;
-  }
 
   background: $background-color;
-  
   
   color: $font-color;
   font-family: 'Montserrat';
@@ -47,6 +41,9 @@ body {
   //   &.body-portfolio {
   //   background: #b38d8d;
   // }
+
+
+  font-weight: 500;
 
 
 }

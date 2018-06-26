@@ -1,12 +1,12 @@
 // Estilos para el markdown
 
 pre.highlight, figure.highlight {
-  font-size: 11px;
-  background: #fbfbfb;
+  font-size: 11px;  
   border-radius: 3px;
   border: 1px solid #ddd;
   padding: 10px 15px;
   line-height: 1.9;
+  background: white;
 }
 
 figure.highlight {
@@ -52,5 +52,5 @@ h4 {
 }
 
 h3, h4, h5 {
-	color: $font-color !important;
+
 }
