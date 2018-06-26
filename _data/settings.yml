@@ -19,9 +19,9 @@ social:
   - {title: 'Twitter',    icon: 'twitter',   link: 'https://twitter.com/dantehemerson'}
   - {title: 'Facebook',   icon: 'facebook',  link: 'https://www.facebook.com/Dante-Calder%C3%B3n-600909820246917/'}
   - {title: 'Instagram',  icon: 'instagram', link: 'https://www.instagram.com/dantehemerson/'}
-  - {title: 'Youtube',  icon: 'youtube-play', link: 'https://www.instagram.com/dantehemerson/'}
+  - {title: 'Youtube',  icon: 'youtube-play', link: 'https://www.youtube.com/channel/UCCbtGSRgh1RFYysgaZkoE0A'}
   - {title: 'Linkedin',   icon: 'linkedin',  link: 'https://www.linkedin.com/in/dantehemerson/'}
-  - {title: 'Github',     icon: 'github',    link: 'https://www.youtube.com/channel/UCCbtGSRgh1RFYysgaZkoE0A'}
+  - {title: 'Github',     icon: 'github',    link: 'https://www.github.com/dantehemerson'}
 
 
 

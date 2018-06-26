@@ -8,9 +8,14 @@ scripts:
 <body class="body-blog" itemscope="" itemtype="http://schema.org/Blog">
 	 {% include navbar.html %}
 
+	 {% include header-page.html 
+	 		title="Blog" 
+	 		description="Sobre programacion"
+	 		background="/assets/images/blog-background.jpg" %}
+
 	<div class="main-wrapper" id="mainWrapper">
 		<div class="container-background">		    
-			<div class="container container-full posts-container pt-xl">
+			<div class="container container-full posts-container">
 				<div class="row justify-content-center">
 					<div class="col-lg-9">						
 						<div class="row padding-post-blog">
