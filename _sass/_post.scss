@@ -3,39 +3,6 @@ $title-color: #555555;
 $subtitle-color: #666666;
 $hr-post-color: #00BAB7;
 
-
-.post-image-full {
-	
-	position: absolute;
-	top: 0;
-
-	&.image-background {
-		  -moz-filter: blur(.3em);
-		  -webkit-filter: blur(.3em);
-		  -ms-filter: blur(.3em);
-		  filter: blur(.3em);
-	}
-  @include breakpoint(md)  {
-	height: 480px;
-	-o-object-fit: cover;
-  -o-object-position: 50% 50%;
-  object-fit: cover;
-  object-position: 50% 50%;
-
-  }
-
-  &.image-background {
-  		@media (max-width: 960px) { 
-			height: 90px;
-			-o-object-fit: cover;
-			  -o-object-position: 50% 50%;
-			  object-fit: cover;
-			  object-position: 50% 50%;
-				
-		}
-  }
-}
-
 .post-container {
   max-width: 740px;
   font-size: $fs-blog;
@@ -94,18 +61,10 @@ $hr-post-color: #00BAB7;
 }
 
 
-.img-main-post {
-	
-}
-
 
 /**Estilos para el post ----------------------------- **/
 .theme-light-post {	
 	color: #33475b	;	
-
-	.gist .highlight {
-		background: #fbfbfb;
-	}
 }
 
 .theme-dark-post {
@@ -122,34 +81,16 @@ $hr-post-color: #00BAB7;
 
 }
 
-.background-image-post-container  {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 480px;
-	background: linear-gradient(0deg, rgba(153,218,255,0) 0%, rgba(0, 0, 0, 0.78) 100%);
-
-}
 .theme-post {
 	font-family: "Avenir LT Std 65 Medium",sans-serif;		
 	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
-	position: relative;
-	margin-top: 180px;
-
-	@media (max-width: 960px) { 
-		margin-top: 83px;
-		
-	}
-	margin-bottom: 50px;
+	position: relative;	
 
 	.post-image-full {
 		position: relative;
-	}
-
-
+	}	
 
 	h2, h3, h4, h5, h6 {	
 		font-family: $avenir-heavy;	
@@ -159,14 +100,6 @@ $hr-post-color: #00BAB7;
 		color: #0fc798;
 	}
 }
-
-
-
-
-
-
-
-
 
 .post-share .share-icons a i {
   font-size: 25px;

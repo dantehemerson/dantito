@@ -15,7 +15,7 @@ permalink: /portfolio/
 	 		background="/assets/images/portfolio-background.jpg" %}
 	<div class="main-wrapper" id="mainWrapper">
 		<div class="container-background">
-			<div class="container container-full pb-md">				
+			<div class="container container-full">				
 				<div class="row">					
 				     {% for post in site.categories.projects %}		     			     
 					 	{% include portfolio-item.html %}
