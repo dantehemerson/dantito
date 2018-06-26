@@ -161,7 +161,6 @@
 }
 
 .navbar-custom .navbar-brand {
-  color: $navlink-color;
   font-size: 1.7rem;
 
   position: relative;
@@ -187,7 +186,6 @@
     margin-right: 4px;
     text-transform: uppercase;
     text-align: center;
-    font-family: $avenir-heavy;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     .icon-item {
@@ -305,9 +303,6 @@
   display: inline-block;
 
   
-  font-family: 'Audiowide';
-  font-family: 'Poppins';
-  font-weight: 300 !important;
   font-weight: 900 !important;
 
 
@@ -367,7 +362,6 @@ $height-bar: 4px;
     font-size: 14px;
     padding: 10px;
     text-align: center;   
-    font-family: "Courier New", Courier, monospace;
     font-family: "Lucida Console", Monaco, monospace;
     display: none;
 

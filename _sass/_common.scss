@@ -1,8 +1,5 @@
 @import "variables";
 
-/** Fuente Avenir **/
-@import "avenir-lt-std";
-
 body { 
   background-size: 110px 69px !important;
   
@@ -163,6 +160,7 @@ a:hover, a:focus {
       border-color: #88cf8f !important;
       color: #6d6d6d !important;
       box-shadow: 0 0 0 0 #0e0e0e !important;
+      background: white;
     } 
   }
 
@@ -370,7 +368,6 @@ $padding-xxl: 200px;
 
 .title-page {
   text-transform: uppercase;
-  font-family: 'Poppins';
   font-weight: 900;
   font-size: 50px;
   line-height: 1;

@@ -16,7 +16,6 @@ $hr-post-color: #00BAB7;
 	line-height: 1.4;
 	color: $title-color;
 	padding-top: 30px;
-	font-family: 'Raleway';
 	font-weight: 900;
 	text-transform: capitalize;
     
@@ -26,7 +25,6 @@ $hr-post-color: #00BAB7;
 .post-container .subtitle-post {
 	color: $subtitle-color;
 	text-align: center;
-	font-family: $avenir-medium;
 	font-size: 24px;
 	line-height: 28px;
 	padding-left: 50px;
@@ -49,7 +47,6 @@ $hr-post-color: #00BAB7;
 	text-align: center;
 	margin-bottom: 60px;
 	font-size: 14px;
-	font-family: $avenir-heavy;
 }
 
 .post-author-date .author {
@@ -82,7 +79,6 @@ $hr-post-color: #00BAB7;
 }
 
 .theme-post {
-	font-family: "Avenir LT Std 65 Medium",sans-serif;		
 	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
@@ -93,7 +89,6 @@ $hr-post-color: #00BAB7;
 	}	
 
 	h2, h3, h4, h5, h6 {	
-		font-family: $avenir-heavy;	
 	}
 
 	a {
@@ -102,9 +97,8 @@ $hr-post-color: #00BAB7;
 }
 
 .post-share .share-icons a i {
-  font-size: 25px;
+  font-size: 25px;	
   padding: 10px;
-  //border: 1px solid #D8D8D8;
   border-radius: 50%;
 }
 

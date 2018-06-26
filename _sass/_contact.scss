@@ -103,11 +103,9 @@ $background-header: rgba(56, 101, 97, 0.84);
 
 .help-contact {
 
-	font-family: $avenir-roman;
 
 	padding-top: 10px;
    font-weight: 500;
-   font-family: 'Poppins';
    font-size: 18px;
    color: white;
    text-align: left;
@@ -122,14 +120,11 @@ $background-header: rgba(56, 101, 97, 0.84);
 
 .section-background-form {	
 	margin-bottom: 100px;
-	font-family: $avenir-medium;
-	font-family: 'Poppins';
 	
 	font-weight: 600 !important;
 
 
 	   .title-section {
-			  font-family: 'Poppins';
 			  font-weight: 500 !important;
 				color: white;
 
@@ -177,7 +172,6 @@ $background-header: rgba(56, 101, 97, 0.84);
 		    		margin-bottom: 0;
 					color: #efefef;
     				font-size: 15px;
-    					font-family: 'Poppins';
     					font-weight: 500 !important;
 				}
 			}
@@ -190,13 +184,3 @@ $background-header: rgba(56, 101, 97, 0.84);
 .shadownable {
 	//box-shadow: 0 0 90px rgba(64, 63, 63, 0.11);
 }
-
-
-/** 
-titulos formulario
-
-	font-family: 'Poppins';
-    font-weight: 300 !important;
-
-
-**/
