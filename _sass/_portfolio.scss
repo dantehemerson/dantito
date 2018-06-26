@@ -9,10 +9,13 @@ $to-color:  rgba(0,0,0,0.65);
 .portfolio-item {
 	padding-left: 0;
 	padding-right: 0;
-
 	margin-left: 0;
 	margin-right: 0;
+	
 
+	.box-body {
+		box-shadow: 0 6px 20px rgba(0,0,0,.1);	
+	}
 }
 
 
@@ -35,17 +38,8 @@ $to-color:  rgba(0,0,0,0.65);
 
 .portfolio-item .box-body .cover {
 	overflow: hidden;
-	position: relative;
-	box-shadow: 0 0 10px black;
+	position: relative;	
 	display: block;
-	transition: all .3s;
-
-	&:hover img {
-		transform: scale(1.01);
-	}
-
-
-
 	.info-portfolio-item-container {		
 		position: absolute;
 		left: 0;
@@ -53,79 +47,9 @@ $to-color:  rgba(0,0,0,0.65);
 		width: 100%;
 		height: 100%;
 		transition: all .3s;
-
-		&:hover .info-portfolio-item-cont-relative .info-portfolio-item  {
-			transform: translateY(0px);
-		}
-
-		.info-portfolio-item-cont-relative {
-			position: relative;
-			width: 100%;
-			height: 100%;
-			background: -moz-linear-gradient(270deg, rgba(0,0,0,0) 50%, $to-color 100%); /* ff3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(0,0,0,0)), color-stop(100%, $to-color)); /* safari4+,chrome */
-			background: -webkit-linear-gradient(270deg, rgba(0,0,0,0) 50%, $to-color 100%); /* safari5.1+,chrome10+ */
-			background: -o-linear-gradient(270deg, rgba(0,0,0,0) 50%, $to-color 100%); /* opera 11.10+ */
-			background: -ms-linear-gradient(270deg, rgba(0,0,0,0) 50%, $to-color 100%); /* ie10+ */
-			background: linear-gradient(180deg, rgba(0,0,0,0) 50%, $to-color 100%); /* w3c */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); /* ie6-9 */
-
-			
-
-			.info-portfolio-item {				
-				position: absolute;
-				bottom: 0;
-				left: 0;
-				width: 100%;
-				transition: all .4s;
-				transform: translateY(47px);
-
-				.portfolio-item-info {
-					//background: #F5F5F5;
-					padding: 15px 10px;
-
-					.name {
-						margin-top: 0;
-						margin-bottom: 0;
-						color: white;
-						text-overflow: ellipsis;
-						text-transform: uppercase;
-						font-family: 'Poppins', sans-serif;
-						//font-family: 'Raleway';
-						font-weight: 900;
-						font-size: 20px;
-					}
-
-				}
-
-				.view-portfolio-item {
-					height: 50px;
-					display: flex;
-    				align-items: center;
-    				    background: linear-gradient(47deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e 100%);
-    				font-family: 'Poppins'; // Bua!!!
-    				font-weight: 900;
-					.view-project {
-						margin-top: 0;
-						margin-bottom: 0;
-						color: white;
-						text-align: center;
-						text-transform: uppercase;	
-						width: 100%;
-					}
-				}
-			}
-			
-		}
 	}
 }
 .portfolio-item .box-body .cover img {
-	height: 300px;
-	transition: all .8s ease-in-out;
-	
+	height: 300px;	
+	border-radius: 0 0 4px 4px;
 }
-
-.portfolio-title {
-	margin-top: 150px;
-}
-

@@ -1,30 +1,27 @@
-<div class="col-lg-6 col-md-6 col-sm-12 container-portfolio-item">
-	<article class="portblog-item portfolio-item">
+<div class="col-xl-4 col-md-6 col-sm-12 container-portfolio-item">
+	<article class="portblog-item portfolio-item PortfolioItem">
 		<a href="{{ post.url }}">
-		<div class="box-body">
-			<div class="cover">				
-
-						{% if post.image.feature %}
-							<img src="{{ site.baseurl }}/assets/images/{{ post.image.feature }}" alt="">
-						{% else %}
-							<img src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
-						{% endif %}		     					
-
-				<div class="info-portfolio-item-container">
-					<div class="info-portfolio-item-cont-relative" >
-						<div class="info-portfolio-item">
-							<div class="portfolio-item-info">
-								<p class="name">{{ post.title }}</p>																
-							</div>
-							<div class="view-portfolio-item">
-								<p class="view-project">View Project</p>
-							</div>
-						</div>						
-					</div>
-				</div>	
-			</div>			
-
-		</div>
+			<div class="box-body">
+				<div class="PortfolioItem__bar">
+					<div class="PortfolioItem__bar__button"></div>				
+				</div>
+				<div class="cover">				
+							{% if post.image.feature %}
+								<img src="{{ site.baseurl }}/assets/images/{{ post.image.feature }}" alt="">
+							{% else %}
+								<img src="{{ site.baseurl }}/assets/images/thumb01.jpg" alt="">
+							{% endif %}		     					
+				</div>			
+			</div>
+			<div class="info-portfolio-item-container">
+				<div class="info-portfolio-item-cont-relative" >
+					<div class="info-portfolio-item">
+						<div class="portfolio-item-info">
+							<p class="name">{{ post.title }}</p>			
+						</div>														
+					</div>						
+				</div>
+			</div>	
 		</a>		
 	</article>	
 
