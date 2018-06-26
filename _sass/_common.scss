@@ -572,7 +572,7 @@ $padding-xxl: 200px;
 
 
 $bar-height: 25px;
-$bar-btn-height: 10px;
+$bar-btn-height: 9px;
 .PortfolioItem {
   &__bar {
     height: $bar-height;
@@ -612,4 +612,24 @@ $bar-btn-height: 10px;
       }
     }
   }
+
+
+  &__info {
+  }
+    &__title {
+      font-size: 21px;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 600;
+      margin: 0;
+      margin-top: 12px;
+      color: #282a2d;
+      text-transform: uppercase;
+    }
+    &__description {
+      font-size: 15px;
+          font-weight: 500;
+          color: #7d8a90;
+          padding-top: 5px;
+
+    }
 }

@@ -9,9 +9,7 @@ $to-color:  rgba(0,0,0,0.65);
 .portfolio-item {
 	padding-left: 0;
 	padding-right: 0;
-	margin-left: 0;
-	margin-right: 0;
-	
+	margin: 0px 10px 60px 10px;
 
 	.box-body {
 		box-shadow: 0 6px 20px rgba(0,0,0,.1);	
@@ -39,17 +37,9 @@ $to-color:  rgba(0,0,0,0.65);
 .portfolio-item .box-body .cover {
 	overflow: hidden;
 	position: relative;	
-	display: block;
-	.info-portfolio-item-container {		
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		transition: all .3s;
+	display: block;	
+	img {
+		height: 300px;	
+		border-radius: 0 0 4px 4px;
 	}
-}
-.portfolio-item .box-body .cover img {
-	height: 300px;	
-	border-radius: 0 0 4px 4px;
 }
