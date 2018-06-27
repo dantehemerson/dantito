@@ -54,9 +54,6 @@
   }
 }
 
-
-
-
 /* Diseño 2 **/
 .BlogItem {
   overflow: hidden;
@@ -194,7 +191,7 @@
        transition: transform .4s cubic-bezier(.755,.050,.855,.060);
        transition: transform .4s cubic-bezier(.755,.050,.855,.060),-webkit-transform .4s cubic-bezier(.755,.050,.855,.060);
 
-       background-image: url('../assets/images/button-arrow-white.svg');
+       background-image: url('/assets/images/button-arrow-white.svg');
        border: none;
        display: inline-block;
        fill: #fff;
@@ -221,7 +218,7 @@
            transition: transform .45s cubic-bezier(.23,1,.32,1),-webkit-transform .45s cubic-bezier(.23,1,.32,1);
            -webkit-transition-delay: .4s;
            transition-delay: .4s;
-          background-image: url('../assets/images/button-arrow-white.svg');
+          background-image: url('/assets/images/button-arrow-white.svg');
            border: none;
            display: inline-block;
            fill: #fff;
