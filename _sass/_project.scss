@@ -1,22 +1,22 @@
 @import 'variables';
 
 .project-container {
-	max-width: 992px;
-	font-size: $fs-blog;
-	line-height: 1.5;
-	letter-spacing: 0;	
 	background: white;
-	margin-bottom: 50px;
-	h2, h3, h4, h5, h6 {	
-	}
-
-	 &.padding-post {
-  		margin-top: 100px;  	
-  	}
+	margin: 30px 0;
+	padding: 60px 0;
 }
 
 .title-project {
 	padding-top: 0;
+	font-weight: 900;
+    font-size: 33px;
+}
+
+.subtitle-project {
+	 font-size: 16px;
+    text-align: left;
+    color: #a5acb5;
+    margin: 0;
 }
 
  .project-details p {
