@@ -14,8 +14,9 @@ figure.highlight {
 }
 
 code {
-	color: #23303e;
+	color: #668aaf;
 	background-color: rgba(118, 136, 131, 0.21);
+	font-size: 85%;
 }
 
 strong, b {
@@ -36,21 +37,41 @@ p > img.emoji {
 	display: inline-block;
 }
 
+
+
+h2, h3, h4, h5 , h6 {
+	font-weight: 600;
+	color: #42505f;
+}
+
+
 h2 {
 	
 	margin-top: 40px;
 	margin-bottom: .75em;
 	text-align: center;
+	font-size: 1.5rem;
 }
 
 h3 {
 	margin: 1.5em 0 0.75em 0;
+	font-size: 1.35rem;
 }
 
-h4 {
-	margin: 1em 0 0.5em 0;
+h4 {	
+	font-size: 18px;
+	margin-top: 24px;
+   margin-bottom: 16px;
 }
 
-h3, h4, h5 {
-
+h5 {
+	margin-top: 26px;
+   margin-bottom: 16px;
+   font-size: 16px;
+}
+h6 {
+	margin-top: 24px;
+   margin-bottom: 16px;
+   font-size: 14px;
+   color: #a6b2c1;
 }

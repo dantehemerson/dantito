@@ -55,18 +55,11 @@ button {
 
 
 a {
-  border-bottom: 1px solid transparent;
+  
   transition: all 0.4s;
   color: $link-color;  
   &:hover {
-    color: $link-color;  
-    border-bottom: 1px solid $link-color;
-  }
-
-  &.no-decoration {
-    &:hover {
-      border-bottom-width: 0;
-    }
+    color: $link-color;      
   }
 }
 
