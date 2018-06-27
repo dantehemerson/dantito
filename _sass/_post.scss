@@ -3,6 +3,9 @@ $title-color: #555555;
 $subtitle-color: #666666;
 $hr-post-color: #00BAB7;
 
+.main-wrapper {
+	margin-top: 90px;
+}
 .post-container {
   max-width: 740px;
   font-size: $fs-blog;
@@ -11,8 +14,9 @@ $hr-post-color: #00BAB7;
 }
 
 .post-container .title-post {
-	font-size: 48px;
-	line-height: 1.4;
+	font-size: 35px;
+	line-	font-size: 35px;
+height: 1.4;
 	color: $title-color;
 	padding-top: 30px;
 	font-weight: 900;
@@ -24,12 +28,13 @@ $hr-post-color: #00BAB7;
 .post-container .subtitle-post {
 	color: $subtitle-color;
 	text-align: center;
-	font-size: 24px;
+	font-size: 19px;
 	line-height: 28px;
 	padding-left: 50px;
 	padding-right: 50px;
 	margin-bottom: 15px;
 	margin-top: 15px;
+    font-weight: 400;
 	opacity: 1;
 }
 
@@ -88,6 +93,7 @@ $hr-post-color: #00BAB7;
 	}	
 
 	h2, h3, h4, h5, h6 {	
+
 	}
 
 	a {
