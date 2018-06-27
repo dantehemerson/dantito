@@ -29,6 +29,32 @@
 	margin: 0;
 }
 
+
+.buttons-container {
+	margin-top: 35px;
+
+	.btn {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		&:hover {
+			color: white;
+		}
+		img {
+			padding-right: 4px;
+			    top: -2px;
+    position: relative;
+		}
+	}
+
+	.btn-code {
+		background: #333;
+	}
+
+	.btn-demo {
+
+	}
+}
+
 .img-project {
 	//max-height: 410px;
 	width: 100%;  
