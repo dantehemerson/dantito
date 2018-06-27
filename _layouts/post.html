@@ -47,15 +47,16 @@ comments: true
 			</div>
 			<hr>
 			{% include social-sharing.html %}														
-			<div class="container post-container pb-md">
-				<div id="disqus_thread"></div>
-			</div>
 		</div>
-
-
 	</div>
-	{% include suscribe.html %}
+	<div class="post-footer">
+		<div class="container post-container pb-md">
+			<div id="disqus_thread"></div>
+		</div>
+		{% include suscribe.html %}
+	</div>
 	{% include footer.html %}
+
 
 	<script src="{{ site.baseurl }}/assets/scripts/progress-bar.js"></script>
 	<!-- DISQUS --->

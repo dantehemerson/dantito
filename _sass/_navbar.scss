@@ -7,8 +7,12 @@
   transition: top 0.2s ease-in-out, background .4s;
 
   &.no-topbar {
-    background: #101010;
-    box-shadow: 1px 0 15px #101010;
+    background-image: linear-gradient(45deg,hsla(0,0%,100%,.99),hsla(0,0%,100%,.97));
+    border-bottom: 1px solid #ebebeb;
+
+    .navbar-nav .nav-link {
+      color: black !important;
+    }
   }
 
   .navbar-nav {
