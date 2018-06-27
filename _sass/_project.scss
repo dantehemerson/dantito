@@ -5,8 +5,7 @@
 	font-size: $fs-blog;
 	line-height: 1.5;
 	letter-spacing: 0;	
-	background: #f3f3f3;
-	box-shadow: 0 0 90px #000000;
+	background: white;
 	margin-bottom: 50px;
 	h2, h3, h4, h5, h6 {	
 	}
@@ -16,16 +15,16 @@
   	}
 }
 
-.post-container .title-project {
+.title-project {
 	padding-top: 0;
 }
 
-.post-container .project-details p {
+ .project-details p {
 	margin-top: 6px;
 	margin-bottom: 6px;
 }
 
-.post-container .project-details h3 {
+ .project-details h3 {
 	margin: 0;
 }
 
@@ -45,6 +44,9 @@
 	margin-bottom: 30px;
 }
 
+.main-image{
+	box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
 
 .project-data {
 	margin-bottom: 42px;
