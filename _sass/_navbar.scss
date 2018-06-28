@@ -1,17 +1,15 @@
 @import "variables";
 
-.navbar {  
-  
+.navbar {    
   padding-top: $padding-navbar;
   padding-bottom: $padding-navbar;  
-  transition: top 0.2s ease-in-out, background .4s;
-
+  transition: all .4s;
   &.no-topbar {
-    background-image: linear-gradient(45deg,hsla(0,0%,100%,.99),hsla(0,0%,100%,.97));
-    border-bottom: 1px solid #ebebeb;
+     border-bottom: 1px solid #ebebeb;
+    background: rgba(255, 255, 255, 0.984);
 
     .navbar-nav .nav-link {
-      color: black !important;
+      color: #282a2d !important;
     }
   }
 
@@ -23,27 +21,8 @@
 }
   /** Clase para cuando la navbar este abierta en xs **/
   .navbar-open {    
-    
-    &.nav-up {
-      top: 0px;
-    }
-    transition: all .4s;
-    background: rgba(16, 16, 16, 0.99) !important;
 
-    .container {
-       .navbar-collapse {
-         display: flex;
-          &.xs {
-            .navbar-nav {
-              transition: all .5s !important;
-              transform: scaleY(1);
-              opacity: 1;
-            }
-          }
-
-      }
-
-
+    .container {      
       .burger-menu-toggler {   
         background: transparent;
         transition: all .25s;
@@ -62,40 +41,7 @@
     }
   }
 
-.navbar-collapse {
-  display: flex;    
 
-  &.xs {
-      height: calc(100vh - 82px);      
-    .navbar-nav {
-      width: 100%;
-      transition: all .5s;
-      opacity: 0;
-      transform: scaleY(0.8);
-      margin-top: -33px;
-      max-width: 300px;
-          margin-left: auto;
-          margin-right: auto;
-
-      
-    }
-
-    .navbar-nav {
-      li {
-        .nav-link {
-          padding: 1rem 1rem;
-          margin-top: 1px;
-        }
-      }
-      li + li {
-         .nav-link {
-            box-shadow: 0 -1px 0 0 #232323;
-        }
-      }
-    }
-  }
-  
-}
 
   .b-a {
      transition: all .25s; 
@@ -126,11 +72,6 @@
       outline-width: 0;
     }
 
-    &.collapsed {      
-
-      
-    }
-
     .burger-menu-toggler {   
        @extend .b-a;       
        top: 8px;
@@ -155,17 +96,12 @@
   }
    
 
-.nav-up {
-    top: -82px;
-}
-
-
 .navbar-collapse {
   flex-grow: 0;
 }
 
 .navbar-custom .navbar-brand {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 
   position: relative;
   .logo-blog {
@@ -182,97 +118,45 @@
   }
 }
 
+
 .navbar-custom .navbar-nav .nav-link {
     color: white !important;
-    //text-shadow: 0 0 8px $navlink-color;
     position: relative;
     margin-left: 4px;
     margin-right: 4px;
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
+    font-family: 'Oswald', sans-serif;    
     .icon-item {
       font-size: 20px !important;
       padding-right: 4px;
-
       width: 23px;
       margin-top: -5px;
     }
 
-    // &.inicio:before {
-    //   background-color: #9d7fd8;
-    // }
-    // &.blog:before {
-    //     background-color: #70b78a;
-      
-    // }
-    // &.contacto:before {
-    //   background-color: #458f9a;
-      
-    // }
-    // &.portafolio:before {
-    //   background-color: #df793f;
-    // }
-}
-
-.navbar-custom .navbar-nav .nav-link:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  bottom: -4px;
-  left: 0;
-  background-color: #b9b9b9;  
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.navbar-custom .navbar-nav .nav-item.active {
-  .inicio:before {
-    background-color: #dcedb9;
-  }
-  .blog:before {
-      background-color: #70b78a;
-    
-  }
-  .contacto:before {
-    background-color: #458f9a;
-    
-  }
-  .portafolio:before {
-    background-color: #df793f;
-  }
-}
-
-.navbar-custom .navbar-nav .nav-link:hover {
+  &:hover {
     color: $navlink-color;
-    //text-shadow: 0 0 8px $navlink-color;
-    
-
-}
-
-.navbar-custom .navbar-nav .nav-link:hover:before {
-  visibility: visible;    
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+  }
+    &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #b9b9b9;  
+    visibility: hidden;
+  }
 }
 
 .navbar-custom .navbar-nav .nav-item.active .nav-link:before {
   content: "";
   position: absolute;
   width: 100%;
-  height: 4px;
   bottom: -4px;
   left: 0;
   visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-    text-shadow: 0 0 8px $navlink-color;
-
+  text-shadow: 0 0 8px $navlink-color;
 }
 
 
@@ -290,15 +174,7 @@
 .logo {
   font-size: 1.5rem;
   
-  /* BACKGROUND GRADIENT */
-  background: -moz-linear-gradient(43deg, $gradient-main-color-1 0%, $gradient-main-color-1 33%, $gradient-main-color-2 68%, $gradient-main-color-2 100%); /* ff3.6+ */
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, $gradient-main-color-1), color-stop(33%, $gradient-main-color-1), color-stop(68%, $gradient-main-color-2), color-stop(100%, $gradient-main-color-2)); /* safari4+,chrome */
-  background: -webkit-linear-gradient(43deg, $gradient-main-color-1 0%, $gradient-main-color-1 33%, $gradient-main-color-2 68%, $gradient-main-color-2 100%); /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(43deg, $gradient-main-color-1 0%, $gradient-main-color-1 33%, $gradient-main-color-2 68%, $gradient-main-color-2 100%); /* opera 11.10+ */
-  background: -ms-linear-gradient(43deg, $gradient-main-color-1 0%, $gradient-main-color-1 33%, $gradient-main-color-2 68%, $gradient-main-color-2 100%); /* ie10+ */
-  background: linear-gradient(47deg, $gradient-main-color-1 0%, $gradient-main-color-1 33%, $gradient-main-color-2 68%, $gradient-main-color-2 100%); /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#{$gradient-main-color-1}, endColorstr=#{$gradient-main-color-2},GradientType=1 ); /* ie6-9 */
-
+  background: black;
   text-transform: uppercase;
   width: fit-content;
   margin: 0 auto;
@@ -306,10 +182,7 @@
   -webkit-background-clip: text;
   display: inline-block;
 
-  
   font-weight: 900 !important;
-
-
 }
 
 .logo-text {
@@ -317,17 +190,8 @@
 }
 
 
-
-@media (max-width: 576px){
-  .navbar {
-    ///background: white;
-  }   
-}
-
-
-
 /// PROGRESS BAR 
-$height-bar: 4px;
+$height-bar: 2px;
 
 .progress-bar {
    position: fixed;
@@ -342,8 +206,7 @@ $height-bar: 4px;
    .bar {
       display: block;
       width: 100%;           
-       background: linear-gradient(47deg, #127caf 0%, #127caf 33%, #16ad2f 68%, #16ad2f 100%);
-        box-shadow: 1px 0 15px #101010;
+       background: linear-gradient(47deg, #127caf 0%, #127caf 33%, #16ad2f 68%, #16ad2f 100%);       
 
    }
 
@@ -358,7 +221,7 @@ $height-bar: 4px;
       float: left;
       display: block;
       height: $height-bar;
-      background-color: #101010;
+      background-color: white;
    }
   
   .time {
