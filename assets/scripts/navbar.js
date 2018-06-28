@@ -434,7 +434,7 @@ $(window).scroll(function(event){
 function hasScrolled() {
     var st = $(this).scrollTop();
 
-    if(st >= 70) {
+    if(st >= 50) {
         $('nav').addClass('no-topbar');
     }else {
         $('nav').removeClass('no-topbar');
