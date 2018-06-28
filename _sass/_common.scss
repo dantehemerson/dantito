@@ -435,7 +435,9 @@ $padding-xxl: 200px;
       padding-bottom: 50px; 
       .row {
          border-radius: 5px;
-         overflow: hidden;         
+         overflow: hidden;   
+        box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 0px 1px, rgba(0, 0, 0, 0.09) 0px 1px 4px;
+
       }
 
       [class^="col"] {
@@ -446,7 +448,6 @@ $padding-xxl: 200px;
    .ContactForm {
       background: white;
       padding: 100px 40px;
-  box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 0px 1px, rgba(0, 0, 0, 0.09) 0px 1px 4px;
 
 
       &__item {
