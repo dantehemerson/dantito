@@ -44,16 +44,16 @@
 
 
 	$(".collapse").on('show.bs.collapse', function(){
-	      nav.classList.add('lightBackground');
-	      navbarToggler.classList.add('open');
-	  });	
-	  $(".collapse").on('hidden.bs.collapse', function(){
-	      nav.classList.remove('lightBackground');
-	  });
+	   nav.classList.add('lightBackground');
+	   navbarToggler.classList.add('open');
+	});	
+	$(".collapse").on('hidden.bs.collapse', function(){
+	   nav.classList.remove('lightBackground');
+	});
 
- $(".collapse").on('hide.bs.collapse', function(){
-	      navbarToggler.classList.remove('open');
-	  });
+ 	$(".collapse").on('hide.bs.collapse', function(){
+	   navbarToggler.classList.remove('open');
+	});
 
 	  
 
@@ -79,6 +79,9 @@
 	        nav.classList.remove('no-topbar');
 	    }  
 	}
+
+	resizeWindow();
+	navbarY();
 
 	window.addEventListener('resize', resizeWindow);
 	window.addEventListener('scroll', navbarY);
