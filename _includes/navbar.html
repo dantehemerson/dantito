@@ -36,9 +36,8 @@
 				{% for item in site.data.settings.menu %}
 					<li class="nav-item {% if item.name == page.title %}active{% elsif layout.title == item.name %}active{% endif %}">
 						{% if item.path == "" %}							
-							<a class="nav-link link-no-border {{ item.name | downcase }}" href="{{ site.baseurl }}/{{ item.url}}">
-								<img class="icon-item black" src="https://icongr.am/clarity/{{item.icon}}.svg?size=20&color=13131b" />
-								<img class="icon-item light" src="https://icongr.am/clarity/{{item.icon}}.svg?size=20&color=ffffff" />
+							<a class="nav-link link-no-border {{ item.name | downcase }}" href="{{ site.baseurl }}/{{ item.url}}">								
+								<clr-icon shape="{{item.icon}}" class="icon-item" size="20"></clr-icon>
 								{{ item.name }} 
 								{% if item.name == page.title %}<span class="sr-only">(current)</span>{% endif %}
 							</a>

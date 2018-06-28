@@ -4,27 +4,94 @@
   padding-top: $padding-navbar;
   padding-bottom: $padding-navbar;  
   transition: all .4s;
+
+    .navbar-brand {
+    font-size: 1.4rem;
+    position: relative;
+        display: flex;
+      align-items: center;
+      padding-top: 0;
+      padding-bottom: 0;  
+
+        .logo {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin: 0 auto;
+        color: white;  
+        display: inline-block;
+        font-weight: 800 !important;  
+      }    
+
+    .logo-blog {
+      color: white;
+      position: absolute;
+          top: 5px;
+          left: 99%;
+          text-transform: uppercase;
+          font-weight: 600;
+          font-size: 11px;
+          background: #70b78a;
+          border-radius: 2px;
+          padding: 0 3px;
+    }
+  }
+
+
+
+
+  .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: white !important;
+          position: relative;
+          margin-left: 4px;
+          margin-right: 4px;
+          text-transform: uppercase;
+          text-align: center;
+          font-family: 'Oswald', sans-serif;    
+          opacity: 0.4;
+
+          .icon-item {                  
+            margin-top: -5px;
+          }
+        }
+
+        &:hover {
+          color: $navlink-color;
+        }
+        &.active {
+          .nav-link {
+            opacity: 1;            
+          }
+        }
+      }
+  }
+
+
+
+
+
+
+
+
   &.no-topbar {
      border-bottom: 1px solid #ebebeb;
     background: rgba(255, 255, 255, 0.984);
 
-    .navbar-nav .nav-link {
-      color: #282a2d !important;
+    .navbar-nav {
+      .nav-item {
 
-      .icon-item {      
-        &.light {
-          display: none;
-        }
-
-        &.black {
-          display: inline-block;
-        }
       }
-    }
+
+      .nav-link {
+        color: #282a2d !important;
+      }
+    } 
+      
 
     .logo {
       color: #282a2d;
-    }
+    }       
   }
 
   .navbar-nav {
@@ -35,20 +102,9 @@
 }
   /** Clase para cuando la navbar este abierta en xs **/
   .navbar-open {    
-
-    .container {
        .navbar-collapse {
-         display: flex;
-          &.xs {
-            .navbar-nav {
-              transition: all .5s !important;
-              transform: scaleY(1);
-              opacity: 1;
-            }
-          }
-
+         display: flex;        
       }
-
 
       .burger-menu-toggler {   
         background: transparent;
@@ -65,7 +121,6 @@
 
          }
        }
-    }
   }
 
 
@@ -127,78 +182,34 @@
   flex-grow: 0;
 }
 
-.navbar-custom .navbar-brand {
-  font-size: 1.4rem;
-  position: relative;
-      display: flex;
-    align-items: center;
-
-  .logo-blog {
-    color: white;
-    position: absolute;
-        top: 5px;
-        left: 99%;
-        text-transform: uppercase;
-        font-weight: 600;
-        font-size: 11px;
-        background: #70b78a;
-        border-radius: 2px;
-        padding: 0 3px;
-  }
-}
 
 
-.navbar-custom .navbar-nav .nav-link {
-    color: white !important;
-    position: relative;
-    margin-left: 4px;
-    margin-right: 4px;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;    
-    .icon-item {
-      font-size: 20px !important;
-      padding-right: 4px;
-      width: 23px;
-      margin-top: -5px;
 
-      &.light {
-        display: inline-block;
-      }
 
-      &.black {
-        display: none;
-      }
-    }
 
-  &:hover {
-    color: $navlink-color;
-  }
-}
 
-.navbar-brand {
-  padding-top: 0;
-  padding-bottom: 0;
-  height: 50px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .va-middle {
   vertical-align: middle;
 }
 
-.logo {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  margin: 0 auto;
-  color: white;  
-  display: inline-block;
-  font-weight: 800 !important;  
-}
-
-.logo-text {
-  margin-left: -3px;
-}
 
 
 /// PROGRESS BAR 
