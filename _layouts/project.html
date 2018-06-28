@@ -39,7 +39,7 @@ style:
 		<div class="project-container">
 			<div class="container post-container">							
 				<div class="row">
-				 	<div class="col-12 mx-auto project-details">				 	
+				 	<div class="col-12 project-details">				 	
 				 		<h3>Project Details</h3>
 				 		<hr class="hline"></hr>
 				 		<p><b>Date:</b>{{ page.date | date: ' %B %d'}}{{ page.date | date: ', %Y' | replace_first: '1', '2' }}</p>
@@ -48,6 +48,9 @@ style:
 				 		<p><b>Tagged:</b> Flat, UI, Development</p>
 				 		<p><b>Client:</b> Wonder Corp.</p>			 		
 				 	</div>		
+				 	<div class="coll-12">
+				 		<hr>
+				 	</div>
 				 	<div class="col-12">
 					{{ content }}			
 					</div>				 			 					 
