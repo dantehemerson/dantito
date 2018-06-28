@@ -10,6 +10,20 @@
 
     .navbar-nav .nav-link {
       color: #282a2d !important;
+
+      .icon-item {      
+        &.light {
+          display: none;
+        }
+
+        &.black {
+          display: inline-block;
+        }
+      }
+    }
+
+    .logo {
+      color: #282a2d;
     }
   }
 
@@ -115,7 +129,6 @@
 
 .navbar-custom .navbar-brand {
   font-size: 1.4rem;
-
   position: relative;
   .logo-blog {
     color: white;
@@ -145,6 +158,14 @@
       padding-right: 4px;
       width: 23px;
       margin-top: -5px;
+
+      &.light {
+        display: inline-block;
+      }
+
+      &.black {
+        display: none;
+      }
     }
 
   &:hover {
@@ -186,16 +207,11 @@
 
 .logo {
   font-size: 1.5rem;
-  
-  background: black;
   text-transform: uppercase;
-  width: fit-content;
   margin: 0 auto;
-  color: transparent;
-  -webkit-background-clip: text;
+  color: white;  
   display: inline-block;
-
-  font-weight: 900 !important;
+  font-weight: 900 !important;  
 }
 
 .logo-text {
@@ -213,8 +229,7 @@ $height-bar: 2px;
    top: 0; 
    display: flex;
    align-items: center;
-   width: 100%;
-   background-color: black;   
+   width: 100%;   
 
    .bar {
       display: block;
