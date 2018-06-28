@@ -391,52 +391,43 @@ Headroom.options = {
 };
 Headroom.cutsTheMustard = typeof features !== 'undefined' && features.rAF && features.bind && features.classList;
 
+
+
+
+
+
+
+
+
 var stateManager = (function () {  
     let state = null;
     var resizePage = function () {
         if (window.innerWidth < 576) {           
-           // $('#navbarNav').addClass('xs'); 
-           // if(state !== "mobile") { 
-           //      // Entra por por primera vez en mobile
-           //      state = "mobile";        
-
-           // }                                 
+                                
         }
         else {
-           // $('nav').removeClass('navbar-open');           
-           // $('#navbarNav').removeClass('xs');  
-           //  $('#navbarNav').addClass('hide'); 
-           // if(state !== "no-mobile") {
-           //      // Ya no esta en monbile
-           //      state = "no-mobile";
-           // }
+         
         }
     }; 
 
   return {
     init: function () {
-      // resizePage();
-      // $(window).on('resize', resizePage);
+            
     }
   };
 } ());
 stateManager.init();
 
 
-let navbarNav = $('#navbarNav');
+let nav = document.getElementById('navbar');
 
-$(window).scroll(function(event){
-    hasScrolled();   
-});
-
-
-
-function hasScrolled() {
-    var st = $(this).scrollTop();
-
+function navbarY() {    
+    var st = document.body.scrollTop ?  document.body.scrollTop : document.documentElement.scrollTop;
     if(st >= 50) {
-        $('nav').addClass('no-topbar');
+        nav.classList.add('no-topbar');
     }else {
-        $('nav').removeClass('no-topbar');
+        nav.classList.remove('no-topbar');
     }  
 }
+
+window.addEventListener('scroll', navbarY);
