@@ -4,6 +4,27 @@
   padding-top: $padding-navbar;
   padding-bottom: $padding-navbar;  
   transition: all .4s;
+  
+
+  &.lightBackground {
+    background: rgba(255, 255, 255, 0.984);
+
+    .navbar-brand .logo { 
+      color: #282a2d;
+    }
+     .navbar-nav {
+      .nav-item {
+        .nav-link { 
+          color: #282a2d !important;
+        }
+      }
+    }
+    .b-a.b-a {
+       background: black; 
+    }
+  }
+
+
 
     .navbar-brand {
     
@@ -129,21 +150,7 @@
          display: flex;        
       }
 
-      .burger-menu-toggler {   
-        background: transparent;
-        transition: all .25s;
-         
-         &:after {
-           @extend .b-a-expanded;           
-            transform: rotate(405deg);
-
-         }
-         &:before {
-           @extend .b-a-expanded;           
-          transform: rotate(-45deg);
-
-         }
-       }
+  
   }
 
 
@@ -171,6 +178,24 @@
     height: 18px;
     position: relative;
 
+
+    &.open {
+      .burger-menu-toggler {   
+          background: transparent !important;
+          transition: all .25s;
+           
+           &:after {
+             @extend .b-a-expanded;           
+              transform: rotate(405deg);
+
+           }
+           &:before {
+             @extend .b-a-expanded;           
+            transform: rotate(-45deg);
+
+           }
+         }
+    }
     &:focus {
       border: 0;        
       outline-width: 0;
@@ -196,6 +221,8 @@
          top: 8px;
          left: 0;
        }
+
+
      }
 
   }
