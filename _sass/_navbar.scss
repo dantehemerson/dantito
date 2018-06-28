@@ -22,7 +22,20 @@
   /** Clase para cuando la navbar este abierta en xs **/
   .navbar-open {    
 
-    .container {      
+    .container {
+       .navbar-collapse {
+         display: flex;
+          &.xs {
+            .navbar-nav {
+              transition: all .5s !important;
+              transform: scaleY(1);
+              opacity: 1;
+            }
+          }
+
+      }
+
+
       .burger-menu-toggler {   
         background: transparent;
         transition: all .25s;

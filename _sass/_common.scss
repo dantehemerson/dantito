@@ -115,19 +115,6 @@ a:hover, a:focus {
 
 /** Bootstrap clases sobreescribiendo **/
 
-/** Deshabilita la transicion del navbar-nav **/
-.collapsing {
-    -webkit-transition: none !important;
-    transition: none !important;
-    -webkit-transition-delay: 0s !important;
-    transition-delay: 0s !important;
-    display: none !important;
-}
-
-.collapse.show {
-    -webkit-transition-delay: 0s !important;
-    transition-delay: 0s !important;
-}
 
   input, textarea {    
     outline: none;
@@ -164,7 +151,8 @@ a:hover, a:focus {
    padding: remcalc(10px) remcalc(40px); 
    position: relative;
    text-align: center;
-   text-decoration: none; // for tag a   
+   text-decoration: none; // for tag a
+   
    width: auto;
    font-size: 0.9rem;
    font-weight: 600;
