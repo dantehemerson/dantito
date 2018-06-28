@@ -397,37 +397,5 @@ Headroom.cutsTheMustard = typeof features !== 'undefined' && features.rAF && fea
 
 
 
+ 
 
-
-var stateManager = (function () {  
-    let state = null;
-    var resizePage = function () {
-        if (window.innerWidth < 576) {           
-                                
-        }
-        else {
-         
-        }
-    }; 
-
-  return {
-    init: function () {
-            
-    }
-  };
-} ());
-stateManager.init();
-
-
-let nav = document.getElementById('navbar');
-
-function navbarY() {    
-    var st = document.body.scrollTop ?  document.body.scrollTop : document.documentElement.scrollTop;
-    if(st >= 50) {
-        nav.classList.add('no-topbar');
-    }else {
-        nav.classList.remove('no-topbar');
-    }  
-}
-
-window.addEventListener('scroll', navbarY);

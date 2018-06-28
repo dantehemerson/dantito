@@ -22,6 +22,22 @@
 		</div>		
 	</div>
 
+<script>
+    
+let nav = document.getElementById('navbar');
+
+function navbarY() {    
+    var st = document.body.scrollTop ?  document.body.scrollTop : document.documentElement.scrollTop;
+    if(st >= 50) {
+        nav.classList.add('no-topbar');
+    }else {
+        nav.classList.remove('no-topbar');
+    }  
+}
+
+window.addEventListener('scroll', navbarY);
+</script>
+
 	<script src="{{ site.baseurl }}/assets/scripts/jquery.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	
 	<script src="{{ site.baseurl }}/assets/scripts/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
