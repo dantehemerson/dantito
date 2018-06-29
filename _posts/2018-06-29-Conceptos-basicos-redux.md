@@ -20,11 +20,12 @@ En Redux tenemos 4 conceptos principales:
 
 
 ### Acciones
-Las acciónes es la información que enviamos al store, se envian a travéz de la función `dispatch(action)` del store.
+Las acciónes es la información que enviamos al store, se envian a través de la función `dispatch(action)` del store.
 De acuerdo a está información los reducers cambiarán el estádo de nuestra aplicación.
-Básicamente es un objeto que contiene un tipo(`type`) y los **datos**, por ejemplo:
+
+Básicamente es un objeto que contiene un **tipo**(`type`) y los **datos**, por ejemplo:
 ```javascript
-{
+let myAction = {
    // La acción, un identificador único(normalmente es una cadena descriptiva)
    type: 'ADD_USER',
    
@@ -34,10 +35,40 @@ Básicamente es un objeto que contiene un tipo(`type`) y los **datos**, por ejem
       age: 52,
       ...
    },
-   userType: 'PREMIUM',
+   typeUser: 'PREMIUM',
    ...
 }
 ```
+Finalmente enviamos la funcióń a través `dispatch(action)`:
+```javascript
+store.dipatch(myAction)
+```
+#### Creadores de acciónes
+Los **creadores de acciónes** son funciónes que sirven justamente para crear acciónes, nos ayudan a estructurar y escribir menos código.
+
+Siguiendo el ejemplo de arriba, crearemos una función para añadir usuarios.
+```javascript
+function addUser(name, age, typeUser, ...) {
+   return {
+      type: 'ADD_USER',
+      user: {
+         name,
+         age
+         ...
+      },
+      typeUser      
+   }
+}
+```
+
+Luego usando esta función podemos añadir usuarios.
+
+```javascript
+store.dispatch(addUser('JK Rowling', 52, 'PREMIUM'))
+store.dispatch(addUser('Harry Potter', 12, 'PREMIUM'))
+store.dispatch(addUser('Draco Malfoy', 12, 'BASIC'))
+```
+De esta manera nos ahorramos de escribir mucho codigo y nuestro codigo queda mas estructurado.
 
 
 ### Store
@@ -58,7 +89,6 @@ Como vemos, `createStore` recibe 2 parámetros:
    - **reducers**: El reducer(s) que se llamará cuando se quiera actualizar el estado.
    - **initialState** *(opcional)*: El estado inicial para el estado.
 
-   
 
 
 ### Reducer
