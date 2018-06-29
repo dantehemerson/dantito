@@ -12,14 +12,18 @@ $font-size-social-sharing: 40px;
     background: #00000059;  
     display: inline-block;
     color: white;       
-    font-size: $font-size-social-sharing - 8px;
-    width: $font-size-social-sharing;
+    
+        border-radius: 50%;
+    font-size: 22px;
+    margin: 5px;
+    width: 24px;
     text-align: center;
-    box-sizing: content-box !important;     
+    box-sizing: content-box !important;    
+    text-decoration: none !important; 
     transition: all .4s;
     &:hover {       
         color: white !important;
-        transform:  scale(1.1, 1.1);     
+        transform:  scale(1.05, 1.05);     
     }
 }
 
