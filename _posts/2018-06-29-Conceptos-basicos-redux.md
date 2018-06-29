@@ -19,12 +19,12 @@ En Redux tenemos 4 conceptos principales:
 * `action-creators`
 
 ### Reducer
-Un reducer es una función que se encarga de transformar el estado(`store`) actual a un nuevo estado.
+Un reducer es una [función pura](http://www.etnassoft.com/2016/06/21/las-funciones-puras-en-javascript-concepto-ejemplos-y-beneficios/) que se encarga de transformar el estado(`store`) actual a un nuevo estado.
 El prototipo de la función es el siguiente:
 ```javascript
 function myReducer(state, action) {
    ...
-   // Acá se modifica el estado de acuerdo a la accion(`action`) que recibamos
+   // Acá se modifica el estado de acuerdo a la accion(action) que recibamos
    ...
    return newState
 }
