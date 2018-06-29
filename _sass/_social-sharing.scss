@@ -28,6 +28,15 @@ $font-size-social-sharing: 40px;
 
 .share-on-container p {
     margin: 0;
+    font-weight: 600;
+
+    font-size: 1rem;
+        color: #34485d;
+
+    .icon {
+        top: -2px;
+        position: relative;
+    }
 }
 
 
