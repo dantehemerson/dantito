@@ -28,6 +28,10 @@
     
 }
 
+.project-header-content {
+    margin-top: 120px;
+    margin-bottom: 68px;
+}
  .project-details p {
 	margin-top: 6px;
 	margin-bottom: 6px;
@@ -73,8 +77,9 @@
 }
 
 .project-container hr {
-	background: #f53d00;
+	background: #ffabde;
 	height: 2px;
+	border-top: 0px solid;
 	margin-top: 5px;
 	margin-bottom: 30px;
 }

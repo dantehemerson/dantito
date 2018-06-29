@@ -1,5 +1,6 @@
 <nav class="navbar navbar-expand-sm fixed-top navbar-dark navbar-custom 		
-		{% if page.title == 'Blog' %}
+		{% if layout.title == 'Portafolio' %}
+			darken				
 		{% elsif layout.title == 'Blog' %}
 			darken				
 		{% endif %}
@@ -13,7 +14,7 @@
 		    </div>
 		    <span class="time time-remaining"></span>
 		</div>
-	{% endif %}
+	{% endif %}	
 
 	<div class="container">		
 		<a class="navbar-brand link-no-border" href='{{ site.baseurl }}/{% if page.title == "Blog" %}blog{% elsif layout.title == "Blog" %}blog{% endif %}'>
