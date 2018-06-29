@@ -1,4 +1,9 @@
-<nav class="navbar navbar-expand-sm fixed-top navbar-dark navbar-custom" id="navbar">
+<nav class="navbar navbar-expand-sm fixed-top navbar-dark navbar-custom 		
+		{% if page.title == 'Blog' %}
+		{% elsif layout.title == 'Blog' %}
+			darken				
+		{% endif %}
+		" id="navbar">
 	{% if layout.title == "Blog" %}
 		<div class="progress-bar" data-minutes="{%include read-time-integer.html%}">
 		    <span class="time time-completed"></span>

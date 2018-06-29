@@ -25,6 +25,25 @@
   }
 
 
+  &.darken {
+     border-bottom: 1px solid #ebebeb;
+    background: rgba(255, 255, 255, 0.984);
+    .navbar-brand .logo { 
+      color: #282a2d;
+    }
+     .navbar-nav {
+      .nav-item {
+        .nav-link { 
+          color: #282a2d !important;
+        }
+      }
+    }
+    .b-a.b-a {
+       background: black; 
+    }
+  }
+
+
 
     .navbar-brand {
     
