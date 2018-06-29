@@ -3,17 +3,23 @@
 	border-radius: remcalc(4px);
 	padding-top: remcalc(20px);
 	background: white;
+	text-align: center;
    .title {
    	color: #676767;
    	text-align: center;
-   	font-family: 'Patrick Hand', cursive;
-   	font-size: 24px;
+		font-family: 'Oswald', sans-serif;
+   	font-size: 21px;
     line-height: 1;
    }
 	.avatar {
-		width: 100%;
+		width: 184px;
+    border-radius: 50%;
 	}
 
+	.more-about {
+		color: white !important;
+		margin-bottom: 15px;
+	}
 	.about-description {
     	font-size: 15px;
     	padding: 51px 20px 25px 20px;
@@ -21,20 +27,26 @@
     	position: relative;
 
 		background: white;
-		background-size: 100px 100px; 
-	   background-image: url("../assets/images/textures/billie-holiday.png");
+		background-size: 100px 100px; 	   
+	}
+	.img-container {
+		position: relative;
+		display: inline-block;
+	}
     	.hi {
     		position: absolute;
-		    background: #70b78a;
-		    color: white;
-		    left: -10px;
-		    top: -17px;
-		    font-family: 'Oswald';
-		    padding: 0 10px;
-		    font-size: 25px;
-    	}
-	}
+    		    background: #70b78a;
+    		    color: white;
+    		    left: -40px;
+    		    display: table;
+    		    bottom: -18px;
+    		    z-index: 1;
+    		    font-family: 'Oswald';
+    		    padding: 3px 16px;
+    		    border-radius: 4px;
+    		    font-size: 20px;
 
+    	}
 	
 }
 
