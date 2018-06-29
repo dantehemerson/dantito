@@ -116,57 +116,6 @@ Another way to approach this is to batch tasks that don't require an Internet co
 I hope you find these tips useful. Now, go ahead and make the most of your day! ☀️
 
 
-## Syntaxis de github
-<script src="https://gist.github.com/dantehemerson/a405d340be6becd8696f4a4d49e2fb1f.js"></script>
-
-### Mi sintaxys
-
-
-```javascript
-'use strict';
-
-// No quiero ser un estorbo remix
-function holaMundo() {
-	console.log("Hola Mundo");
-}
-
-
-const http = require('http'),
-	options = {
-		host : 'dantecalderon.com',
-		port : 80,
-		path : '/blog'
-	};
-
-let htmlCode = '';
-
-function httpClient(res) {
-	console.log(`El sitio ${options.host} ha respondido. Código de Estado: ${res.statusCode}`);
-	res.on('data', data => {
-		htmlCode += data;
-		console.log( data, data.toString() );
-	});
-}
-
-function httpError(err) {
-	console.log(`El sitio ${options.host} no respondió. Código de Estado: ${err.code}. Error: ${err.message}`);
-}
-
-function webServer(req, res) {
-	res.writeHead(200, {'Content-Type':'text/html'});
-	res.end(htmlCode);
-}
-
-//instancia cliente de HTTP
-http
-	.get(options, httpClient)
-	.on('error', httpError);
-
-//instancia servidor de HTTP
-http
-	.createServer(webServer)
-	.listen( 3000, 'localhost', () => console.log('Servidor %% corriendo en http://localhost:3000/') );
-```
 
 
 ## Añdiendo gits con la gema jekyll-gist :+1: 
@@ -178,5 +127,3 @@ consequat. Duis aute irure:sunglasses: dolor in reprehenderit in voluptate velit
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 Soy de :peru: 
-
-{% gist 29b80b217f269f6ad43a712d52fd595e %}
