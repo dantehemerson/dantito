@@ -63,7 +63,13 @@ a {
   }
 }
 
-
+.title{  
+  font-size: 35px;
+  font-family: 'Oswald';
+  @include breakpoint(xs) {
+    font-size: 28px;
+  }
+}
 
 hr {
   margin-top: 20px;
