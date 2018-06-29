@@ -21,10 +21,7 @@
 	}
 	.form-container {
 		text-align: center;
-		input {
-			margin-top: 16px;
-			font-size: 14px !important;
-		}
+	
 		input[type="email"] {
 			background-image: url(https://icongr.am/clarity/email.svg?size=23&color=474747) !important;
 			background-repeat: no-repeat !important;
@@ -34,8 +31,6 @@
 		}
 		input[type="submit"] {
 			margin-top: 14px;
-			padding-top: 6px;
-			padding-bottom: 6px;
 		}
 	}
 }
