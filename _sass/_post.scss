@@ -31,10 +31,9 @@ $hr-post-color: #00BAB7;
 	text-align: center;
 }
 
-.post-container .subtitle-post {
-	color: $subtitle-color;
+.post-container .subtitle-post {	
 	text-align: center;
-	font-size: 19px;
+	font-size: 17px;
 	line-height: 28px;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -49,14 +48,15 @@ $hr-post-color: #00BAB7;
 	background: -o-linear-gradient(317deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e 100%);
 	background: linear-gradient(47deg, #5bc6ea 0%, #5bc6ea 33%, #03e27e 68%, #03e27e 100%);
 	width: 70px;
-	height: 5px;
+	height: 2px;
 	border: none;	
 }
 
 .post-author-date {
 	text-align: center;
-	margin-bottom: 60px;
-	font-size: 14px;
+	margin-bottom: 40px;
+	font-size: 13px;
+	font-weight: 600;
 }
 
 .post-author-date .author {
@@ -88,15 +88,20 @@ $hr-post-color: #00BAB7;
 
 }
 
+	.post-image-full {
+		position: relative;
+		max-height: 530px;
+		-o-object-fit: cover;
+    	-o-object-position: 50% 50%;
+    	object-fit: cover;
+    	object-position: 50% 20%;
+	}	
+
 .theme-post {
 	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;	
-
-	.post-image-full {
-		position: relative;
-	}	
 
 	h2, h3, h4, h5, h6 {	
 
