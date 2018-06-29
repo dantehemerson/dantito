@@ -20,13 +20,29 @@ En Redux tenemos 4 conceptos principales:
 
 
 ### Acciones
+Las acciónes es la información que enviamos al store, se envian a travéz de la función `dispatch(action)` del store.
+De acuerdo a está información los reducers cambiarán el estádo de nuestra aplicación.
+Básicamente es un objeto que contiene un tipo(`type`) y los **datos**, por ejemplo:
+```javascript
+{
+   // La acción, un identificador único(normalmente es una cadena descriptiva)
+   type: 'ADD_USER',
+   
+   // Luego los datos que queremos enviar.
+   user: {
+      name: 'JK Rowling',
+      age: 52,
+      ...
+   },
+   userType: 'PREMIUM',
+   ...
+}
+```
 
 
 ### Store
-Es un objeto donde se almacenará todos los datos de nuestra aplicación.
-
-El **Store** tiene las siguientes responsabilidades:
-* Contiene el estado(`state`) de la aplicación.
+El **Store** donde se almacena todos los datos de nuestra aplicación y tiene las siguientes responsabilidades:
+* Contiene el estado(`state`) de la aplicación, el estado es el `this.state` de un componente de React, acá se almacenará todos los datos de la aplicación y será único.
 * Permite el acceso al estado via `getState()`.
 * Permite que el estado sea actualizado via `dispatch(action)`.
 * Registra los listeners via `subscribe(listener)`.
@@ -42,7 +58,7 @@ Como vemos, `createStore` recibe 2 parámetros:
    - **reducers**: El reducer(s) que se llamará cuando se quiera actualizar el estado.
    - **initialState** *(opcional)*: El estado inicial para el estado.
 
-
+   
 
 
 ### Reducer
