@@ -25,14 +25,22 @@ scripts:
 						 	{% endfor %}
 						</div>
 					</div>				
-					<div class="col-12 col-lg-3 padding-mini-about">
+					<div class="col-12 col-lg-3 padding-mini-about d-none d-lg-block">
 						{% include mini-about.html %}
 						{% include mini-suscribe.html %}
 					</div>
 				</div>
 			</div>
 
-		    {% include pagination-buttons.html %}
+		   {% include pagination-buttons.html %}
+		   <div class="container container-full d-block d-lg-none">
+		   	<div class="row">
+		   		<div class="col-12">
+		   			{% include mini-about.html %}
+		   		</div>
+		   	</div>
+		   	
+		   </div>
 			
 			{% include suscribe.html %}
 			
