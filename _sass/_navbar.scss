@@ -52,6 +52,7 @@
       align-items: center;
       padding-top: 0;
       padding-bottom: 0;  
+      margin: 0;
 
         .logo {
         font-size: 1.1rem;
@@ -89,8 +90,12 @@
           text-transform: uppercase;
           text-align: center;
           font-family: 'Oswald', sans-serif;             
-          padding: 0.3rem 1rem;
-          font-size: 15px;          
+          font-size: 15px;       
+          padding: 0.3rem 0.6rem;            
+
+          @include breakpoint(md) {
+            padding: 0.3rem 1rem;            
+          }
           .icon-item {                  
             margin-top: -5px;
           }
