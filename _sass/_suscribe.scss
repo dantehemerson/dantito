@@ -85,5 +85,7 @@
 	text-transform: capitalize;
 		
 	font-weight: 900 !important;
-
+	@include breakpoint(xs){
+		font-size: 30px;
+	}
 }

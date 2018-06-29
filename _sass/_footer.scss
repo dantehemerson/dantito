@@ -16,6 +16,9 @@ $font-footer-color:  #282a2d;
     text-align: center;
     &__icon {
       margin: 0 .9375rem;
+      @include breakpoint(xs) {
+        margin: 0 .5rem;
+      }
     }
   }
 
