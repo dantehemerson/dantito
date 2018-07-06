@@ -7,7 +7,9 @@ image:
    feature: 2018/conceptos-basicos-redux.jpg
 ---
 
-Redux se basa en el concepto de **estado**, en Redux existe solo un estado para toda la aplicaci
+Redux es una pequeña librería de Javascript creada por Facebook que sirve para controlar el estado de una aplicación.
+Esta basada en la arquitectura [Flux](https://facebook.github.io/flux/) de Facebook.
+Redux es comunmente usado con [React](https://es.wikipedia.org/wiki/React), pero también puede usarse con [Angular](https://es.wikipedia.org/wiki/Angular_(framework)).
 
 ### Los tres principios de React
 
