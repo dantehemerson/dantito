@@ -22,12 +22,7 @@ Esto se hace a través de la función `dispatch()`.
 Para especificar como el árbol de estado es transformado por las acciones, se utilizan **reducers** puros.
 Los reducers son funciones puras que toman el estado anterior y una acción, y devuelven un nuevo estado.
 
-En Redux tenemos 4 conceptos principales:
-* `reducers`
-* `store`
-* `actions`
-* `action-creators`
-
+## Conceptos principales
 
 ### Acciones
 Las acciónes es la información que enviamos al store, se envian a través de la función `dispatch(action)` del store.
@@ -80,6 +75,17 @@ store.dispatch(addUser('Draco Malfoy', 12, 'BASIC'))
 ```
 De esta manera nos ahorramos de escribir mucho codigo y nuestro codigo queda mas estructurado.
 
+### Reducer
+Un reducer es una [función pura](http://www.etnassoft.com/2016/06/21/las-funciones-puras-en-javascript-concepto-ejemplos-y-beneficios/) que se encarga de transformar el estado actual a un nuevo estado.
+El prototipo de la función es el siguiente:
+```javascript
+function myReducer(state, action) {
+   ...
+   // Acá se modifica el estado de acuerdo a la accion(action) que recibamos
+   ...
+   return newState
+}
+```
 
 ### Store
 El **Store** donde se almacena todos los datos de nuestra aplicación y tiene las siguientes responsabilidades:
@@ -99,19 +105,11 @@ Como vemos, `createStore` recibe 2 parámetros:
    - **reducers**: El reducer(s) que se llamará cuando se quiera actualizar el estado.
    - **initialState** *(opcional)*: El estado inicial para el estado.
 
+---
 
-
-### Reducer
-Un reducer es una [función pura](http://www.etnassoft.com/2016/06/21/las-funciones-puras-en-javascript-concepto-ejemplos-y-beneficios/) que se encarga de transformar el estado actual a un nuevo estado.
-El prototipo de la función es el siguiente:
-```javascript
-function myReducer(state, action) {
-   ...
-   // Acá se modifica el estado de acuerdo a la accion(action) que recibamos
-   ...
-   return newState
-}
-```
+Es muy simple empezar a utilizar Redux en nuestra aplicación, acá te dejo algunos links utiles que te servirán a entrar mas en profundidad al mundo de Redux.
+- https://es.redux.js.org/ (Documentación Oficial en Español)
+- [Curso de Redux Avanzado](https://www.youtube.com/watch?v=RZNNu2pO49g&list=PLxyfMWnjW2kuyePV1Gzn5W_gr3BGIZq8G)
 
 
 
