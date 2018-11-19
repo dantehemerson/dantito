@@ -1,15 +1,12 @@
 <div class="row justify-content-center">
-
 	<div class="col-12 social-network">				
 		<h3 class="title-section">Sigueme</h3>
 		<div class="container-social">
 			<div>
 			{% for item in site.data.settings.social-net %}
-						
 				<a class="link-no-border icon icon-{{ item.icon }}" href="{{ item.link }}" title="{{ item.title }}" target="_blank">
 					<img src="https://icongr.am/feather/{{ item.icon }}.svg?color=FFFFFF"  title="{{ item.title }}" />
 				</a>		
-						
 			{% endfor %}		
 			</div>
 		</div>

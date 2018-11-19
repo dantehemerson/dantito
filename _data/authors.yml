@@ -3,8 +3,7 @@ primary:
   lastname: "Calderon"
   twitter: "dantehemerson"
   avatar: "assets/images/avatar2018_2.png"
-  about: "¡Hola! :smiley: Soy Dante Calderon. Soy Programador en Javascript, Go & Python"
-
+  about: "¡Hola! :smiley: Soy Dante Calderon. Soy Programador en Javascript"
 
 skills:
   - { name: "Html5", icon-name: "html5", version: "original"}
