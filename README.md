@@ -5,8 +5,8 @@ My old website made with Jekyll
 
 ### Installation
 
-Ruby is required if yout don't have it you can execute it in linux debs dists:
-```
+Ruby is required. If you are on linux you can run:
+```sh
  sudo apt-get install ruby
 ```
 
