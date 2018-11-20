@@ -5,7 +5,7 @@ subtitle: "Como usar el verdadero poder de Github-gist con su control de version
 date:   2018-04-21 08:20:33
 categories: github
 
-feature: 'http://neetescuela.org/wp-content/uploads/2012/09/24.gif'
+feature: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaujnlKZvG-99xeTqfxtVKswT04dCBQAx4-lkjVpL1pwDBmD1PA'
 ---
 
 Hay veces en las cuales tenemos ciertos pedazos de codigo que nos gustaria guardar en [Github](https://www.github.com "Github"), pero no nos gusta la idea de crear un nuevo repositorio.

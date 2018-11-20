@@ -5,7 +5,7 @@ subtitle: "Como usar el verdadero poder de Github-gist con su control de version
 date:   2018-04-21 08:20:33
 categories: github
 
-feature: 'http://static.t13.cl/images/sizes/1200x675/1460561241-ariana-grande.jpg'
+feature: 'https://media.wired.com/photos/5bae7a3f6278de2d2123479b/master/pass/ElonMusk_18261092524731.jpg'
 ---
 
 Hay veces en las cuales tenemos ciertos pedazos de codigo que nos gustaria guardar en [Github](https://www.github.com "Github"), pero no nos gusta la idea de crear un nuevo repositorio.
