@@ -28,8 +28,8 @@ sass:
   style: :compressed  # Change to :expanded for debugging
 
 
-url: http://dantecalderon.com/
-url_gh_pages: http://dantecalderon.com
+url: https://dantito.netlify.com
+url_gh_pages: https://dantito.netlify.com
 
 debug: false
 
